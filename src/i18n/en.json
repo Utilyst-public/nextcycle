@@ -152,9 +152,9 @@
   "scenarioInsufficient": "Not enough samples yet: {total} of {minimum}.",
   "scenarioPass": "This scenario meets the table’s count threshold.",
   "scenarioFail": "This scenario exceeds the table’s allowance.",
-  "flagCandidate": "Meets count screen",
-  "flagExceeding": "Outside criterion",
-  "flagUnder": "Needs more samples",
+  "flagCandidate": "Improving",
+  "flagExceeding": "Still impaired",
+  "flagUnder": "Needs more data",
   "subCandidate": "Count threshold met; official status unchanged",
   "subExceeding": "Recent samples remain outside criterion",
   "subUnder": "Below the adopted sample minimum",
@@ -658,6 +658,17 @@
   ,"reportingLagTitle": "CEDEN reporting lag"
   ,"reportingLagUnavailable": "The available CEDEN chemistry rows have SampleDate but no record-level load or publish date. The all-years resource is only available here as a ZIP member listing, not dated historical row snapshots, so a record’s earliest appearance cannot be established. Reporting lag is not calculated; no chart is shown."
   ,"reportingLagCaveat": "Recent samples may not be submitted yet."
+  ,"collapseMapSidebar": "Collapse map sidebar"
+  ,"expandMapSidebar": "Expand map sidebar"
+  ,"expandMapResults": "Expand map results"
+  ,"collapseMapResults": "Collapse map results"
+  ,"resizeMapSidebar": "Resize map sidebar"
+  ,"locatorMapTitle": "Waterbody locator"
+  ,"activateLocatorMap": "Click to interact with the map"
+  ,"locatorSamplesSinceCutoff": "Samples since {cutoff}: {count}"
+  ,"locatorSamplesLoading": "Loading sample count…"
+  ,"locatorSamplesUnavailable": "Sample count since the cutoff is unavailable."
+  ,"openFullMap": "Open in full map"
   ,"dataGapsLabel": "Data gaps"
   ,"summaryFindings": "Summary findings"
   ,"gapPairsToTest": "Across {count} waterbody–pollutant pairs to reach the count-based test minimum."
@@ -714,4 +725,5 @@
   ,"validationCauseRegion3": "Source matching is incomplete; see the per-pair note for matched CEDEN sources, station-date-only counts, and unmatched identifiers."
   ,"regionValidationNotice": "Validation pending: official assessments for this region include data not yet matched in CEDEN. Treat results as early screening."
   ,"validationNotReproduced": "Validation: not reproduced"
+  ,"downloadKeyFigure": "Download key figure"
 }

@@ -3,9 +3,9 @@ import { message } from '@/i18n/messages';
 import { getLocale } from '@/i18n/store';
 
 export const FLAG_LABELS: Record<Flag, string> = {
-  'Delisting candidate': 'Meets count screen',
-  'Still exceeding': 'Outside criterion',
-  'Under-sampled': 'Needs more samples',
+  'Delisting candidate': 'Improving',
+  'Still exceeding': 'Still impaired',
+  'Under-sampled': 'Needs more data',
 };
 
 export const FLAG_SUBLINES: Record<Flag, string> = {

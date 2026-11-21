@@ -2,6 +2,14 @@
 
 Credible, calm, precise public-data communication. No hype, stock photographs, water-droplet imagery, gradients, meshes, or glowing effects.
 
+## Logo
+
+The original mark is a nearly circular, roughly 300° arrow. A short part of its stroke becomes a gentle stream; the amber point sits just ahead of the arrowhead to signal what is next. The mark has no lettering, gradients, droplets, or splashes. The arrow is Deep Teal `#095C53` and the point is Amber `#FEC951`; the dark-background version uses a white stroke and the same amber point.
+
+![NextCycle mark at 16, 32, and 128 pixels on light and dark backgrounds](brand-mark-sizes.svg)
+
+Use `public/brand/nextcycle-mark.svg` on light backgrounds and `nextcycle-mark-white.svg` on dark backgrounds. Use the corresponding `nextcycle-logo*.svg` lockup when the wordmark is needed. The logo wordmark uses Inter 700. The app navigation, browser icons, and generated share images use the new mark.
+
 ## Typography
 
 Self-hosted Inter, Arial fallback. Body weight 400; headings 600–700. Sentence case. Use a monospace face for identifiers and tabular numbers.

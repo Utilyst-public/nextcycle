@@ -66,7 +66,10 @@ export function RegionProvider({ children }: { children: ReactNode }) {
     }
     const next = new URLSearchParams(searchParams);
     next.set('region', nextRegionId);
-    if (location.pathname === '/map') next.delete('pair');
+    if (location.pathname === '/map') {
+      next.delete('pair');
+      next.delete('focus');
+    }
     setSearchParams(next, { replace: true });
   };
 

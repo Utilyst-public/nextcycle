@@ -22,6 +22,7 @@ import { pollutantName } from '@/i18n/messages';
 
 const figureModule = () => import('@/components/KeyFigureCard');
 const KeyFigureCard = lazy(() => figureModule().then((m) => ({ default: m.KeyFigureCard })));
+const WaterbodyLocatorMap = lazy(() => import('@/components/WaterbodyLocatorMap'));
 
 function Row({ k, children }: { k: string; children: ReactNode }) {
   return <div className="grid grid-cols-[145px_1fr] gap-3 border-b border-line py-2.5 text-sm last:border-0"><dt className="text-slate">{k}</dt><dd className="text-navy">{children}</dd></div>;
@@ -82,6 +83,8 @@ export default function Detail({ data, pairId }: { data: Dataset; pairId: string
     title: t('issueTitle', { pair: pair.pair_id, waterbody: pair.waterbody_name, version: md.dataset_version }),
     body: t('issueBody', { pair: pair.pair_id, version: md.dataset_version }),
   })}` : '';
+  const fullMapUrl = `/map?${new URLSearchParams({ region: pair.region_id, focus: pair.pair_id }).toString()}`;
+  const sampleCountStatus = state.status === 'ready' ? 'ready' : state.status === 'loading' ? 'loading' : 'unavailable';
   const community = pair as WaterbodyPair & { cities?: string[]; zip_codes?: string[]; tribal_lands?: string[]; tribal_intersection_verified?: boolean };
   const usefulMail = (useful: boolean) => {
     const subject = encodeURIComponent(t('mailFeedbackSubject', { pair: pair.pair_id }));
@@ -139,17 +142,35 @@ export default function Detail({ data, pairId }: { data: Dataset; pairId: string
           <button data-testid="button-copy-citation" onClick={copyCitation} className="btn btn-ghost"><Copy aria-hidden className="h-4 w-4" />{t('copyCitation')}</button>
           <button data-testid="button-print-brief" onClick={() => window.print()} className="btn btn-ghost"><Printer aria-hidden className="h-4 w-4" />{t('print')}</button>
           <button data-testid="button-copy-embed" onClick={copyEmbed} className="btn btn-ghost"><Code2 aria-hidden className="h-4 w-4" />{t('copyEmbed')}</button>
-          <Link data-testid="link-view-on-map" to={`/map?pair=${encodeURIComponent(pair.pair_id)}`} className="btn btn-ghost"><MapPin aria-hidden className="h-4 w-4" />{t('map')}</Link>
+          <Link data-testid="link-view-on-map" to={fullMapUrl} className="btn btn-ghost"><MapPin aria-hidden className="h-4 w-4" />{t('map')}</Link>
         </div>
       </header>
       <RegionValidationNotice regionId={pair.region_id} className="mt-5" />
       {copyStatus && <p role="status" className="sr-only">{t('copied')}</p>}
 
-      <section aria-label={t('newerSamplesSuggest')} className="mt-8 rounded-xl border border-teal-200 bg-ice p-5 md:p-7">
-        <div className="flex flex-wrap items-center justify-between gap-3"><p className="label-caps text-teal">{t('newerSamplesSuggest')}</p><FlagBadge flag={pair.screening_flag} subline /></div>
-        <p className="mt-4 max-w-4xl text-xl font-semibold leading-snug text-navy md:text-2xl">{verdict(pair, md.cutoff_date, t)}</p>
-        <DataFreshnessNote date={md.monitoring_data_through} className="mt-2" />
-      </section>
+      <div className="mt-8 grid items-start gap-4 lg:grid-cols-[minmax(0,1fr)_420px]">
+        <section aria-label={t('newerSamplesSuggest')} className="rounded-xl border border-teal-200 bg-ice p-5 md:p-7">
+          <div className="flex flex-wrap items-center justify-between gap-3"><p className="label-caps text-teal">{t('newerSamplesSuggest')}</p><FlagBadge flag={pair.screening_flag} subline /></div>
+          <p className="mt-4 max-w-4xl text-xl font-semibold leading-snug text-navy md:text-2xl">{verdict(pair, md.cutoff_date, t)}</p>
+          <DataFreshnessNote date={md.monitoring_data_through} className="mt-2" />
+        </section>
+        <section aria-labelledby="locator-map-title" className="overflow-hidden rounded-xl border border-line bg-white">
+          <h2 id="locator-map-title" className="px-4 py-3 text-base font-semibold text-navy">{t('locatorMapTitle')}</h2>
+          <Suspense fallback={<div role="status" className="skeleton h-[320px] w-full" aria-label={t('mapLoadingMessage')} />}>
+            <WaterbodyLocatorMap
+              pair={pair}
+              pairs={data.pairs}
+              stations={stations}
+              samples={state.status === 'ready' ? state.data.results : undefined}
+              sampleCountStatus={sampleCountStatus}
+              cutoff={md.cutoff_date}
+            />
+          </Suspense>
+          <div className="px-4 py-3">
+            <Link to={fullMapUrl} className="inline-flex items-center gap-1 text-sm font-semibold text-link hover:underline">{t('openFullMap')} <ChevronRight aria-hidden className="h-4 w-4" /></Link>
+          </div>
+        </section>
+      </div>
       <section className="detail-print-brief" aria-label={t('printBrief')}>
         <h1>{pair.waterbody_name} · {pollutantName(pair.pollutant)}</h1><p>{verdict(pair, md.cutoff_date, t)}</p>
         <p>{t('screeningWithPending', { count: pair.new_exceedances, total: pair.new_samples, direction: t(directionKey), pending: pair.pending_new_samples ?? 0 })} {t('officialStatus')}: {t(pair.official_status === 'Listed' ? 'officialListed' : 'officialNotListed')}, {t('cat', { category: pair.official_category })}.</p>

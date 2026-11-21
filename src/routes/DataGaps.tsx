@@ -16,6 +16,8 @@ import { useI18n } from '@/i18n';
 import { disclosureKey, pollutantName } from '@/i18n/messages';
 import { useRegion } from '@/data/region';
 
+const assetBase = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+
 const RECS = [
   { t: 'recCrosswalkTitle', b: 'recCrosswalkBody' },
   { t: 'recTablesTitle', b: 'recTablesBody' },
@@ -87,6 +89,7 @@ export default function DataGaps({ data }: { data: Dataset }) {
           <h1 className="mt-2 text-4xl font-bold">{t('zeroSampleHeadline', { count: noSamples.withoutUsableSamples, total: noSamples.total, date: fmtDate(md.cutoff_date), region: regionName })}</h1>
           <p className="prose-nc mt-3">{t('gapDescription', { date: fmtDate(md.cutoff_date) })}</p>
           <DataFreshnessNote date={md.monitoring_data_through} className="mt-2" />
+          <a className="link-u mt-3 inline-flex" href={`${assetBase}press/key-figure.png`} download="key-figure.png">{t('downloadKeyFigure')}</a>
         </div>
         <CsvButton filename={`nextcycle-data-gaps-${md.dataset_version}.csv`} rows={csvRows} columns={Object.keys(csvRows[0] ?? { rank: 1 })} />
       </header>

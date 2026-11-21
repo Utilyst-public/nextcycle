@@ -9,6 +9,8 @@ import { dataStatusLabelKey, disclosureKey } from '@/i18n/messages';
 import { DataFreshnessNote } from '@/components/DataFreshnessNote';
 import { useRegion } from '@/data/region';
 
+const assetBase = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+
 type ValidationReport = {
   dataset_version: string;
   data_status: DataStatus;
@@ -109,7 +111,10 @@ export default function Showcase({ data }: { data: Dataset }) {
   return <div className="wrap py-10 md:py-14">
     <p className="label-caps text-link">{t('showcase')}</p><h1 className="mt-2 max-w-4xl text-4xl font-bold md:text-5xl">{t('zeroSampleHeadline', { count: noSamples.withoutUsableSamples, total: noSamples.total, date: fmtDate(data.metadata.cutoff_date), region: regionName })}</h1>
     <DataFreshnessNote date={data.metadata.monitoring_data_through} className="mt-3" />
-    <Link className="link-u mt-2 inline-block" to="/data-gaps">{t('gaps')}</Link>
+    <div className="mt-2 flex flex-wrap gap-x-5 gap-y-2">
+      <Link className="link-u inline-block" to="/data-gaps">{t('gaps')}</Link>
+      <a className="link-u inline-block" href={`${assetBase}press/key-figure.png`} download="key-figure.png">{t('downloadKeyFigure')}</a>
+    </div>
     <section className="mt-8 rounded-xl border border-line bg-white p-5" aria-labelledby="showcase-validation">
       <h2 id="showcase-validation" className="text-xl">{t('qaValidation')}</h2>
       <p className="mt-2 text-sm text-navy">{qaLoading ? t('loadingResults') : qaValidationMatches && qaSummary

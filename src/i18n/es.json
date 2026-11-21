@@ -152,9 +152,9 @@
   "scenarioInsufficient": "Aún no hay suficientes muestras: {total} de {minimum}.",
   "scenarioPass": "Este escenario cumple el umbral de conteo de la tabla.",
   "scenarioFail": "Este escenario supera el margen permitido por la tabla.",
-  "flagCandidate": "Cumple la prueba numérica",
-  "flagExceeding": "Fuera del criterio",
-  "flagUnder": "Necesita más muestras",
+  "flagCandidate": "Mejorando",
+  "flagExceeding": "Aún deteriorado",
+  "flagUnder": "Necesita más datos",
   "subCandidate": "Umbral numérico cumplido; estado oficial sin cambios",
   "subExceeding": "Las muestras recientes siguen fuera del criterio",
   "subUnder": "No alcanza el mínimo de muestras adoptado",
@@ -658,6 +658,17 @@
   ,"reportingLagTitle": "Retraso de publicación de CEDEN"
   ,"reportingLagUnavailable": "Las filas de química de CEDEN disponibles contienen SampleDate, pero no una fecha de carga o publicación por registro. El recurso de todos los años solo está disponible aquí como una lista de archivos ZIP, no como instantáneas históricas fechadas de filas; por eso no se puede establecer la primera aparición de cada registro. No se calcula el retraso y no se muestra un gráfico."
   ,"reportingLagCaveat": "Es posible que las muestras recientes aún no se hayan enviado."
+  ,"collapseMapSidebar": "Contraer la barra lateral del mapa"
+  ,"expandMapSidebar": "Expandir la barra lateral del mapa"
+  ,"expandMapResults": "Expandir los resultados del mapa"
+  ,"collapseMapResults": "Contraer los resultados del mapa"
+  ,"resizeMapSidebar": "Cambiar el ancho de la barra lateral del mapa"
+  ,"locatorMapTitle": "Ubicación del cuerpo de agua"
+  ,"activateLocatorMap": "Haga clic para interactuar con el mapa"
+  ,"locatorSamplesSinceCutoff": "Muestras desde {cutoff}: {count}"
+  ,"locatorSamplesLoading": "Cargando el conteo de muestras…"
+  ,"locatorSamplesUnavailable": "No está disponible el conteo de muestras desde la fecha de corte."
+  ,"openFullMap": "Abrir en el mapa completo"
   ,"dataGapsLabel": "Vacíos de datos"
   ,"summaryFindings": "Hallazgos resumidos"
   ,"gapPairsToTest": "En {count} pares de cuerpo de agua y contaminante para alcanzar el mínimo de la prueba numérica."
@@ -714,4 +725,5 @@
   ,"validationCauseRegion3": "La coincidencia de fuentes está incompleta; consulte la nota de cada par para ver fuentes CEDEN, conteos solo por estación y fecha e identificadores sin coincidencia."
   ,"regionValidationNotice": "Validación pendiente: las evaluaciones oficiales de esta región incluyen datos que aún no se han vinculado con CEDEN. Trate los resultados como una evaluación preliminar."
   ,"validationNotReproduced": "Validación: no reproducida"
+  ,"downloadKeyFigure": "Descargar figura principal"
 }

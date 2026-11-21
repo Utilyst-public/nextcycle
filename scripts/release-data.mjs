@@ -144,12 +144,18 @@ function wrapText(text, limit = 45, maxLines = 3) {
   }
   return lines.slice(0, maxLines).map((line, i) => `<tspan x="72" dy="${i ? 49 : 0}">${xml(line.slice(0, 65))}${i === maxLines - 1 && lines.length > maxLines ? '…' : ''}</tspan>`).join('');
 }
-async function socialImage(file, pair, md) {
+function svgInner(svg) {
+  const match = svg.match(/<svg\b[^>]*>([\s\S]*?)<\/svg>/);
+  if (!match) throw new Error('The NextCycle mark is missing or invalid.');
+  return match[1];
+}
+async function socialImage(file, pair, md, markInner) {
   const direction = pair.criterion_direction === 'lower' ? 'below minimum' : pair.criterion_direction === 'range' ? 'outside range' : 'above limit';
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <rect width="1200" height="630" fill="#095c53"/><rect x="0" y="500" width="1200" height="130" fill="#043f3a"/>
+  <g transform="translate(72 25) scale(.52)">${markInner}</g>
   <g fill="#fff" font-family="DejaVu Sans,Arial,sans-serif">
-  <text x="72" y="82" font-size="30" font-weight="bold">NextCycle <tspan fill="#4adbd0" font-size="20">/ California water evidence</tspan></text>
+  <text x="138" y="65" font-size="30" font-weight="bold">NextCycle <tspan fill="#4adbd0" font-size="20">/ California water evidence</tspan></text>
   <text x="72" y="156" fill="#91eee2" font-size="22">${xml(flagLabel(pair.screening_flag))} · ${xml(pair.pollutant)}</text>
   <text x="72" y="223" font-size="41" font-weight="bold">${wrapText(pair.waterbody_name)}</text>
   <text x="72" y="410" font-size="27">${pair.new_exceedances} of ${pair.new_samples} recent samples ${direction}</text>
@@ -157,6 +163,23 @@ async function socialImage(file, pair, md) {
   <text x="72" y="488" font-size="17">Recent data may not have been submitted yet.</text>
   <text x="72" y="548" font-size="23">${md.data_status === 'illustrative' ? 'ILLUSTRATIVE SAMPLE DATA — NOT A REAL ASSESSMENT' : md.data_status === 'provisional' ? 'REAL PUBLIC DATA — PROVISIONAL SCREENING, NOT YET REVIEWED — NOT A REGULATORY DETERMINATION' : 'SCREENING ESTIMATE — NOT A REGULATORY DETERMINATION'}</text>
   <text x="72" y="593" font-size="19">nextcycle.tech · Only the Water Boards and EPA can change the official list.</text>
+  </g></svg>`;
+  await sharp(Buffer.from(svg)).png().toFile(file);
+}
+async function rootSocialImage(file, markInner) {
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#095c53"/><rect x="0" y="500" width="1200" height="130" fill="#043f3a"/>
+  <g transform="translate(72 25) scale(.72)">${markInner}</g>
+  <g fill="#fff" font-family="DejaVu Sans,Arial,sans-serif">
+    <text x="166" y="83" font-size="44" font-weight="bold">NextCycle</text>
+    <text x="166" y="116" fill="#91eee2" font-size="18">CALIFORNIA WATER EVIDENCE</text>
+    <text x="72" y="245" font-size="56" font-weight="bold">
+      <tspan x="72" dy="0">See what the next</tspan>
+      <tspan x="72" dy="68">303(d) cycle will</tspan>
+      <tspan x="72" dy="68">likely say, years early.</tspan>
+    </text>
+    <rect x="72" y="428" width="240" height="12" fill="#FEC951"/>
+    <text x="72" y="552" font-size="24">nextcycle.tech</text>
   </g></svg>`;
   await sharp(Buffer.from(svg)).png().toFile(file);
 }
@@ -220,10 +243,13 @@ export async function generateRelease({ projectRoot = root, env = process.env, i
   }).reverse().join('\n');
   await fs.writeFile(path.join(publicDir, 'feed.xml'), `<?xml version="1.0" encoding="utf-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><id>${xml(absolute())}</id><title>NextCycle data updates</title><updated>${xml(history.at(-1).date)}</updated><author><name>NextCycle / Utilyst</name></author><link href="${xml(absolute('feed.xml'))}" rel="self"/><link href="${xml(absolute('updates'))}"/><subtitle>Count-based screening, not regulatory determinations. Current counts reflect data in CEDEN as of ${xml(metadata.monitoring_data_through)}; recent data may not have been submitted yet.</subtitle>${entries}</feed>\n`);
   if (images) {
+    const markSvg = await fs.readFile(path.join(publicDir, 'brand', 'nextcycle-mark-white.svg'), 'utf8');
+    const markInner = svgInner(markSvg);
+    await rootSocialImage(path.join(publicDir, 'og-image.png'), markInner);
     const ogDir = path.join(publicDir, 'og');
     await fs.rm(ogDir, { recursive: true, force: true });
     await fs.mkdir(ogDir, { recursive: true });
-    for (const p of pairs) await socialImage(path.join(ogDir, p.pair_id + '.png'), p, metadata);
+    for (const p of pairs) await socialImage(path.join(ogDir, p.pair_id + '.png'), p, metadata, markInner);
   }
   const digest = createHash('sha256').update(JSON.stringify({ metadata, pairs })).digest('hex');
   console.log(`NextCycle: validated ${pairs.length} pairs; generated API, CSV, places, Atom${images ? ', OG images' : ''}; ${history.length} refresh(es). SHA256 ${digest.slice(0, 12)}`);

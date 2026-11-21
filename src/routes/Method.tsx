@@ -147,7 +147,7 @@ export default function Method({ data }: { data: Dataset }) {
             </ol>
             <div className="mt-8 grid gap-4 md:grid-cols-3">
               {resultNotes.map(([flag, noteKey]) => (
-                <div key={flag} className="rounded-lg border border-line bg-white p-4 text-sm"><p className="font-semibold text-navy">{flagWithOfficialTerm(flag)}</p><p className="mt-1">{t(noteKey)}</p></div>
+                <div key={flag} className="rounded-lg border border-line bg-white p-4 text-sm"><p title={flagWithOfficialTerm(flag)} className="font-semibold text-navy">{flagLabel(flag)}</p><p className="mt-1">{t(noteKey)}</p></div>
               ))}
             </div>
           </section>

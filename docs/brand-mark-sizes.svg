@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="340" viewBox="0 0 880 340">
+  <rect width="440" height="340" fill="#F7FAFC"/>
+  <rect x="440" width="440" height="340" fill="#095C53"/>
+  <g font-family="Inter,Arial,sans-serif" font-weight="700" font-size="16">
+    <text x="28" y="34" fill="#095C53">LIGHT BACKGROUND</text>
+    <text x="468" y="34" fill="#FFFFFF">DARK BACKGROUND</text>
+  </g>
+  <g font-family="Inter,Arial,sans-serif" font-size="14">
+    <text x="30" y="71" fill="#095C53">16 px</text>
+    <text x="30" y="125" fill="#095C53">32 px</text>
+    <text x="30" y="247" fill="#095C53">128 px</text>
+    <text x="470" y="71" fill="#FFFFFF">16 px</text>
+    <text x="470" y="125" fill="#FFFFFF">32 px</text>
+    <text x="470" y="247" fill="#FFFFFF">128 px</text>
+  </g>
+  <g transform="translate(150 58) scale(0.16)">
+  <path d="M81 50A31 31 0 1 0 67 77C63 81 60 85 64 85S72 81 76 77" fill="none" stroke="#095C53" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m86 69-13 3 7 11z" fill="#095C53"/>
+  <circle cx="92" cy="63" r="4" fill="#FEC951"/>
+</g>
+<g transform="translate(150 104) scale(0.32)">
+  <path d="M81 50A31 31 0 1 0 67 77C63 81 60 85 64 85S72 81 76 77" fill="none" stroke="#095C53" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m86 69-13 3 7 11z" fill="#095C53"/>
+  <circle cx="92" cy="63" r="4" fill="#FEC951"/>
+</g>
+<g transform="translate(150 180) scale(1.28)">
+  <path d="M81 50A31 31 0 1 0 67 77C63 81 60 85 64 85S72 81 76 77" fill="none" stroke="#095C53" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m86 69-13 3 7 11z" fill="#095C53"/>
+  <circle cx="92" cy="63" r="4" fill="#FEC951"/>
+</g>
+  <g transform="translate(590 58) scale(0.16)">
+  <path d="M81 50A31 31 0 1 0 67 77C63 81 60 85 64 85S72 81 76 77" fill="none" stroke="#FFFFFF" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m86 69-13 3 7 11z" fill="#FFFFFF"/>
+  <circle cx="92" cy="63" r="4" fill="#FEC951"/>
+</g>
+<g transform="translate(590 104) scale(0.32)">
+  <path d="M81 50A31 31 0 1 0 67 77C63 81 60 85 64 85S72 81 76 77" fill="none" stroke="#FFFFFF" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m86 69-13 3 7 11z" fill="#FFFFFF"/>
+  <circle cx="92" cy="63" r="4" fill="#FEC951"/>
+</g>
+<g transform="translate(590 180) scale(1.28)">
+  <path d="M81 50A31 31 0 1 0 67 77C63 81 60 85 64 85S72 81 76 77" fill="none" stroke="#FFFFFF" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="m86 69-13 3 7 11z" fill="#FFFFFF"/>
+  <circle cx="92" cy="63" r="4" fill="#FEC951"/>
+</g>
+</svg>

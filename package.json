@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "vite --config vite.config.ts --host 0.0.0.0",
     "predev": "node --import tsx scripts/release-data.mjs --no-images",
-    "build": "node scripts/reconcile-qa.mjs && node --import tsx scripts/release-data.mjs && node --import tsx scripts/export-data-gaps-figure.mjs && tsc -p tsconfig.json && vite build --config vite.config.ts",
+    "build": "node scripts/generate-brand-assets.mjs && node scripts/reconcile-qa.mjs && node --import tsx scripts/release-data.mjs && node --import tsx scripts/export-data-gaps-figure.mjs && tsc -p tsconfig.json && vite build --config vite.config.ts",
     "serve": "vite preview --config vite.config.ts --host 0.0.0.0",
     "preview": "vite preview --config vite.config.ts --host 0.0.0.0",
     "typecheck": "tsc -p tsconfig.json --noEmit",

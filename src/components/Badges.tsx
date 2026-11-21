@@ -2,6 +2,7 @@ import { AlertTriangle, CheckCircle2, HelpCircle, Landmark, type LucideIcon } fr
 import type { Flag, WaterbodyPair } from '@/data/schema';
 import { cn } from '@/lib/format';
 import { useI18n } from '@/i18n';
+import { flagWithOfficialTerm } from '@/lib/labels';
 
 // Chip fills and icon colors follow the brand flag spec. Label text uses the
 // darkest text-safe token in the same family so every chip meets WCAG AA.
@@ -18,6 +19,7 @@ export function FlagBadge({ flag, size = 'md', className, subline = false }: { f
   return (
     <span
       data-testid={`badge-flag-${flag.toLowerCase().replace(/\s+/g, '-')}`}
+      title={flagWithOfficialTerm(flag)}
       className={cn(
         'inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border font-semibold',
         size === 'sm' && 'px-2 py-0.5 text-xs',
