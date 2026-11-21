@@ -1,0 +1,66 @@
+{
+  "dataset_version": "region9-r3-provisional-2026.4",
+  "data_status": "provisional",
+  "qa_rule_version": "region9-calibrated-qa-v1",
+  "repo_url": "https://github.com/Utilyst-public/nextcycle",
+  "site_url": "https://nextcycle.tech",
+  "license": "Application code is MIT; CEDEN and Water Boards source data retain their source terms.",
+  "is_sample_data": false,
+  "review_complete": false,
+  "generated_at": "2026-11-21T18:00:00Z",
+  "monitoring_data_through": "2026-05-06",
+  "cutoff_date": "2024-10-23",
+  "next_cycle": "2028 Integrated Report",
+  "regions": [
+    {
+      "region_id": "R9",
+      "region_name": "San Diego Region"
+    },
+    {
+      "region_id": "R3",
+      "region_name": "Central Coast Region"
+    }
+  ],
+  "sources": [
+    {
+      "name": "2026 California Integrated Report — final 303(d) listings",
+      "publisher": "California State Water Resources Control Board",
+      "url": "https://water.waterboards.ca.gov/water_issues/programs/water_quality_assessment/2026_integrated_report.html"
+    },
+    {
+      "name": "Final 2026 Appendix B1 waterbody fact sheets",
+      "publisher": "California State Water Resources Control Board",
+      "url": "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+    },
+    {
+      "name": "Surface Water — Chemistry Results (CEDEN)",
+      "publisher": "California State Water Resources Control Board / CEDEN",
+      "url": "https://data.ca.gov/dataset/surface-water-chemistry-results"
+    },
+    {
+      "name": "Surface Water — Sampling Location Information (CEDEN)",
+      "publisher": "California State Water Resources Control Board / CEDEN",
+      "url": "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    },
+    {
+      "name": "Surface Water - Chemistry Results - CEDEN Augmentation",
+      "publisher": "California State Water Resources Control Board / CEDEN",
+      "url": "https://data.ca.gov/dataset/surface-water-chemistry-results-ceden-augmentation"
+    },
+    {
+      "name": "2024 California Integrated Report — Region 3 final assessment",
+      "publisher": "California State Water Resources Control Board",
+      "url": "https://www.waterboards.ca.gov/water_issues/programs/water_quality_assessment/2024-integrated-report.html"
+    },
+    {
+      "name": "Final 2024 Appendix B1 waterbody fact sheets",
+      "publisher": "California State Water Resources Control Board",
+      "url": "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b1-factsheets-final.xlsx"
+    },
+    {
+      "name": "Final 2024 Integrated Report GIS lines",
+      "publisher": "California State Water Resources Control Board",
+      "url": "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+    }
+  ]
+}

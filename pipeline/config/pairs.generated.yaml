@@ -1,0 +1,3498 @@
+release: "Region 9 (2026) and Region 3 (2024 final) provisional public-data candidate (29 pairs)"
+status: "VERIFY"
+data_status: "provisional"
+is_sample_data: false
+review_complete: false
+reviewer: "Dr. John Armin, PE (Founder & CEO, Utilyst)"
+review_not_done: true
+sources:
+  integrated_report: "https://water.waterboards.ca.gov/water_issues/programs/water_quality_assessment/2026_integrated_report.html"
+  appendix_b1_xlsx: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+  final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+  geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+  ceden_chemistry_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+  ceden_augmentation_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results-ceden-augmentation"
+  ceden_locations_catalog: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+  ceden_locations_snapshot: "a927cb45-0de1-47e8-96a5-a5290816797b (2026-11-03)"
+  appendix_b1_loe_audit: "../out/appendix-b1-loe-audit.json"
+  ceden_source_reconciliation: "../out/ceden-source-reconciliation.json"
+  continuous_source_audit: "../out/continuous-source-audit.json"
+  validation_report: "../out/validation.md"
+ceden_pre_2000_resource_id: "158c8ca1-b02f-4665-99d6-2c1c15b6de5a"
+ceden_augmentation_resource_id: "e07c5e0b-cace-4b70-9f13-b3e696cd5a99"
+  listing_policy_2015: "https://www.waterboards.ca.gov/board_decisions/adopted_orders/resolutions/2015/020315_8_amendment_clean_version.pdf"
+  issue_repository: "https://github.com/Utilyst-public/nextcycle"
+ceden_resource_ids_by_year:
+  2000: "99402c9c-5175-47ca-8fce-cb6c5ecc8be6"
+  2001: "cec6768c-99d3-45bf-9e56-d62561e9939e"
+  2002: "00c4ca34-064f-4526-8276-57533a1a36d9"
+  2003: "d3f59df4-2a8d-4b40-b90f-8147e73335d9"
+  2004: "c962f46d-6a7b-4618-90ec-3c8522836f28"
+  2005: "9538cbfa-f8be-4445-97dc-b931579bb927"
+  2006: "a31a7864-06b9-4a81-92ba-d8912834ca1d"
+  2007: "13e64899-df32-461c-bec1-a4e72fcbbcfa"
+  2008: "c587a47f-ac28-4f77-b85e-837939276a28"
+  2009: "5b136831-8870-46f2-8f72-fe79c23d7118"
+  2010: "572bf4d2-e83d-490a-9aa5-c1d574e36ae0"
+  2011: "4d01a693-2a22-466a-a60b-3d6f236326ff"
+  2012: "f9dd0348-85d5-4945-aa62-c7c9ad4cf6fd"
+  2013: "341627e6-a483-4e9e-9a85-9f73b6ddbbba"
+  2014: "7abfde16-61b6-425d-9c57-d6bd70700603"
+  2015: "7d9384fa-70e1-4986-81d6-438ce5565be6"
+  2016: "42b906a2-9e30-4e44-92c9-0f94561e47fe"
+  2017: "68787549-8a78-4eea-b5b9-ef719e65a05c"
+  2018: "f638c764-89d5-4756-ac17-f6b20555d694"
+  2019: "6cf99106-f45f-4c17-80af-b91603f391d9"
+  2020: "2eba14fa-2678-4d54-ad8b-f60784c1b234"
+  2021: "dde19a95-504b-48d7-8f3e-8af3d484009f"
+  2022: "5d7175c8-dfc6-4c43-b78a-c5108a61c053"
+  2023: "6f9dd0e2-4e16-46c2-bed1-fa844d92df3c"
+  2024: "9dcf551f-452d-4257-b857-30fbcc883a03"
+  2025: "97b8bb60-8e58-4c97-a07f-d51a48cd36d4"
+  2026: "7c2faf29-d5d3-4ad6-a429-442ed337febb"
+provisional_qa_rule:
+  version: "region9-calibrated-qa-v1"
+  calibration_pairs:
+    - "r9-2026-111713-ph"
+    - "r9-2026-112126-do"
+    - "r9-2026-112165-do"
+    - "r9-2026-112167-ph"
+    - "r9-2026-113981-do"
+  eligible: "Applied identically before and after cutoff. DataQuality=Passed with BatchVerification=VAC, or DataQuality=Unknown data quality with BatchVerification=NR; blank/None QACode; numeric result with source/result qualifiers '=' when present; water matrix; compatible pair unit; CollectionReplicate=1 and ResultsReplicate=1. Exact source duplicates are already collapsed."
+  pending: "Some review needed, MetaData, any other QA combination or QACode, BatchVerification=NA, non-numeric or censored/non-detect qualifiers, missing values, non-water matrix, incompatible unit, and non-primary replicates remain pending. ND is not inferred without reporting-limit data."
+  replicates: "Exact source duplicates collapse; do not average technical or collection replicates. Calibration status VERIFY."
+cutoff_date: "2024-10-23"
+station_search_tolerance_m: 100
+current_reconciliation:
+  status: "VERIFY"
+  selected_pair_count: 15
+  source_scope: "All CEDEN Program, ParentProject, and Project values; annual partitions 2000-2026, pre-2000, and CEDEN Augmentation; no SWAMP-only filter."
+  station_code_normalization: "Uppercase and remove all non-alphanumeric characters; compare every station code cited in selected Appendix B1 LOEs."
+  distinct_loe_station_codes: 124
+  codes_with_ceden_chemistry: 119
+  codes_without_ceden_chemistry_or_location: ["CC-SD8", "SD8", "RSW-003", "RSW-006", "SD5"]
+  normalized_alias_matches:
+    - official_loe_code: "LPC-TWAS-3"
+      ceden_station_codes: ["LPC-TWAS-3", "LPCTWAS3"]
+    - official_loe_code: "SDR-TWAS-1"
+      ceden_station_codes: ["SDR-TWAS-1", "SDRTWAS1"]
+  ceden_source_rows_queried: 26894
+  ceden_augmentation_rows: 1061
+  pair_target_rows_after_exact_dedup: 3416
+  app_sample_rows_after_exclusions: 3310
+  app_rows_excluded_after_target_query: 106
+  continuous_catalog_candidates_reviewed: 24
+  dwr_hydstra_san_diego_surface_water_stations: 1
+  exact_official_n_and_exceedance_matches: "5/15 (33.3%)"
+  sample_count_only_matches: "5/15 (33.3%)"
+  source_detail_files:
+    appendix_b1: "../out/appendix-b1-loe-audit.json"
+    ceden: "../out/ceden-source-reconciliation.json"
+    continuous_sonde: "../out/continuous-source-audit.json"
+    validation: "../out/validation.md"
+  pairs:
+    - pair_id: "r9-2026-111216-do"
+      official_n: 21
+      official_exceedances: 12
+      ceden_source_date_n: 3
+      ceden_source_date_exceedances: 0
+      all_program_pre_cutoff_eligible_n: 4
+      all_program_pre_cutoff_eligible_exceedances: 0
+    - pair_id: "r9-2026-111713-ph"
+      official_n: 203
+      official_exceedances: 4
+      ceden_source_date_n: 203
+      ceden_source_date_exceedances: 4
+      all_program_pre_cutoff_eligible_n: 7
+      all_program_pre_cutoff_eligible_exceedances: 0
+    - pair_id: "r9-2026-111826-ph"
+      official_n: 124
+      official_exceedances: 21
+      ceden_source_date_n: 148
+      ceden_source_date_exceedances: 29
+      all_program_pre_cutoff_eligible_n: 0
+      all_program_pre_cutoff_eligible_exceedances: 0
+    - pair_id: "r9-2026-111896-do"
+      official_n: 1300
+      official_exceedances: 726
+      ceden_source_date_n: 1133
+      ceden_source_date_exceedances: 640
+      all_program_pre_cutoff_eligible_n: 2
+      all_program_pre_cutoff_eligible_exceedances: 2
+    - pair_id: "r9-2026-111943-do"
+      official_n: 119
+      official_exceedances: 23
+      ceden_source_date_n: 59
+      ceden_source_date_exceedances: 3
+      all_program_pre_cutoff_eligible_n: 3
+      all_program_pre_cutoff_eligible_exceedances: 1
+    - pair_id: "r9-2026-111953-do"
+      official_n: 337
+      official_exceedances: 90
+      ceden_source_date_n: 277
+      ceden_source_date_exceedances: 85
+      all_program_pre_cutoff_eligible_n: 14
+      all_program_pre_cutoff_eligible_exceedances: 0
+    - pair_id: "r9-2026-112079-do"
+      official_n: 285
+      official_exceedances: 56
+      ceden_source_date_n: 153
+      ceden_source_date_exceedances: 43
+      all_program_pre_cutoff_eligible_n: 0
+      all_program_pre_cutoff_eligible_exceedances: 0
+    - pair_id: "r9-2026-112126-do"
+      official_n: 28
+      official_exceedances: 7
+      ceden_source_date_n: 28
+      ceden_source_date_exceedances: 7
+      all_program_pre_cutoff_eligible_n: 6
+      all_program_pre_cutoff_eligible_exceedances: 1
+    - pair_id: "r9-2026-112165-do"
+      official_n: 10
+      official_exceedances: 7
+      ceden_source_date_n: 10
+      ceden_source_date_exceedances: 7
+      all_program_pre_cutoff_eligible_n: 4
+      all_program_pre_cutoff_eligible_exceedances: 2
+    - pair_id: "r9-2026-112167-ph"
+      official_n: 53
+      official_exceedances: 2
+      ceden_source_date_n: 53
+      ceden_source_date_exceedances: 2
+      all_program_pre_cutoff_eligible_n: 4
+      all_program_pre_cutoff_eligible_exceedances: 0
+    - pair_id: "r9-2026-113328-do"
+      official_n: 49
+      official_exceedances: 21
+      ceden_source_date_n: 50
+      ceden_source_date_exceedances: 22
+      all_program_pre_cutoff_eligible_n: 5
+      all_program_pre_cutoff_eligible_exceedances: 3
+    - pair_id: "r9-2026-113981-do"
+      official_n: 37
+      official_exceedances: 23
+      ceden_source_date_n: 37
+      ceden_source_date_exceedances: 23
+      all_program_pre_cutoff_eligible_n: 7
+      all_program_pre_cutoff_eligible_exceedances: 7
+    - pair_id: "r9-2026-114818-do"
+      official_n: 27
+      official_exceedances: 8
+      ceden_source_date_n: 29
+      ceden_source_date_exceedances: 9
+      all_program_pre_cutoff_eligible_n: 6
+      all_program_pre_cutoff_eligible_exceedances: 6
+    - pair_id: "r9-2026-148304-do"
+      official_n: 57
+      official_exceedances: 12
+      ceden_source_date_n: 63
+      ceden_source_date_exceedances: 12
+      all_program_pre_cutoff_eligible_n: 1
+      all_program_pre_cutoff_eligible_exceedances: 0
+    - pair_id: "r9-2026-164236-nitrate"
+      official_n: 3
+      official_exceedances: 2
+      ceden_source_date_n: 5
+      ceden_source_date_exceedances: 3
+      all_program_pre_cutoff_eligible_n: 0
+      all_program_pre_cutoff_eligible_exceedances: 0
+pairs:
+  -
+    pair_id: "r9-2026-164236-nitrate"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9022200019980803102333"
+      waterbody_name: "Rainbow Creek"
+      waterbody_type: "River & Stream"
+      county: "Riverside, San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "164236"
+      decision_status: "List on 303(d) list (being addressed by USEPA approved TMDL)"
+      tmdl_requirement_status: "5B"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01592.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Nitrate/Nitrite (Nitrite + Nitrate as N)"
+      direction: "upper"
+      value: 10.0
+      upper: null
+      unit: "mg/L as N"
+      beneficial_uses:
+        - "Municipal & Domestic Supply"
+      official_text_variants:
+        - "The California Maximum Contaminant Level for nitrate + nitrite (as N) is 10.0 mg/L (Title 22 of the California Code of Regulations)."
+      criterion_references:
+        - "2528"
+      status: "VERIFY"
+    official_counts:
+      n: 3
+      exceedances: 2
+      decision_conclusion_phrase: "Two of the three samples"
+      included_loe_sum_n: 3
+      included_loe_sum_exceedances: 2
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "3.1"
+      table: "3.1"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01592.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "143834"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (902M20161)"
+      -
+        loe_id: "143893"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (RBC-WGR)"
+      -
+        loe_id: "143895"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (902M20173)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "902M20161"
+          station_name: "Rainbow Creek approx. 360 m u/s of Rainbow Valley Blvd."
+          lat: 33.41868
+          lon: -117.14384
+          distance_to_final_2024_geometry_m: 4.9
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "RBC-WGR"
+          station_name: "Rainbow Creek at Willow Glen Rd. Bridge"
+          lat: 33.40773
+          lon: -117.20246
+          distance_to_final_2024_geometry_m: 8.4
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "902M20173"
+          station_name: "Rainbow Creek"
+          lat: 33.40528246
+          lon: -117.1809655
+          distance_to_final_2024_geometry_m: 14.1
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 5
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        raw_numeric_outside_count: 3
+      post_cutoff:
+        raw_retained_observations: 0
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 0
+        pending_numeric_outside_count: 0
+      excluded_records:
+        quality_control_sample_types: 4
+    ceden_resource_years:
+      - 2015
+      - 2016
+      - 2017
+  -
+    pair_id: "r9-2026-111896-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9071100020011025101606"
+      waterbody_name: "San Diego River (Lower)"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "111896"
+      decision_status: "Do Not Delist from 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01623.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Warm Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 5.0 mg/l in inland surface waters with the WARM beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+        - "The dissolved oxygen content of all surface waters designated as  Warm Freshwater Habitat  must be greater than 5.0 mg/L."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 1300
+      exceedances: 726
+      decision_conclusion_phrase: "Seven hundred and twenty-six of the 1,300 samples"
+      included_loe_sum_n: 1300
+      included_loe_sum_exceedances: 726
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "4.2"
+      table: "4.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01623.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "228055"
+        samples: 60
+        exceedances: 40
+        stations_text: "Samples were collected from the RSW-003 station."
+      -
+        loe_id: "144636"
+        samples: 2
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-002)"
+      -
+        loe_id: "144594"
+        samples: 3
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SDR-TWAS-3)"
+      -
+        loe_id: "144869"
+        samples: 98
+        exceedances: 64
+        stations_text: "The samples were collected at 1 monitoring site (RW-003)"
+      -
+        loe_id: "144887"
+        samples: 77
+        exceedances: 71
+        stations_text: "The samples were collected at 1 monitoring site (RW-012)"
+      -
+        loe_id: "144722"
+        samples: 95
+        exceedances: 24
+        stations_text: "The samples were collected at 1 monitoring site (RW-011_W)"
+      -
+        loe_id: "144889"
+        samples: 12
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (SDG-020)"
+      -
+        loe_id: "144664"
+        samples: 23
+        exceedances: 18
+        stations_text: "The samples were collected at 1 monitoring site (RW-012B)"
+      -
+        loe_id: "144560"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC04134)"
+      -
+        loe_id: "144561"
+        samples: 9
+        exceedances: 4
+        stations_text: "The samples were collected at 1 monitoring site (SDR-MLS)"
+      -
+        loe_id: "144563"
+        samples: 2
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (SDR-TWAS-1)"
+      -
+        loe_id: "144746"
+        samples: 93
+        exceedances: 29
+        stations_text: "The samples were collected at 1 monitoring site (RW-009)"
+      -
+        loe_id: "144446"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SMC12246)"
+      -
+        loe_id: "145001"
+        samples: 98
+        exceedances: 62
+        stations_text: "The samples were collected at 1 monitoring site (RW-002_E)"
+      -
+        loe_id: "144741"
+        samples: 2
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (907SDRWAR)"
+      -
+        loe_id: "144925"
+        samples: 97
+        exceedances: 32
+        stations_text: "The samples were collected at 1 monitoring site (RW-013)"
+      -
+        loe_id: "144935"
+        samples: 13
+        exceedances: 9
+        stations_text: "The samples were collected at 1 monitoring site (SDG-010)"
+      -
+        loe_id: "144683"
+        samples: 2
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-008)"
+      -
+        loe_id: "144593"
+        samples: 3
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SDR-TWAS-2)"
+      -
+        loe_id: "144744"
+        samples: 3
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (SDG-010)"
+      -
+        loe_id: "144534"
+        samples: 3
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (SDG-020)"
+      -
+        loe_id: "144443"
+        samples: 2
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-009)"
+      -
+        loe_id: "144690"
+        samples: 2
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-003)"
+      -
+        loe_id: "144740"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC03110)"
+      -
+        loe_id: "144946"
+        samples: 96
+        exceedances: 92
+        stations_text: "The samples were collected at 1 monitoring site (RW-015)"
+      -
+        loe_id: "145051"
+        samples: 96
+        exceedances: 70
+        stations_text: "The samples were collected at 1 monitoring site (RW-007)"
+      -
+        loe_id: "144972"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC07126)"
+      -
+        loe_id: "144779"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-DS)"
+      -
+        loe_id: "144540"
+        samples: 97
+        exceedances: 64
+        stations_text: "The samples were collected at 1 monitoring site (RW-006)"
+      -
+        loe_id: "144558"
+        samples: 2
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-004)"
+      -
+        loe_id: "144623"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC19552)"
+      -
+        loe_id: "144934"
+        samples: 98
+        exceedances: 31
+        stations_text: "The samples were collected at 1 monitoring site (RW-001_E)"
+      -
+        loe_id: "144851"
+        samples: 98
+        exceedances: 48
+        stations_text: "The samples were collected at 1 monitoring site (RW-008)"
+      -
+        loe_id: "72807"
+        samples: 108
+        exceedances: 47
+        stations_text: "Samples were collected from the Old Mission Dam RSW-006 monitoring location and at Mission Ponds 9 miles downstream of discharge."
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "SMC04134"
+          station_name: "SMC04134"
+          lat: 32.82874
+          lon: -117.05243
+          distance_to_final_2024_geometry_m: 22.5
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SDR-MLS"
+          station_name: "San Diego River MLS"
+          lat: 32.765245
+          lon: -117.168629
+          distance_to_final_2024_geometry_m: 8.4
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC12246"
+          station_name: "SMC12246"
+          lat: 32.83933
+          lon: -117.04484
+          distance_to_final_2024_geometry_m: 5.6
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "907SDRWAR"
+          station_name: "San Diego River at Ward Road"
+          lat: 32.78032
+          lon: -117.11046
+          distance_to_final_2024_geometry_m: 1.7
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC03110"
+          station_name: "SMC03110"
+          lat: 32.81106
+          lon: -117.07336
+          distance_to_final_2024_geometry_m: 4.7
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC19552"
+          station_name: "SMC19552"
+          lat: 32.83984
+          lon: -117.02451
+          distance_to_final_2024_geometry_m: 44.8
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 28
+        source_passed_unique_samples: 2
+        source_passed_outside_criterion: 2
+        raw_numeric_outside_count: 11
+      post_cutoff:
+        raw_retained_observations: 2
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 2
+        pending_numeric_outside_count: 2
+      excluded_records:
+        non_water_matrix_or_missing: 8
+        exact_duplicate_rows_collapsed: 2
+    ceden_resource_years:
+      - 2011
+      - 2013
+      - 2014
+      - 2015
+      - 2016
+      - 2017
+      - 2018
+      - 2019
+      - 2020
+      - 2021
+      - 2023
+      - 2024
+      - 2025
+      - 2026
+  -
+    pair_id: "r9-2026-148304-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9031100020011005104327"
+      waterbody_name: "San Luis Rey River, Lower (west of Interstate 15)"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "148304"
+      decision_status: "Do Not Delist from 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01598.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Warm Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 5.0 mg/l in inland surface waters with the WARM beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 57
+      exceedances: 12
+      decision_conclusion_phrase: "Twelve of the 57 samples"
+      included_loe_sum_n: 57
+      included_loe_sum_exceedances: 12
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "4.2"
+      table: "4.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01598.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "144760"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC01881)"
+      -
+        loe_id: "144510"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC01689)"
+      -
+        loe_id: "144597"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC02905)"
+      -
+        loe_id: "144508"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SLRR1)"
+      -
+        loe_id: "144544"
+        samples: 3
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SLR-010)"
+      -
+        loe_id: "144367"
+        samples: 6
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SLRR2)"
+      -
+        loe_id: "144753"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC00665)"
+      -
+        loe_id: "144628"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (903M20214)"
+      -
+        loe_id: "144509"
+        samples: 4
+        exceedances: 3
+        stations_text: "The samples were collected at 1 monitoring site (SLR-TWAS-1)"
+      -
+        loe_id: "144602"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (903M20230)"
+      -
+        loe_id: "144885"
+        samples: 7
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SLR-040)"
+      -
+        loe_id: "299461"
+        samples: 7
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SLR-MLS)"
+      -
+        loe_id: "144647"
+        samples: 5
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SLR-050)"
+      -
+        loe_id: "144531"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (903SLRRBB)"
+      -
+        loe_id: "144530"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC00857)"
+      -
+        loe_id: "144768"
+        samples: 9
+        exceedances: 3
+        stations_text: "The samples were collected at 1 monitoring site (SLR-010)"
+      -
+        loe_id: "144516"
+        samples: 7
+        exceedances: 4
+        stations_text: "The samples were collected at 1 monitoring site (SLR-030)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "SMC01881"
+          station_name: "SMC01881"
+          lat: 33.2355
+          lon: -117.3417
+          distance_to_final_2024_geometry_m: 15.0
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC01689"
+          station_name: "SMC01689"
+          lat: 33.26792
+          lon: -117.23507
+          distance_to_final_2024_geometry_m: 3.6
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC02905"
+          station_name: "SMC02905"
+          lat: 33.24004
+          lon: -117.3287
+          distance_to_final_2024_geometry_m: 35.4
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SLRR2"
+          station_name: "San Luis Rey River_B"
+          lat: 33.2582
+          lon: -117.2543
+          distance_to_final_2024_geometry_m: 7.8
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC00665"
+          station_name: "SMC00665"
+          lat: 33.27401
+          lon: -117.23159
+          distance_to_final_2024_geometry_m: 12.7
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "903M20214"
+          station_name: "Lower San Luis Rey River at Benet Rd."
+          lat: 33.22036
+          lon: -117.35819
+          distance_to_final_2024_geometry_m: 18.3
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "903M20230"
+          station_name: "Lower San Luis Rey River at Douglas Dr."
+          lat: 33.24064
+          lon: -117.32132
+          distance_to_final_2024_geometry_m: 26.7
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "903SLRRBB"
+          station_name: "San Luis Rey River at Benet Road Bridge"
+          lat: 33.22036
+          lon: -117.35821
+          distance_to_final_2024_geometry_m: 19.8
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC00857"
+          station_name: "SMC00857"
+          lat: 33.2461
+          lon: -117.30088
+          distance_to_final_2024_geometry_m: 30.6
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 26
+        source_passed_unique_samples: 1
+        source_passed_outside_criterion: 0
+        raw_numeric_outside_count: 1
+      post_cutoff:
+        raw_retained_observations: 2
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 2
+        pending_numeric_outside_count: 0
+      excluded_records:
+        source_rejected: 1
+    ceden_resource_years:
+      - 2011
+      - 2012
+      - 2013
+      - 2016
+      - 2017
+      - 2018
+      - 2019
+      - 2020
+      - 2021
+      - 2023
+      - 2024
+      - 2025
+      - 2026
+  -
+    pair_id: "r9-2026-111943-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9071200020011005135819"
+      waterbody_name: "Sycamore Canyon"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "111943"
+      decision_status: "Do Not Delist from 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01625.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Warm Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 5.0 mg/l in inland surface waters with the WARM beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+        - "The dissolved oxygen content of all surface waters designated as  Warm Freshwater Habitat  must be greater than 5.0 mg/L."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 119
+      exceedances: 23
+      decision_conclusion_phrase: "Twenty-three of the 119 samples"
+      included_loe_sum_n: 119
+      included_loe_sum_exceedances: 23
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "4.2"
+      table: "4.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01625.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "72817"
+        samples: 60
+        exceedances: 20
+        stations_text: "Samples were collected from the RSW-001 and RSW-001a stations."
+      -
+        loe_id: "144363"
+        samples: 2
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (907SDPD02)"
+      -
+        loe_id: "144640"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (907SDPD03)"
+      -
+        loe_id: "144557"
+        samples: 56
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (RW-014)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "907SDPD02"
+          station_name: "Padre Dam 2"
+          lat: 32.84463
+          lon: -117.00646
+          distance_to_final_2024_geometry_m: 17.2
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "907SDPD03"
+          station_name: "Upstream from Padre Dam"
+          lat: 32.88779
+          lon: -116.99469
+          distance_to_final_2024_geometry_m: 7.1
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 3
+        source_passed_unique_samples: 3
+        source_passed_outside_criterion: 1
+        raw_numeric_outside_count: 1
+      post_cutoff:
+        raw_retained_observations: 0
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 0
+        pending_numeric_outside_count: 0
+      excluded_records: []
+    ceden_resource_years:
+      - 2010
+      - 2011
+  -
+    pair_id: "r9-2026-112079-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9082200019990208140725"
+      waterbody_name: "Chollas Creek"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "112079"
+      decision_status: "List on 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01634.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Warm Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 5.0 mg/l in inland surface waters with the WARM beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 285
+      exceedances: 56
+      decision_conclusion_phrase: "Fifty-six of the 285 samples"
+      included_loe_sum_n: 285
+      included_loe_sum_exceedances: 56
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "3.2"
+      table: "3.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01634.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "144418"
+        samples: 2
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (PBL-020)"
+      -
+        loe_id: "145035"
+        samples: 41
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (CTL(1))"
+      -
+        loe_id: "144441"
+        samples: 3
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (CC-SD8(1))"
+      -
+        loe_id: "144656"
+        samples: 78
+        exceedances: 10
+        stations_text: "The samples were collected at 1 monitoring site (CTL(1))"
+      -
+        loe_id: "144745"
+        samples: 3
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (PBL-016)"
+      -
+        loe_id: "145053"
+        samples: 9
+        exceedances: 7
+        stations_text: "The samples were collected at 1 monitoring site (PBL-040)"
+      -
+        loe_id: "144533"
+        samples: 4
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (CC-NF54)"
+      -
+        loe_id: "145072"
+        samples: 14
+        exceedances: 9
+        stations_text: "The samples were collected at 1 monitoring site (PBL-020)"
+      -
+        loe_id: "144668"
+        samples: 7
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SD8(1))"
+      -
+        loe_id: "144430"
+        samples: 3
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (ZST)"
+      -
+        loe_id: "144569"
+        samples: 40
+        exceedances: 12
+        stations_text: "The samples were collected at 1 monitoring site (LG1)"
+      -
+        loe_id: "144630"
+        samples: 80
+        exceedances: 13
+        stations_text: "The samples were collected at 1 monitoring site (LG1)"
+      -
+        loe_id: "144417"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (PBL-040)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "CC-NF54"
+          station_name: "Chollas Creek MLS(Dry weather only)"
+          lat: 32.741427
+          lon: -117.083484
+          distance_to_final_2024_geometry_m: 0.3
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 10
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        raw_numeric_outside_count: 0
+      post_cutoff:
+        raw_retained_observations: 0
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 0
+        pending_numeric_outside_count: 0
+      excluded_records:
+        non_water_matrix_or_missing: 2
+    ceden_resource_years:
+      - 2013
+      - 2014
+      - 2015
+      - 2019
+      - 2021
+      - 2022
+  -
+    pair_id: "r9-2026-111953-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9071300020010924120240"
+      waterbody_name: "Forester Creek"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "111953"
+      decision_status: "List on 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01627.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Warm Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 5.0 mg/l in inland surface waters with the WARM beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+        - "The dissolved oxygen content of all surface waters designated as  Warm Freshwater Habitat  must be greater than 5.0 mg/L."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 337
+      exceedances: 90
+      decision_conclusion_phrase: "Ninety of the 337 samples"
+      included_loe_sum_n: 337
+      included_loe_sum_exceedances: 90
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "3.2"
+      table: "3.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01627.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "72806"
+        samples: 60
+        exceedances: 5
+        stations_text: "Samples were collected from the RSW-004 station."
+      -
+        loe_id: "144727"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (907M23325)"
+      -
+        loe_id: "144756"
+        samples: 3
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (907SDFOL1)"
+      -
+        loe_id: "144672"
+        samples: 25
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-005A)"
+      -
+        loe_id: "144601"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (907M23379)"
+      -
+        loe_id: "144703"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC09174)"
+      -
+        loe_id: "144611"
+        samples: 97
+        exceedances: 29
+        stations_text: "The samples were collected at 1 monitoring site (RW-016)"
+      -
+        loe_id: "144458"
+        samples: 27
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-005)"
+      -
+        loe_id: "144612"
+        samples: 26
+        exceedances: 25
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-006)"
+      -
+        loe_id: "144682"
+        samples: 2
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-007)"
+      -
+        loe_id: "144769"
+        samples: 2
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-ST-001)"
+      -
+        loe_id: "144700"
+        samples: 3
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (907SDFPB1)"
+      -
+        loe_id: "144590"
+        samples: 26
+        exceedances: 17
+        stations_text: "The samples were collected at 1 monitoring site (SDR-FC1)"
+      -
+        loe_id: "144702"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SMC08150)"
+      -
+        loe_id: "144767"
+        samples: 24
+        exceedances: 8
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-FC1A)"
+      -
+        loe_id: "144669"
+        samples: 8
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (CT_SDR-FC2A)"
+      -
+        loe_id: "144575"
+        samples: 3
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (907SDFRC2)"
+      -
+        loe_id: "144673"
+        samples: 26
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SDR-FC2)"
+      -
+        loe_id: "144674"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC10198)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "907SDFOL1"
+          station_name: "Forester Creek at the Olive Lane Bridge"
+          lat: 32.833902
+          lon: -116.988989
+          distance_to_final_2024_geometry_m: 1.3
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "907M23379"
+          station_name: "Forester Creek approx. 330 m u/s of Main St."
+          lat: 32.80333
+          lon: -116.92432
+          distance_to_final_2024_geometry_m: 12.3
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC09174"
+          station_name: "SMC09174"
+          lat: 32.83971
+          lon: -117.002
+          distance_to_final_2024_geometry_m: 13.2
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "907SDFPB1"
+          station_name: "Forester Creek at the Propsect Bridge"
+          lat: 32.831679
+          lon: -116.985984
+          distance_to_final_2024_geometry_m: 5.1
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC08150"
+          station_name: "SMC08150"
+          lat: 32.8372
+          lon: -117.0201
+          distance_to_final_2024_geometry_m: 4.7
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "907SDFRC2"
+          station_name: "Forrester Creek 2"
+          lat: 32.83945
+          lon: -117.00107
+          distance_to_final_2024_geometry_m: 9.6
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC10198"
+          station_name: "SMC10198"
+          lat: 32.82184
+          lon: -116.97642
+          distance_to_final_2024_geometry_m: 1.3
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 19
+        source_passed_unique_samples: 14
+        source_passed_outside_criterion: 0
+        raw_numeric_outside_count: 1
+      post_cutoff:
+        raw_retained_observations: 0
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 0
+        pending_numeric_outside_count: 0
+      excluded_records: []
+    ceden_resource_years:
+      - 2004
+      - 2005
+      - 2008
+      - 2010
+      - 2012
+      - 2014
+      - 2018
+  -
+    pair_id: "r9-2026-112126-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9102000019991117160226"
+      waterbody_name: "Otay River"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "112126"
+      decision_status: "List on 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01638.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Warm Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 5.0 mg/l in inland surface waters with the WARM beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 28
+      exceedances: 7
+      decision_conclusion_phrase: "Seven of the 28 samples"
+      included_loe_sum_n: 28
+      included_loe_sum_exceedances: 7
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "3.2"
+      table: "3.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01638.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "144976"
+        samples: 2
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (OTY-020)"
+      -
+        loe_id: "145075"
+        samples: 8
+        exceedances: 4
+        stations_text: "The samples were collected at 1 monitoring site (OTY-011)"
+      -
+        loe_id: "144819"
+        samples: 3
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (OR-TWAS-1)"
+      -
+        loe_id: "144798"
+        samples: 9
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (OTY-020)"
+      -
+        loe_id: "144902"
+        samples: 6
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (910OTCYNM)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "OR-TWAS-1"
+          station_name: "Otay River TWAS 1"
+          lat: 32.5904
+          lon: -117.073
+          distance_to_final_2024_geometry_m: 19.2
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 6
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        raw_numeric_outside_count: 2
+      post_cutoff:
+        raw_retained_observations: 1
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 1
+        pending_numeric_outside_count: 0
+      excluded_records: []
+    ceden_resource_years:
+      - 2013
+      - 2014
+      - 2023
+      - 2024
+      - 2025
+  -
+    pair_id: "r9-2026-113328-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9051100020080825090830"
+      waterbody_name: "San Dieguito River"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "113328"
+      decision_status: "List on 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/02006.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 6.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Cold Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 6.0 mg/l in inland surface waters with the COLD beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 49
+      exceedances: 21
+      decision_conclusion_phrase: "Twenty-one of the 49 samples"
+      included_loe_sum_n: 49
+      included_loe_sum_exceedances: 21
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "3.2"
+      table: "3.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/02006.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "144453"
+        samples: 2
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SGT-028)"
+      -
+        loe_id: "144680"
+        samples: 8
+        exceedances: 2
+        stations_text: "The samples were collected at 1 monitoring site (SDC-MLS)"
+      -
+        loe_id: "144439"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SMC04934)"
+      -
+        loe_id: "144460"
+        samples: 16
+        exceedances: 3
+        stations_text: "The samples were collected at 1 monitoring site (SGT-020)"
+      -
+        loe_id: "144662"
+        samples: 3
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (905SDSDQ9)"
+      -
+        loe_id: "144380"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (905SDRSAN)"
+      -
+        loe_id: "144634"
+        samples: 16
+        exceedances: 12
+        stations_text: "The samples were collected at 1 monitoring site (SGT-028)"
+      -
+        loe_id: "144506"
+        samples: 2
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SGT-020)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "SDC-MLS"
+          station_name: "San Dieguito River MLS"
+          lat: 32.999082
+          lon: -117.205596
+          distance_to_final_2024_geometry_m: 6.5
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC04934"
+          station_name: "SMC04934"
+          lat: 33.03248
+          lon: -117.16315
+          distance_to_final_2024_geometry_m: 6.1
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "905SDSDQ9"
+          station_name: "San Dieguito River 9"
+          lat: 32.97877
+          lon: -117.23506
+          distance_to_final_2024_geometry_m: 5.3
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 27
+        source_passed_unique_samples: 3
+        source_passed_outside_criterion: 1
+        raw_numeric_outside_count: 8
+      post_cutoff:
+        raw_retained_observations: 2
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 2
+        pending_numeric_outside_count: 0
+      excluded_records:
+        source_rejected: 1
+        non_water_matrix_or_missing: 4
+        exact_duplicate_rows_collapsed: 3
+    ceden_resource_years:
+      - 2013
+      - 2014
+      - 2015
+      - 2016
+      - 2017
+      - 2018
+      - 2019
+      - 2020
+      - 2021
+      - 2022
+      - 2023
+      - 2024
+      - 2025
+      - 2026
+  -
+    pair_id: "r9-2026-111216-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9014000019980911121604"
+      waterbody_name: "San Mateo Creek (San Diego County)"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "111216"
+      decision_status: "List on 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01587.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 6.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Cold Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 6.0 mg/l in inland surface waters with the COLD beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+        - "Water Quality Control Plan, San Diego Basin, Cold Water Habitat Objective, Chapter III, General Objectives for all Inland Surface Waters, Enclosed Bays and Estuaries states the following: The dissolved oxygen concentration for cold water habitats shall not be reduced below 6.0 mg/l at any time."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 21
+      exceedances: 12
+      decision_conclusion_phrase: "Twelve of the 21 samples"
+      included_loe_sum_n: 21
+      included_loe_sum_exceedances: 12
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "3.2"
+      table: "3.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01587.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "144527"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (901DCCSMC)"
+      -
+        loe_id: "76087"
+        samples: 1
+        exceedances: 0
+        stations_text: "Data for this line of evidence for San Mateo Creek (San Diego County) was collected at 1 monitoring site [ San Mateo Canyon above Tenaja Cyn. Cr. - 901S00469.]"
+      -
+        loe_id: "76103"
+        samples: 18
+        exceedances: 12
+        stations_text: "Samples were collected from the San Mateo and San Mateo Confluence stations."
+      -
+        loe_id: "144433"
+        samples: 1
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (901S04309)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "901DCCSMC"
+          station_name: "Devils Canyon Creek above San Mateo Cyn. Creek"
+          lat: 33.473036
+          lon: -117.4659043
+          distance_to_final_2024_geometry_m: 3.2
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "901S04309"
+          station_name: "San Mateo Canyon Creek above Devil Cyn. Cr."
+          lat: 33.474861
+          lon: -117.466052
+          distance_to_final_2024_geometry_m: 90.4
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 2
+        source_passed_unique_samples: 2
+        source_passed_outside_criterion: 0
+        raw_numeric_outside_count: 0
+      post_cutoff:
+        raw_retained_observations: 2
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 2
+        pending_numeric_outside_count: 0
+      excluded_records: []
+    ceden_resource_years:
+      - 2011
+      - 2025
+  -
+    pair_id: "r9-2026-113981-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9091200020091030145725"
+      waterbody_name: "Sweetwater River, Lower (below Sweetwater Reservoir)"
+      waterbody_type: "River & Stream"
+      county: "San Diego"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "113981"
+      decision_status: "List on 303(d) list (TMDL required list)"
+      tmdl_requirement_status: "5A"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      geometry_fallback_note: "The official 2026 GIS service identifies its layer as Proposed Final and says assessments are not final; final 2024 line geometry is used only for exact-WBID geographic fallback."
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/02502.shtml"
+      ceden_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_sampling_locations: "https://data.ca.gov/dataset/surface-water-sampling-location-information"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      beneficial_uses:
+        - "Warm Freshwater Habitat"
+      official_text_variants:
+        - "Dissolved oxygen levels shall not be less than 5.0 mg/l in inland surface waters with the WARM beneficial use designated (Water Quality Control Plan, San Diego Basin)."
+      criterion_references:
+        - "2539"
+      status: "VERIFY"
+    official_counts:
+      n: 37
+      exceedances: 23
+      decision_conclusion_phrase: "Twenty-three of the 37 samples"
+      included_loe_sum_n: 37
+      included_loe_sum_exceedances: 23
+      count_discrepancy:
+        n: false
+        exceedances: false
+      status: "VERIFY"
+    official_decision_policy:
+      section: "3.2"
+      table: "3.2"
+      source: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/02502.shtml"
+      status: "VERIFY"
+    screening_policy_selection:
+      listing_table: "3.2"
+      delisting_table: "4.2"
+      min_samples: 26
+      basis: "Table 4.2 is the provisional conventional-criteria screening choice; 2015 Listing Policy applicability requires reviewer confirmation."
+      status: "VERIFY"
+    official_stations_by_loe:
+      -
+        loe_id: "144903"
+        samples: 7
+        exceedances: 7
+        stations_text: "The samples were collected at 1 monitoring site (909SWCYNU)"
+      -
+        loe_id: "144539"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SWT-010)"
+      -
+        loe_id: "144989"
+        samples: 15
+        exceedances: 12
+        stations_text: "The samples were collected at 1 monitoring site (SWT-010)"
+      -
+        loe_id: "145031"
+        samples: 5
+        exceedances: 0
+        stations_text: "The samples were collected at 1 monitoring site (SWT-020)"
+      -
+        loe_id: "145016"
+        samples: 7
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SR-MLS)"
+      -
+        loe_id: "144883"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SMC17918)"
+      -
+        loe_id: "144867"
+        samples: 1
+        exceedances: 1
+        stations_text: "The samples were collected at 1 monitoring site (SMC01962)"
+    ceden_crosswalk:
+      method: "Exact CEDEN site codes were extracted from final 2026 fact-sheet lines of evidence and matched to CEDEN location SiteCode; candidate points were screened within 100 m of the exact-WBID 2024 final geometry fallback. Human reach association remains VERIFY."
+      status: "VERIFY"
+      stations:
+        -
+          station_code: "909SWCYNU"
+          station_name: "Sweetwater River Upstream"
+          lat: 32.65047
+          lon: -117.06393
+          distance_to_final_2024_geometry_m: 1.1
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC17918"
+          station_name: "SMC17918"
+          lat: 32.66246
+          lon: -117.03475
+          distance_to_final_2024_geometry_m: 3.6
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+        -
+          station_code: "SMC01962"
+          station_name: "SMC01962"
+          lat: 32.66102
+          lon: -117.03916
+          distance_to_final_2024_geometry_m: 8.6
+          link_method: "fact-sheet site code matched to CEDEN location SiteCode; spatial screen <=100m"
+          status: "VERIFY"
+    initial_pull_counts:
+      pre_cutoff:
+        raw_retained_observations: 10
+        source_passed_unique_samples: 7
+        source_passed_outside_criterion: 7
+        raw_numeric_outside_count: 9
+      post_cutoff:
+        raw_retained_observations: 0
+        source_passed_unique_samples: 0
+        source_passed_outside_criterion: 0
+        pending_qa_observations: 0
+        pending_numeric_outside_count: 0
+      excluded_records: []
+    ceden_resource_years:
+      - 2010
+      - 2013
+      - 2014
+      - 2016
+  -
+    pair_id: "r9-2026-111713-ph"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9061000020011025112826"
+      waterbody_name: "Los Penasquitos Creek"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "111713"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01617.shtml"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      ceden_chemistry_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_augmentation_resource_id: "e07c5e0b-cace-4b70-9f13-b3e696cd5a99"
+      appendix_b1_loe_audit: "pipeline/out/appendix-b1-loe-audit.json"
+      ceden_source_reconciliation: "pipeline/out/ceden-source-reconciliation.json"
+    criterion:
+      pollutant: "pH"
+      direction: "range"
+      value: 6.5
+      upper: 8.5
+      unit: "pH units"
+      status: "VERIFY"
+    official_counts:
+      included_loe_sum_n: 203
+      included_loe_sum_exceedances: 4
+      status: "VERIFY"
+    official_station_codes:
+      - "906LPLPC6"
+      - "LPC-MLS"
+      - "LPC-TWAS-2"
+      - "LPQ-030"
+      - "LPQ-040"
+      - "SMC00198"
+      - "SMC04294"
+    ceden_counts:
+      source_date_comparable_n: 203
+      source_date_comparable_exceedances: 4
+      all_program_pre_cutoff_eligible_n: 7
+      all_program_pre_cutoff_eligible_exceedances: 0
+      all_program_post_cutoff_pending_n: 5
+      status: "VERIFY"
+    data_status: "provisional"
+  -
+    pair_id: "r9-2026-111826-ph"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9065000019990208103941"
+      waterbody_name: "Tecolote Creek"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "111826"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01622.shtml"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      ceden_chemistry_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_augmentation_resource_id: "e07c5e0b-cace-4b70-9f13-b3e696cd5a99"
+      appendix_b1_loe_audit: "pipeline/out/appendix-b1-loe-audit.json"
+      ceden_source_reconciliation: "pipeline/out/ceden-source-reconciliation.json"
+    criterion:
+      pollutant: "pH"
+      direction: "range"
+      value: 6.5
+      upper: 8.5
+      unit: "pH units"
+      status: "VERIFY"
+    official_counts:
+      included_loe_sum_n: 124
+      included_loe_sum_exceedances: 21
+      status: "VERIFY"
+    official_station_codes:
+      - "906M23302"
+      - "MB-TWAS-2"
+      - "SD5"
+      - "SMC06918"
+      - "SMC13062"
+      - "TC-MLS"
+      - "TC-MLS-US"
+      - "TC-TCNP"
+    ceden_counts:
+      source_date_comparable_n: 148
+      source_date_comparable_exceedances: 29
+      all_program_pre_cutoff_eligible_n: 0
+      all_program_pre_cutoff_eligible_exceedances: 0
+      all_program_post_cutoff_pending_n: 54
+      status: "VERIFY"
+    data_status: "provisional"
+  -
+    pair_id: "r9-2026-112165-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9111100019990208133940"
+      waterbody_name: "Tijuana River"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "112165"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01642.shtml"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      ceden_chemistry_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_augmentation_resource_id: "e07c5e0b-cace-4b70-9f13-b3e696cd5a99"
+      appendix_b1_loe_audit: "pipeline/out/appendix-b1-loe-audit.json"
+      ceden_source_reconciliation: "pipeline/out/ceden-source-reconciliation.json"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      status: "VERIFY"
+    official_counts:
+      included_loe_sum_n: 10
+      included_loe_sum_exceedances: 7
+      status: "VERIFY"
+    official_station_codes:
+      - "911TTJR06"
+      - "TJR-MLS"
+    ceden_counts:
+      source_date_comparable_n: 10
+      source_date_comparable_exceedances: 7
+      all_program_pre_cutoff_eligible_n: 4
+      all_program_pre_cutoff_eligible_exceedances: 2
+      all_program_post_cutoff_pending_n: 1
+      status: "VERIFY"
+    data_status: "provisional"
+  -
+    pair_id: "r9-2026-112167-ph"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9111100019990208133940"
+      waterbody_name: "Tijuana River"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "112167"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/01642.shtml"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      ceden_chemistry_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_augmentation_resource_id: "e07c5e0b-cace-4b70-9f13-b3e696cd5a99"
+      appendix_b1_loe_audit: "pipeline/out/appendix-b1-loe-audit.json"
+      ceden_source_reconciliation: "pipeline/out/ceden-source-reconciliation.json"
+    criterion:
+      pollutant: "pH"
+      direction: "range"
+      value: 6.5
+      upper: 8.5
+      unit: "pH units"
+      status: "VERIFY"
+    official_counts:
+      included_loe_sum_n: 53
+      included_loe_sum_exceedances: 2
+      status: "VERIFY"
+    official_station_codes:
+      - "911TTJR06"
+      - "TJN-040"
+      - "TJN-050"
+      - "TJN-060"
+      - "TJR-MLS"
+    ceden_counts:
+      source_date_comparable_n: 53
+      source_date_comparable_exceedances: 2
+      all_program_pre_cutoff_eligible_n: 4
+      all_program_pre_cutoff_eligible_exceedances: 0
+      all_program_post_cutoff_pending_n: 1
+      status: "VERIFY"
+    data_status: "provisional"
+  -
+    pair_id: "r9-2026-114818-do"
+    status: "VERIFY"
+    official_listing:
+      waterbody_id: "CAR9061000020190730045785"
+      waterbody_name: "Carmel Valley Creek"
+      category: "5"
+      listingstatus: "Listed"
+      decision_id: "114818"
+    sources:
+      final_2026_appendix_b1: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/appendix-b1-waterbody-factsheets-excel-version.xlsx"
+      fact_sheet: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2025_2026state_ir_reports_final/apx-b-factsheets/03829.shtml"
+      final_2024_geometry_layer: "https://gispublic.waterboards.ca.gov/portalserver/rest/services/Hosted/Proposed_2024_Integrated_Report_Lines/FeatureServer/0"
+      ceden_chemistry_catalog: "https://data.ca.gov/dataset/surface-water-chemistry-results"
+      ceden_augmentation_resource_id: "e07c5e0b-cace-4b70-9f13-b3e696cd5a99"
+      appendix_b1_loe_audit: "pipeline/out/appendix-b1-loe-audit.json"
+      ceden_source_reconciliation: "pipeline/out/ceden-source-reconciliation.json"
+    criterion:
+      pollutant: "Oxygen, Dissolved"
+      direction: "lower"
+      value: 5.0
+      upper: null
+      unit: "mg/L"
+      status: "VERIFY"
+    official_counts:
+      included_loe_sum_n: 27
+      included_loe_sum_exceedances: 8
+      status: "VERIFY"
+    official_station_codes:
+      - "906LPCYNU"
+      - "LPC-TWAS-3"
+      - "LPQ-020"
+    ceden_counts:
+      source_date_comparable_n: 29
+      source_date_comparable_exceedances: 9
+      all_program_pre_cutoff_eligible_n: 6
+      all_program_pre_cutoff_eligible_exceedances: 6
+      all_program_post_cutoff_pending_n: 2
+      status: "VERIFY"
+    data_status: "provisional"
+dropped_candidates:
+  -
+    decision_id: "158370"
+    waterbody: "Escondido Creek"
+    pollutant: "Selenium"
+    reason: "The final fact sheet applies different fixed criteria to different uses (0.005 mg/L for COLD and 0.05 mg/L for MUN); this does not meet the single-criterion selection rule. CEDEN also contains distinct total and dissolved analytes."
+  -
+    decision_id: "81840"
+    waterbody: "Agua Hedionda Creek"
+    pollutant: "Nitrate/Nitrite"
+    reason: "The cited station codes 904AHC-MLS and 904AHC-TWAS-1 have no CEDEN chemistry or location match in the queried public resources."
+  -
+    decision_id: "multiple"
+    waterbody: "Other Region 9 Category 5 fixed-criterion candidates"
+    pollutant: "various"
+    reason: "Not selected where criteria were not single fixed numeric values, no exact CEDEN site-code link to the official fact sheet was available within the geometry screen, or monitoring data could not be compared in compatible units."
+history_expansion: "Region 3 was added as a new version; prior Region 9 snapshots remain in append-only history."
+
+region3_addition:
+  status: "VERIFY"
+  region_id: "R3"
+  official_cycle: 2024
+  assessment_status: "Final; Region 3 is off-cycle in the 2026 Integrated Report."
+  integrated_report_url: "https://www.waterboards.ca.gov/water_issues/programs/water_quality_assessment/2024-integrated-report.html"
+  appendix_b1_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b1-factsheets-final.xlsx"
+  ceden_data_through: "2026-05-06"
+  cutoff_date: "2024-10-23"
+  selection_rule: "Unique Category 5/4a WBIDs; one fixed criterion; official fact sheet geometry; cited CEDEN stations; at least 15 post-cutoff eligible records."
+  ceden_source_scope: "All programs; annual chemistry partitions 2000-2026, pre-2000 resource, and CEDEN Augmentation; no SWAMP-only filter."
+  source_rows_retrieved: 29563
+  exact_duplicate_rows_removed: 0
+  selected_loes: 431
+  pair_sample_rows_before_qa: 11969
+  station_code_normalization: "Uppercase and remove all non-alphanumeric characters; retain unmatched original Appendix B1 identifiers in the audit."
+  source_reconciliation: "../out/ceden-source-reconciliation.json"
+  validation_report: "../out/region3-validation.md"
+  pairs:
+    - pair_id: "r3-2024-107660-ph"
+      waterbody_name: "Carmel River"
+      waterbody_id: "CAR3070005019990223142907"
+      category: "5"
+      decision_id: "107660"
+      pollutant: "pH"
+      criterion_text: "The Water Quality Control Plan, Central Coast Basin objective for municipal and domestic supply (Section 3.3.2 Objectives for All Inland Surface Waters, Enclosed Bays, and Estuaries) states that the pH value shall neither be depressed below 6.5 nor raised above 8.3."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 780
+      selected_official_exceedances: 30
+      selected_loe_count: 45
+      full_pair_official_n: 1560
+      full_pair_official_exceedances: 65
+      full_pair_loe_count: 90
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00838.shtml"
+      source_date_start: "2001-04-26"
+      source_date_end: "2019-02-26"
+      validation_status: "GAP"
+      source_date_comparable_n: 106
+      source_date_comparable_exceedances: 2
+      station_date_only_eligible_n: 187
+      station_date_only_eligible_exceedances: 2
+      post_cutoff_eligible_n: 24
+      post_cutoff_eligible_exceedances: 0
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Santa Lucia (SantaLucia)"
+        - "Coastal Watershed Council (Snapshot day monitoring) (R3_Snap)"
+        - "MBNMS Snapshot Day"
+        - "SWAMP"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Santa Lucia Rotation"
+        - "SWAMP Reference Condition Management Plan"
+        - "SWAMP Stream Pollution Trends"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "307-CARME-35"
+        - "307-CARME-37"
+        - "307-CARME-39"
+        - "307CMD"
+        - "307CMD-Carmel"
+        - "307CML"
+        - "307CML-Carmel"
+        - "307CMN"
+        - "307CMRADC"
+        - "307CMU"
+        - "Carmel"
+      ceden_station_codes:
+        - "307CMD"
+        - "307CML"
+        - "307CMN"
+        - "307CMRADC"
+        - "307CMU"
+      unmatched_station_identifiers:
+        - "307-CARME-35"
+        - "307-CARME-37"
+        - "307-CARME-39"
+        - "Carmel"
+      selected_loe_ids:
+        - "177374"
+        - "178783"
+        - "178214"
+        - "178978"
+        - "10998"
+        - "11036"
+        - "53855"
+        - "49691"
+        - "49690"
+        - "19176"
+        - "49700"
+        - "18867"
+        - "53853"
+        - "11038"
+        - "49701"
+        - "11000"
+        - "11037"
+        - "53854"
+        - "19177"
+        - "49696"
+        - "10999"
+        - "49697"
+        - "177198"
+        - "177033"
+        - "176837"
+        - "178413"
+        - "177510"
+        - "178383"
+        - "179155"
+        - "177594"
+        - "179706"
+        - "179956"
+        - "179615"
+        - "178976"
+        - "178997"
+        - "178724"
+        - "179533"
+        - "178691"
+        - "179127"
+        - "179957"
+        - "177199"
+        - "177548"
+        - "178784"
+        - "179043"
+        - "179609"
+    - pair_id: "r3-2024-109064-oxygen-dissolved"
+      waterbody_name: "Chorro Creek"
+      waterbody_id: "CAR3102201219980825120817"
+      category: "5"
+      decision_id: "109064"
+      pollutant: "Oxygen, Dissolved"
+      criterion_text: "The dissolved oxygen concentration shall not be reduced below 7.0 mg/l at any time (Water Quality Control Plan, Central Coast Basin)."
+      criterion_signature: ["DO", "7.0", "mg/L"]
+      selected_official_n: 2858
+      selected_official_exceedances: 134
+      selected_loe_count: 29
+      full_pair_official_n: 4420
+      full_pair_official_exceedances: 139
+      full_pair_loe_count: 47
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00916.shtml"
+      source_date_start: "2001-04-24"
+      source_date_end: "2019-03-06"
+      validation_status: "GAP"
+      source_date_comparable_n: 844
+      source_date_comparable_exceedances: 40
+      station_date_only_eligible_n: 1577
+      station_date_only_eligible_exceedances: 194
+      post_cutoff_eligible_n: 121
+      post_cutoff_eligible_exceedances: 12
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Santa Lucia (SantaLucia)"
+        - "CCWQP Southern Area Ag-Waiver Monitoring (R3_CMPSouth)"
+        - "Coastal Watershed Council (Snapshot day monitoring) (R3_Snap)"
+        - "MBNMS Snapshot Day"
+        - "Morro Bay NEP Monitoring Program"
+        - "Morro Bay Volunteer Monitoring Program"
+        - "R3 public submissions"
+        - "RWB3 Cooperative Monitoring Program"
+        - "Regional Board staff is proposing that Chorro Creek (downstream of Chorro Creek Road) be listed as impaired for dissolved oxygen. The impairment is evidenced by depressed levels of dissolved oxygen measured during pre-dawn and 24-hour sampling periods.Continuous depressed levels of dissolved oxygen (< 7.0 mg/l) were found in Chorro Creek at TWB (approximately between 12a.m-8a.m.) during three 24-hour hourly sampling periods in July, August and September 2003.  Continuous depressed levels of oxygen were also found between 5 p.m. and 7 a.m. at site added in September 2003 upstream of TWB (usTWB) (CCRWQCB, 2004o).Dissolved oxygen levels were within the COLD  water quality objective at CAN during three 24-hour hourly sampling periods in July, August and September 2003 (CCAMP, 2004).   Dissolved oxygen levels just under the COLD water quality objective (6.81-6.99 mg/l) were found during one of three sampling periods at an upstream site (CHO) in August 2003. Regional Board staff does not consider the segment upstream of CAN (and CHO) as impaired.  Regional Board staff considers the segment between usTWB and TWB (downstream of Chorro Creek Road) as impaired for dissolved oxygen.  The level of impairment between CAN and usTWB is unknown.  Five out of 10 samples exceeded the COLD dissolved oxygen water quality objective."
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP Stream Pollution Trends"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "310-UCF-41"
+        - "310CAN"
+        - "310CAN-Chorro"
+        - "310CCC"
+        - "310CHO"
+        - "310TWB"
+        - "310TWB-Chorro"
+        - "310UCR"
+      ceden_station_codes:
+        - "310CAN"
+        - "310CCC"
+        - "310CHO"
+        - "310TWB"
+        - "310UCR"
+      unmatched_station_identifiers:
+        - "310-UCF-41"
+      selected_loe_ids:
+        - "175063"
+        - "174714"
+        - "175830"
+        - "174706"
+        - "174949"
+        - "174138"
+        - "174387"
+        - "175674"
+        - "174002"
+        - "174715"
+        - "174704"
+        - "174899"
+        - "174136"
+        - "174694"
+        - "174692"
+        - "175040"
+        - "49976"
+        - "49975"
+        - "1903"
+        - "48092"
+        - "12638"
+        - "26477"
+        - "14559"
+        - "47981"
+        - "13453"
+        - "12601"
+        - "18192"
+        - "47935"
+        - "26478"
+    - pair_id: "r3-2024-109438-ph"
+      waterbody_name: "Arroyo Grande Creek (below Lopez Lake)"
+      waterbody_id: "CAR3103101419980804113947"
+      category: "5"
+      decision_id: "109438"
+      pollutant: "pH"
+      criterion_text: "The pH value shall neither be depressed below 6.5 nor raised above 8.3 (Basin Plan)."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 1275
+      selected_official_exceedances: 231
+      selected_loe_count: 42
+      full_pair_official_n: 2550
+      full_pair_official_exceedances: 297
+      full_pair_loe_count: 84
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00931.shtml"
+      source_date_start: "2001-04-24"
+      source_date_end: "2019-03-06"
+      validation_status: "GAP"
+      source_date_comparable_n: 245
+      source_date_comparable_exceedances: 53
+      station_date_only_eligible_n: 501
+      station_date_only_eligible_exceedances: 95
+      post_cutoff_eligible_n: 41
+      post_cutoff_eligible_exceedances: 4
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Santa Lucia (SantaLucia)"
+        - "CCWQP Southern Area Ag-Waiver Monitoring (R3_CMPSouth)"
+        - "MBNMS Snapshot Day"
+        - "RWB3 Cooperative Monitoring Program"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Santa Lucia Rotation"
+        - "SWAMP Stream Pollution Trends"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "310-ARROY-41"
+        - "310AGB"
+        - "310AGB-Arroyo"
+        - "310AGF"
+        - "310AGS"
+        - "310ARG"
+        - "310ARG-Arroyo"
+        - "310USG"
+      ceden_station_codes:
+        - "310AGB"
+        - "310AGF"
+        - "310AGS"
+        - "310ARG"
+        - "310USG"
+      unmatched_station_identifiers:
+        - "310-ARROY-41"
+      selected_loe_ids:
+        - "49116"
+        - "10951"
+        - "179932"
+        - "177404"
+        - "49105"
+        - "10751"
+        - "10730"
+        - "10949"
+        - "49106"
+        - "48229"
+        - "14509"
+        - "14711"
+        - "49115"
+        - "10767"
+        - "48231"
+        - "10732"
+        - "49111"
+        - "48230"
+        - "14710"
+        - "10950"
+        - "10731"
+        - "10766"
+        - "49112"
+        - "179311"
+        - "179335"
+        - "179334"
+        - "178190"
+        - "177858"
+        - "178994"
+        - "179505"
+        - "179905"
+        - "179406"
+        - "178646"
+        - "179327"
+        - "179336"
+        - "179365"
+        - "177282"
+        - "176813"
+        - "179476"
+        - "179185"
+        - "178165"
+        - "180036"
+    - pair_id: "r3-2024-109309-ph"
+      waterbody_name: "San Luis Obispo Creek (below Osos Street)"
+      waterbody_id: "CAR3102402119980828115513"
+      category: "5"
+      decision_id: "109309"
+      pollutant: "pH"
+      criterion_text: "The pH value shall not be depressed below 6.5 or raised above 8.3 (Basin Plan)."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 843
+      selected_official_exceedances: 27
+      selected_loe_count: 30
+      full_pair_official_n: 1686
+      full_pair_official_exceedances: 33
+      full_pair_loe_count: 60
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00925.shtml"
+      source_date_start: "2001-04-24"
+      source_date_end: "2019-03-06"
+      validation_status: "GAP"
+      source_date_comparable_n: 204
+      source_date_comparable_exceedances: 4
+      station_date_only_eligible_n: 707
+      station_date_only_eligible_exceedances: 15
+      post_cutoff_eligible_n: 22
+      post_cutoff_eligible_exceedances: 1
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Santa Lucia (SantaLucia)"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Dissolved Oxygen Study"
+        - "SWAMP RWB3 CCAMP Santa Lucia Rotation"
+        - "SWAMP Stream Pollution Trends"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "310SLB"
+        - "310SLB-San"
+        - "310SLM"
+        - "310SLM-San"
+        - "310SLV"
+        - "310SLV-San"
+      ceden_station_codes:
+        - "310SLB"
+        - "310SLM"
+        - "310SLV"
+      unmatched_station_identifiers: []
+      selected_loe_ids:
+        - "51971"
+        - "11831"
+        - "11847"
+        - "11812"
+        - "52009"
+        - "52010"
+        - "11628"
+        - "11811"
+        - "51991"
+        - "52006"
+        - "11832"
+        - "11627"
+        - "11626"
+        - "51972"
+        - "11810"
+        - "179677"
+        - "179198"
+        - "177734"
+        - "178820"
+        - "179197"
+        - "178447"
+        - "177691"
+        - "177710"
+        - "178059"
+        - "178038"
+        - "178511"
+        - "179235"
+        - "178012"
+        - "179878"
+        - "178512"
+    - pair_id: "r3-2024-107997-ph"
+      waterbody_name: "Tembladero Slough"
+      waterbody_id: "CAR3091101019981209131830"
+      category: "5"
+      decision_id: "107997"
+      pollutant: "pH"
+      criterion_text: "The Water Quality Control Plan, Central Coast Basin objective for non-contact water recreation (Section 3.3.2 Objectives for All Inland Surface Waters, Enclosed Bays, and Estuaries) states that the pH value shall neither be depressed below 6.5 nor raised above 8.3."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 1198
+      selected_official_exceedances: 412
+      selected_loe_count: 38
+      full_pair_official_n: 1797
+      full_pair_official_exceedances: 524
+      full_pair_loe_count: 57
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00856.shtml"
+      source_date_start: "1994-06-13"
+      source_date_end: "2019-05-22"
+      validation_status: "GAP"
+      source_date_comparable_n: 300
+      source_date_comparable_exceedances: 67
+      station_date_only_eligible_n: 461
+      station_date_only_eligible_exceedances: 155
+      post_cutoff_eligible_n: 37
+      post_cutoff_eligible_exceedances: 8
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Salinas (Salinas)"
+        - "CCWQP Northern Area Ag-Waiver Monitoring (R3_CMPNorth)"
+        - "CMP"
+        - "Coastal Watershed Council (Snapshot day monitoring) (R3_Snap)"
+        - "MBNMS Snapshot Day"
+        - "National Estuarine Research Reserve Monitoring Program (R3_ESNERR)"
+        - "RWB3 Cooperative Monitoring Program"
+        - "RWB3 TMDL"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Salinas Rotation"
+        - "SWAMP RWB3 CCAMP SpecialStudies"
+        - "SWAMP Stream Pollution Trends"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "309-TEMBL-31"
+        - "309-TEMBL-33"
+        - "309TDW"
+        - "309TDW-Tembladero"
+        - "309TEH"
+        - "309TEM"
+        - "309TEMPRS"
+        - "Tembladero"
+      ceden_station_codes:
+        - "309TDW"
+        - "309TEH"
+        - "309TEM"
+      unmatched_station_identifiers:
+        - "309-TEMBL-31"
+        - "309-TEMBL-33"
+        - "Tembladero"
+      selected_loe_ids:
+        - "179830"
+        - "179597"
+        - "177787"
+        - "179252"
+        - "177757"
+        - "179190"
+        - "180042"
+        - "179349"
+        - "15323"
+        - "19010"
+        - "52947"
+        - "14524"
+        - "52411"
+        - "10800"
+        - "58662"
+        - "11003"
+        - "10839"
+        - "52412"
+        - "14523"
+        - "10799"
+        - "10784"
+        - "10823"
+        - "58663"
+        - "52407"
+        - "52940"
+        - "15322"
+        - "18993"
+        - "52408"
+        - "179267"
+        - "179784"
+        - "179781"
+        - "179810"
+        - "179347"
+        - "179848"
+        - "179832"
+        - "179191"
+        - "178972"
+        - "179526"
+    - pair_id: "r3-2024-107093-ph"
+      waterbody_name: "Pajaro River"
+      waterbody_id: "CAR3051003019980826115152"
+      category: "5"
+      decision_id: "107093"
+      pollutant: "pH"
+      criterion_text: "The Water Quality Control Plan, Central Coast Basin objective for water contact recreation (Section 3.3.2 Objectives for All Inland Surface Waters, Enclosed Bays, and Estuaries) states that the pH value shall neither be depressed below 6.5 nor raised above 8.3."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 5955
+      selected_official_exceedances: 1245
+      selected_loe_count: 75
+      full_pair_official_n: 11929
+      full_pair_official_exceedances: 1801
+      full_pair_loe_count: 152
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00811.shtml"
+      source_date_start: "1997-12-18"
+      source_date_end: "2019-03-07"
+      validation_status: "GAP"
+      source_date_comparable_n: 539
+      source_date_comparable_exceedances: 73
+      station_date_only_eligible_n: 779
+      station_date_only_eligible_exceedances: 98
+      post_cutoff_eligible_n: 55
+      post_cutoff_eligible_exceedances: 3
+      post_cutoff_pending_qa: 1
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Pajaro (Pajaro)"
+        - "CCWQP Northern Area Ag-Waiver Monitoring (R3_CMPNorth)"
+        - "Coastal Watershed Council (Snapshot day monitoring) (R3_Snap)"
+        - "MBNMS Snapshot Day"
+        - "Monterey Area Research Consortium (R3_MARC)"
+        - "R3 public submissions"
+        - "RWB3 Cooperative Monitoring Program"
+        - "SWAMP"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Dissolved Oxygen Study"
+        - "SWAMP RWB3 CCAMP Lakes Study"
+        - "SWAMP RWB3 CCAMP Pajaro and Santa Cruz Area"
+        - "SWAMP Stream Pollution Trends"
+        - "Santa Cruz County Environmental Health Monitoring Program (R3_SCCEH)"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "305-PAJAR-21"
+        - "305CHI"
+        - "305CHI-Pajaro"
+        - "305MUR"
+        - "305PAJ"
+        - "305PAJ_SCC"
+        - "305PJP"
+        - "305PJP-Pajaro"
+        - "305THU"
+        - "PA-BET"
+        - "Pajaro"
+      ceden_station_codes:
+        - "305-PAJAR-21"
+        - "305CHI"
+        - "305MUR"
+        - "305PAJ"
+        - "305PJP"
+        - "305THU"
+      unmatched_station_identifiers:
+        - "PA-BET"
+        - "Pajaro"
+      selected_loe_ids:
+        - "178412"
+        - "179071"
+        - "177916"
+        - "179021"
+        - "10406"
+        - "19093"
+        - "19736"
+        - "17681"
+        - "56734"
+        - "50934"
+        - "48715"
+        - "48168"
+        - "19092"
+        - "19735"
+        - "17680"
+        - "13895"
+        - "11143"
+        - "10405"
+        - "10138"
+        - "179587"
+        - "176703"
+        - "178157"
+        - "179288"
+        - "179552"
+        - "179329"
+        - "179097"
+        - "17679"
+        - "47903"
+        - "19734"
+        - "13878"
+        - "56735"
+        - "11142"
+        - "50931"
+        - "10137"
+        - "10404"
+        - "48714"
+        - "19076"
+        - "13896"
+        - "10139"
+        - "48716"
+        - "11159"
+        - "50936"
+        - "56729"
+        - "48169"
+        - "179031"
+        - "177881"
+        - "179383"
+        - "179260"
+        - "179550"
+        - "178745"
+        - "177460"
+        - "178244"
+        - "179296"
+        - "178407"
+        - "179045"
+        - "177497"
+        - "178411"
+        - "177165"
+        - "179538"
+        - "179290"
+        - "177229"
+        - "178728"
+        - "178387"
+        - "179037"
+        - "179355"
+        - "177462"
+        - "177613"
+        - "179952"
+        - "179492"
+        - "179498"
+        - "179417"
+        - "177592"
+        - "179159"
+        - "179534"
+        - "179032"
+    - pair_id: "r3-2024-106511-oxygen-dissolved"
+      waterbody_name: "San Lorenzo River"
+      waterbody_id: "CAR3041202219980827084709"
+      category: "5"
+      decision_id: "106511"
+      pollutant: "Oxygen, Dissolved"
+      criterion_text: "The dissolved oxygen concentration shall not be reduced below 7.0 mg/l at any time (Water Quality Control Plan, Central Coast Basin)."
+      criterion_signature: ["DO", "7.0", "mg/L"]
+      selected_official_n: 5914
+      selected_official_exceedances: 291
+      selected_loe_count: 35
+      full_pair_official_n: 5914
+      full_pair_official_exceedances: 291
+      full_pair_loe_count: 35
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00751.shtml"
+      source_date_start: "1990-01-02"
+      source_date_end: "2019-03-07"
+      validation_status: "GAP"
+      source_date_comparable_n: 482
+      source_date_comparable_exceedances: 7
+      station_date_only_eligible_n: 726
+      station_date_only_eligible_exceedances: 70
+      post_cutoff_eligible_n: 19
+      post_cutoff_eligible_exceedances: 1
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Pajaro (Pajaro)"
+        - "Coastal Watershed Council (Snapshot day monitoring) (R3_Snap)"
+        - "MBNMS Snapshot Day"
+        - "Monterey Area Research Consortium (R3_MARC)"
+        - "SWAMP Perennial Stream Surveys"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Dissolved Oxygen Study"
+        - "SWAMP RWB3 CCAMP Pajaro and Santa Cruz Area"
+        - "SWAMP Stream Pollution Trends"
+        - "Santa Cruz County Environmental Health Monitoring Program (R3_SCCEH)"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "304-SANLO-21"
+        - "304-SANLO-22"
+        - "304-SANLO-26"
+        - "304-SANLO-27"
+        - "304LOR"
+        - "304LOR-San"
+        - "304PS0253"
+        - "304RIV"
+        - "304RIV-San"
+        - "304SL9"
+        - "304SLB"
+        - "304SLE"
+        - "304SLRWAT"
+        - "304SLZ_SCC"
+        - "SL-SOQ"
+      ceden_station_codes:
+        - "304-SANLO-21"
+        - "304-SANLO-22"
+        - "304-SANLO-26"
+        - "304-SANLO-27"
+        - "304LOR"
+        - "304PS0253"
+        - "304RIV"
+        - "304SL9"
+        - "304SLB"
+        - "304SLE"
+        - "304SLRWAT"
+      unmatched_station_identifiers:
+        - "304SLZ_SCC"
+        - "SL-SOQ"
+      selected_loe_ids:
+        - "175536"
+        - "174651"
+        - "175526"
+        - "174997"
+        - "174586"
+        - "174083"
+        - "174932"
+        - "174658"
+        - "175801"
+        - "175266"
+        - "174679"
+        - "175246"
+        - "174684"
+        - "175401"
+        - "12006"
+        - "12026"
+        - "11987"
+        - "51612"
+        - "17842"
+        - "174629"
+        - "175357"
+        - "175670"
+        - "19791"
+        - "18229"
+        - "175267"
+        - "175677"
+        - "175058"
+        - "175009"
+        - "175292"
+        - "175683"
+        - "175108"
+        - "175003"
+        - "175239"
+        - "175358"
+        - "175697"
+    - pair_id: "r3-2024-110225-ph"
+      waterbody_name: "Santa Ynez River (below city of Lompoc to Ocean)"
+      waterbody_id: "CAR3141004020050816125631"
+      category: "5"
+      decision_id: "110225"
+      pollutant: "pH"
+      criterion_text: "The Water Quality Control Plan, Central Coast Basin objective for non-contact water recreation uses (Section II.A.2. Objectives for All Inland Surface Waters, Enclosed Bays, and Estuaries, II.A.2.a) states the following: pH value shall neither be depressed below 6.5 nor raised above 8.3."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 1152
+      selected_official_exceedances: 108
+      selected_loe_count: 36
+      full_pair_official_n: 2304
+      full_pair_official_exceedances: 255
+      full_pair_loe_count: 72
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00955.shtml"
+      source_date_start: "2001-01-18"
+      source_date_end: "2019-03-06"
+      validation_status: "GAP"
+      source_date_comparable_n: 238
+      source_date_comparable_exceedances: 23
+      station_date_only_eligible_n: 533
+      station_date_only_eligible_exceedances: 31
+      post_cutoff_eligible_n: 46
+      post_cutoff_eligible_exceedances: 0
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Santa Barbara (SantaBarb)"
+        - "CCWQP Southern Area Ag-Waiver Monitoring (R3_CMPSouth)"
+        - "RWB3 Cooperative Monitoring Program"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Santa Barbara Rotation"
+        - "SWAMP Stream Pollution Trends"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "314SYF"
+        - "314SYF-Santa"
+        - "314SYN"
+        - "314SYN-Santa"
+      ceden_station_codes:
+        - "314SYF"
+        - "314SYN"
+      unmatched_station_identifiers: []
+      selected_loe_ids:
+        - "11474"
+        - "52138"
+        - "52137"
+        - "48974"
+        - "11455"
+        - "11507"
+        - "11453"
+        - "11491"
+        - "11472"
+        - "52120"
+        - "52119"
+        - "48957"
+        - "14363"
+        - "180037"
+        - "177675"
+        - "178830"
+        - "179621"
+        - "178492"
+        - "178265"
+        - "179105"
+        - "179985"
+        - "179645"
+        - "179117"
+        - "179281"
+        - "179273"
+        - "179298"
+        - "178481"
+        - "178071"
+        - "11473"
+        - "11454"
+        - "11506"
+        - "52125"
+        - "48958"
+        - "52126"
+        - "14362"
+        - "14377"
+    - pair_id: "r3-2024-110132-ph"
+      waterbody_name: "San Antonio Creek (San Antonio Watershed, Rancho del las Flores Bridge at Hwy 135 to downstream at Railroad Bridge)"
+      waterbody_id: "CAR3130001020020918211049"
+      category: "5"
+      decision_id: "110132"
+      pollutant: "pH"
+      criterion_text: "The Water Quality Control Plan, Central Coast Basin, Section II.A.2. Municipal and Domestic Supply Objectives, Section II.A.2.a states the following: The pH value shall neither be depressed below 6.5 or raised above 8.3."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 789
+      selected_official_exceedances: 39
+      selected_loe_count: 30
+      full_pair_official_n: 1578
+      full_pair_official_exceedances: 72
+      full_pair_loe_count: 60
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00948.shtml"
+      source_date_start: "2001-01-18"
+      source_date_end: "2019-03-06"
+      validation_status: "GAP"
+      source_date_comparable_n: 125
+      source_date_comparable_exceedances: 8
+      station_date_only_eligible_n: 382
+      station_date_only_eligible_exceedances: 9
+      post_cutoff_eligible_n: 23
+      post_cutoff_eligible_exceedances: 0
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Santa Barbara (SantaBarb)"
+        - "RWB3 Cooperative Monitoring Program"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Santa Barbara Rotation"
+        - "SWAMP Stream Pollution Trends"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "313SAB"
+        - "313SAB-San"
+        - "313SAC"
+        - "313SAC-San"
+        - "313SAE"
+        - "313SAI"
+        - "313SAI-San"
+      ceden_station_codes:
+        - "313SAB"
+        - "313SAC"
+        - "313SAE"
+        - "313SAI"
+      unmatched_station_identifiers: []
+      selected_loe_ids:
+        - "11413"
+        - "11449"
+        - "51646"
+        - "51645"
+        - "11537"
+        - "51684"
+        - "11553"
+        - "179158"
+        - "178249"
+        - "179608"
+        - "179573"
+        - "179908"
+        - "178363"
+        - "179477"
+        - "11451"
+        - "51685"
+        - "11415"
+        - "179121"
+        - "179616"
+        - "179519"
+        - "179535"
+        - "179571"
+        - "179572"
+        - "179581"
+        - "11450"
+        - "11414"
+        - "51681"
+        - "178746"
+        - "11552"
+        - "51666"
+    - pair_id: "r3-2024-86206-total-dissolved-solids"
+      waterbody_name: "Santa Rosa Creek (San Luis Obispo County)"
+      waterbody_id: "CAR3142001120020124143542"
+      category: "5"
+      decision_id: "86206"
+      pollutant: "Total Dissolved Solids"
+      criterion_text: "Central Coast Basin Plan waterbody specific objectives, Table 3.7, page III-2. The Waterbody Specific Objective is 500 mg/L"
+      criterion_signature: ["TDS", "500", "mg/L"]
+      selected_official_n: 34
+      selected_official_exceedances: 26
+      selected_loe_count: 2
+      full_pair_official_n: 34
+      full_pair_official_exceedances: 26
+      full_pair_loe_count: 2
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00959.shtml"
+      source_date_start: "2007-07-10"
+      source_date_end: "2010-06-22"
+      validation_status: "GAP"
+      source_date_comparable_n: 0
+      source_date_comparable_exceedances: 0
+      station_date_only_eligible_n: 34
+      station_date_only_eligible_exceedances: 26
+      post_cutoff_eligible_n: 15
+      post_cutoff_eligible_exceedances: 13
+      post_cutoff_pending_qa: 5
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "310SRO-Santa"
+        - "310SRU-Santa"
+      ceden_station_codes:
+        - "310SRO"
+        - "310SRU"
+      unmatched_station_identifiers: []
+      selected_loe_ids:
+        - "52256"
+        - "52255"
+    - pair_id: "r3-2024-110514-ph"
+      waterbody_name: "Jalama Creek"
+      waterbody_id: "CAR3151005119990304115034"
+      category: "5"
+      decision_id: "110514"
+      pollutant: "pH"
+      criterion_text: "The Water Quality Control Plan, Central Coast Basin objective for municipal and domestic supply (Section 3.3.2 Objectives for All Inland Surface Waters, Enclosed Bays, and Estuaries) states that the pH value shall neither be depressed below 6.5 nor raised above 8.3."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 438
+      selected_official_exceedances: 60
+      selected_loe_count: 12
+      full_pair_official_n: 730
+      full_pair_official_exceedances: 73
+      full_pair_loe_count: 20
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00989.shtml"
+      source_date_start: "2001-02-13"
+      source_date_end: "2019-03-13"
+      validation_status: "GAP"
+      source_date_comparable_n: 110
+      source_date_comparable_exceedances: 15
+      station_date_only_eligible_n: 284
+      station_date_only_eligible_exceedances: 18
+      post_cutoff_eligible_n: 19
+      post_cutoff_eligible_exceedances: 1
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "315JAL"
+        - "315JAL-Jalama"
+      ceden_station_codes:
+        - "315JAL"
+      unmatched_station_identifiers: []
+      selected_loe_ids:
+        - "178594"
+        - "12377"
+        - "50338"
+        - "12354"
+        - "12394"
+        - "12356"
+        - "50353"
+        - "12393"
+        - "50341"
+        - "12355"
+        - "178597"
+        - "177746"
+    - pair_id: "r3-2024-106938-ph"
+      waterbody_name: "Aptos Creek"
+      waterbody_id: "CAR3041302320020319065717"
+      category: "5"
+      decision_id: "106938"
+      pollutant: "pH"
+      criterion_text: "The Water Quality Control Plan, Central Coast Basin objective for water contact recreation uses (Section II.A.2. Objectives for All Inland Surface Waters, Enclosed Bays, and Estuaries, II.A.2.a) states the following: pH value shall neither be depressed below 6.5 nor raised above 8.3."
+      criterion_signature: ["pH", "6.5", "8.3"]
+      selected_official_n: 1269
+      selected_official_exceedances: 174
+      selected_loe_count: 36
+      full_pair_official_n: 2115
+      full_pair_official_exceedances: 221
+      full_pair_loe_count: 60
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00792.shtml"
+      source_date_start: "1998-06-11"
+      source_date_end: "2019-03-07"
+      validation_status: "GAP"
+      source_date_comparable_n: 238
+      source_date_comparable_exceedances: 84
+      station_date_only_eligible_n: 673
+      station_date_only_eligible_exceedances: 258
+      post_cutoff_eligible_n: 18
+      post_cutoff_eligible_exceedances: 0
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Pajaro (Pajaro)"
+        - "Coastal Watershed Council (Clean streams project) (R3_CLNStrm)"
+        - "Coastal Watershed Council (Snapshot day monitoring) (R3_Snap)"
+        - "MBNMS Snapshot Day"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Dissolved Oxygen Study"
+        - "SWAMP RWB3 CCAMP Pajaro and Santa Cruz Area"
+        - "Santa Cruz County Environmental Health Monitoring Program (R3_SCCEH)"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "304-APTOS-23"
+        - "304-APTOS-24"
+        - "304APS"
+        - "304APS-Aptos"
+        - "304APT"
+        - "304APT-Aptos"
+        - "304APT_SCC"
+      ceden_station_codes:
+        - "304-APTOS-23"
+        - "304APS"
+        - "304APT"
+      unmatched_station_identifiers:
+        - "304-APTOS-24"
+      selected_loe_ids:
+        - "10625"
+        - "18957"
+        - "19638"
+        - "10593"
+        - "18044"
+        - "49318"
+        - "177698"
+        - "178217"
+        - "177558"
+        - "178311"
+        - "177561"
+        - "177562"
+        - "178123"
+        - "177559"
+        - "177218"
+        - "177535"
+        - "178186"
+        - "177531"
+        - "177944"
+        - "177491"
+        - "177743"
+        - "10592"
+        - "18043"
+        - "49302"
+        - "19637"
+        - "18939"
+        - "10624"
+        - "10574"
+        - "19653"
+        - "10594"
+        - "18958"
+        - "49320"
+        - "18045"
+        - "10626"
+        - "10576"
+        - "10575"
+    - pair_id: "r3-2024-112832-oxygen-dissolved"
+      waterbody_name: "Old Salinas River"
+      waterbody_id: "CAR3091101020080611145518"
+      category: "5"
+      decision_id: "112832"
+      pollutant: "Oxygen, Dissolved"
+      criterion_text: "The dissolved oxygen concentration shall not be reduced below 7.0 mg/l at any time (Water Quality Control Plan, Central Coast Basin)."
+      criterion_signature: ["DO", "7.0", "mg/L"]
+      selected_official_n: 1064
+      selected_official_exceedances: 311
+      selected_loe_count: 16
+      full_pair_official_n: 2128
+      full_pair_official_exceedances: 409
+      full_pair_loe_count: 32
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/01910.shtml"
+      source_date_start: "1990-01-20"
+      source_date_end: "2019-05-22"
+      validation_status: "GAP"
+      source_date_comparable_n: 267
+      source_date_comparable_exceedances: 98
+      station_date_only_eligible_n: 370
+      station_date_only_eligible_exceedances: 147
+      post_cutoff_eligible_n: 35
+      post_cutoff_eligible_exceedances: 13
+      post_cutoff_pending_qa: 2
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "CCAMP Salinas (Salinas)"
+        - "CCWQP Northern Area Ag-Waiver Monitoring (R3_CMPNorth)"
+        - "National Estuarine Research Reserve Monitoring Program (R3_ESNERR)"
+        - "RWB3 Cooperative Monitoring Program"
+        - "RWB3 TMDL"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "SWAMP RWB3 CCAMP Coastal Lagoons"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "309OLD"
+        - "309OLD-Old"
+        - "309OSRMDW"
+        - "309OSRPRS"
+        - "309POT"
+      ceden_station_codes:
+        - "309OLD"
+        - "309POT"
+      unmatched_station_identifiers:
+        - "309OSRMDW"
+        - "309OSRPRS"
+      selected_loe_ids:
+        - "216312"
+        - "216264"
+        - "216309"
+        - "220870"
+        - "220869"
+        - "220868"
+        - "175311"
+        - "174744"
+        - "12800"
+        - "15273"
+        - "12855"
+        - "48743"
+        - "50890"
+        - "52871"
+        - "14590"
+        - "12819"
+    - pair_id: "r3-2024-109381-oxygen-dissolved"
+      waterbody_name: "Pismo Creek"
+      waterbody_id: "CAR3102601420020124125144"
+      category: "5"
+      decision_id: "109381"
+      pollutant: "Oxygen, Dissolved"
+      criterion_text: "The dissolved oxygen concentration shall not be reduced below 7.0 mg/l at any time (Water Quality Control Plan, Central Coast Basin)."
+      criterion_signature: ["DO", "7.0", "mg/L"]
+      selected_official_n: 311
+      selected_official_exceedances: 111
+      selected_loe_count: 5
+      full_pair_official_n: 521
+      full_pair_official_exceedances: 140
+      full_pair_loe_count: 9
+      fact_sheet_url: "https://www.waterboards.ca.gov/water_issues/programs/tmdl/2023_2024state_ir_reports/apx-b-factsheets/00930.shtml"
+      source_date_start: "2001-04-24"
+      source_date_end: "2019-03-06"
+      validation_status: "GAP"
+      source_date_comparable_n: 155
+      source_date_comparable_exceedances: 45
+      station_date_only_eligible_n: 370
+      station_date_only_eligible_exceedances: 207
+      post_cutoff_eligible_n: 18
+      post_cutoff_eligible_exceedances: 9
+      post_cutoff_pending_qa: 0
+      status: "VERIFY"
+      source_programs_and_datasets:
+        - "CCAMP Coastal Confluences (CC)"
+        - "CCAMP Diurnal Dissolved Oxygen Sampling (DO)"
+        - "SWAMP RWB3 CCAMP Coastal Confluences"
+        - "public submissions"
+      appendix_b1_station_identifiers:
+        - "310PIS"
+        - "310PIS-Pismo"
+      ceden_station_codes:
+        - "310PIS"
+      unmatched_station_identifiers: []
+      selected_loe_ids:
+        - "175640"
+        - "12586"
+        - "12537"
+        - "51008"
+        - "175804"
+
+qa_recalibration:
+  status: "VERIFY"
+  rule_version: "region9-calibrated-qa-v1"
+  same_rule_before_and_after_cutoff: true
+  calibration_pair_count: 5
+  pairs:
+  - pair_id: "r9-2026-111216-do"
+    pre_cutoff_eligible_n: 5
+    pre_cutoff_eligible_exceedances: 1
+    post_cutoff_eligible_n: 2
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-111713-ph"
+    pre_cutoff_eligible_n: 274
+    pre_cutoff_eligible_exceedances: 4
+    post_cutoff_eligible_n: 5
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-111826-ph"
+    pre_cutoff_eligible_n: 236
+    pre_cutoff_eligible_exceedances: 38
+    post_cutoff_eligible_n: 2
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 52
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-111896-do"
+    pre_cutoff_eligible_n: 1281
+    pre_cutoff_eligible_exceedances: 715
+    post_cutoff_eligible_n: 3
+    post_cutoff_eligible_exceedances: 3
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-111943-do"
+    pre_cutoff_eligible_n: 89
+    pre_cutoff_eligible_exceedances: 4
+    post_cutoff_eligible_n: 0
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-111953-do"
+    pre_cutoff_eligible_n: 339
+    pre_cutoff_eligible_exceedances: 98
+    post_cutoff_eligible_n: 13
+    post_cutoff_eligible_exceedances: 5
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-112079-do"
+    pre_cutoff_eligible_n: 192
+    pre_cutoff_eligible_exceedances: 82
+    post_cutoff_eligible_n: 0
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-112126-do"
+    pre_cutoff_eligible_n: 31
+    pre_cutoff_eligible_exceedances: 8
+    post_cutoff_eligible_n: 1
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-112165-do"
+    pre_cutoff_eligible_n: 16
+    pre_cutoff_eligible_exceedances: 11
+    post_cutoff_eligible_n: 0
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-112167-ph"
+    pre_cutoff_eligible_n: 82
+    pre_cutoff_eligible_exceedances: 4
+    post_cutoff_eligible_n: 0
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-113328-do"
+    pre_cutoff_eligible_n: 68
+    pre_cutoff_eligible_exceedances: 31
+    post_cutoff_eligible_n: 2
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-113981-do"
+    pre_cutoff_eligible_n: 40
+    pre_cutoff_eligible_exceedances: 24
+    post_cutoff_eligible_n: 0
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-114818-do"
+    pre_cutoff_eligible_n: 38
+    pre_cutoff_eligible_exceedances: 8
+    post_cutoff_eligible_n: 2
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-148304-do"
+    pre_cutoff_eligible_n: 64
+    pre_cutoff_eligible_exceedances: 12
+    post_cutoff_eligible_n: 2
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r9-2026-164236-nitrate"
+    pre_cutoff_eligible_n: 3
+    pre_cutoff_eligible_exceedances: 2
+    post_cutoff_eligible_n: 0
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r3-2024-107660-ph"
+    pre_cutoff_eligible_n: 425
+    pre_cutoff_eligible_exceedances: 8
+    post_cutoff_eligible_n: 24
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r3-2024-109064-oxygen-dissolved"
+    pre_cutoff_eligible_n: 2370
+    pre_cutoff_eligible_exceedances: 225
+    post_cutoff_eligible_n: 121
+    post_cutoff_eligible_exceedances: 12
+    post_cutoff_pending_qa: 0
+    screening_flag: "Delisting candidate"
+  - pair_id: "r3-2024-109438-ph"
+    pre_cutoff_eligible_n: 781
+    pre_cutoff_eligible_exceedances: 155
+    post_cutoff_eligible_n: 41
+    post_cutoff_eligible_exceedances: 4
+    post_cutoff_pending_qa: 0
+    screening_flag: "Delisting candidate"
+  - pair_id: "r3-2024-109309-ph"
+    pre_cutoff_eligible_n: 856
+    pre_cutoff_eligible_exceedances: 33
+    post_cutoff_eligible_n: 22
+    post_cutoff_eligible_exceedances: 1
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r3-2024-107997-ph"
+    pre_cutoff_eligible_n: 629
+    pre_cutoff_eligible_exceedances: 208
+    post_cutoff_eligible_n: 37
+    post_cutoff_eligible_exceedances: 8
+    post_cutoff_pending_qa: 0
+    screening_flag: "Still exceeding"
+  - pair_id: "r3-2024-107093-ph"
+    pre_cutoff_eligible_n: 1279
+    pre_cutoff_eligible_exceedances: 193
+    post_cutoff_eligible_n: 55
+    post_cutoff_eligible_exceedances: 3
+    post_cutoff_pending_qa: 1
+    screening_flag: "Delisting candidate"
+  - pair_id: "r3-2024-106511-oxygen-dissolved"
+    pre_cutoff_eligible_n: 968
+    pre_cutoff_eligible_exceedances: 74
+    post_cutoff_eligible_n: 19
+    post_cutoff_eligible_exceedances: 1
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r3-2024-110225-ph"
+    pre_cutoff_eligible_n: 723
+    pre_cutoff_eligible_exceedances: 58
+    post_cutoff_eligible_n: 46
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Delisting candidate"
+  - pair_id: "r3-2024-110132-ph"
+    pre_cutoff_eligible_n: 666
+    pre_cutoff_eligible_exceedances: 32
+    post_cutoff_eligible_n: 23
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r3-2024-86206-total-dissolved-solids"
+    pre_cutoff_eligible_n: 209
+    pre_cutoff_eligible_exceedances: 160
+    post_cutoff_eligible_n: 15
+    post_cutoff_eligible_exceedances: 13
+    post_cutoff_pending_qa: 5
+    screening_flag: "Under-sampled"
+  - pair_id: "r3-2024-110514-ph"
+    pre_cutoff_eligible_n: 320
+    pre_cutoff_eligible_exceedances: 19
+    post_cutoff_eligible_n: 19
+    post_cutoff_eligible_exceedances: 1
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r3-2024-106938-ph"
+    pre_cutoff_eligible_n: 714
+    pre_cutoff_eligible_exceedances: 258
+    post_cutoff_eligible_n: 18
+    post_cutoff_eligible_exceedances: 0
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"
+  - pair_id: "r3-2024-112832-oxygen-dissolved"
+    pre_cutoff_eligible_n: 487
+    pre_cutoff_eligible_exceedances: 192
+    post_cutoff_eligible_n: 35
+    post_cutoff_eligible_exceedances: 13
+    post_cutoff_pending_qa: 2
+    screening_flag: "Still exceeding"
+  - pair_id: "r3-2024-109381-oxygen-dissolved"
+    pre_cutoff_eligible_n: 414
+    pre_cutoff_eligible_exceedances: 227
+    post_cutoff_eligible_n: 18
+    post_cutoff_eligible_exceedances: 9
+    post_cutoff_pending_qa: 0
+    screening_flag: "Under-sampled"

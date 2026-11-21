@@ -1,0 +1,360 @@
+{
+  "status": "VERIFY",
+  "catalog": "California Open Data (data.ca.gov)",
+  "searches": [
+    {
+      "term": "sonde",
+      "result_count": 13,
+      "results": [
+        {
+          "name": "truckee-river-continuous-15-minute-water-quality-monitoring-collected-by-the-north-ce-1998-2025",
+          "title": "Truckee River Continuous (15 minute) Water Quality Monitoring: collected by the North Central Region Office, California Department of Water Resources, 1998-2025",
+          "url": "https://data.ca.gov/dataset/truckee-river-continuous-15-minute-water-quality-monitoring-collected-by-the-north-ce-1998-2025"
+        },
+        {
+          "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-south-delta-regi",
+          "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 minute) Water Quality Monitoring: South Delta Region, collected by the North Central Region Office, DWR, 1999 – ongoing",
+          "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-south-delta-regi"
+        },
+        {
+          "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-rock-s-2001-2025",
+          "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 minute) Water Quality Monitoring: Rock Slough, collected by the North Central Region Office, Department of Water Resources, 2001 – 2025",
+          "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-rock-s-2001-2025"
+        },
+        {
+          "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-yolo-b-2013-2025",
+          "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 minute) Water Quality Monitoring: Yolo Bypass, collected by the North Central Region Office, Department of Water Resources, 2013 – 2025",
+          "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-yolo-b-2013-2025"
+        },
+        {
+          "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-central-delta-re",
+          "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 minute) Water Quality Monitoring: Central Delta Region, collected by the North Central Region Office, Department of Water Resources, 2005 – ongoing.",
+          "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-central-delta-re"
+        },
+        {
+          "name": "mercury-imports-and-exports-of-four-tidal-wetlands-in-the-sacramento-valley-california",
+          "title": "Mercury Imports and Exports of Four Tidal Wetlands in the Sacramento Valley, California",
+          "url": "https://data.ca.gov/dataset/mercury-imports-and-exports-of-four-tidal-wetlands-in-the-sacramento-valley-california"
+        },
+        {
+          "name": "interagency-ecological-program-water-quality-fish-and-zooplankton-monitoring-and-modeling-to-su",
+          "title": "Interagency Ecological Program: Water quality, fish, and zooplankton monitoring and modeling to support the 2018 Suisun Marsh Salinity Control Gates Summer Action",
+          "url": "https://data.ca.gov/dataset/interagency-ecological-program-water-quality-fish-and-zooplankton-monitoring-and-modeling-to-su"
+        },
+        {
+          "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-data-c-2005-2025",
+          "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 Minute) water quality monitoring data collected by the Continuous Environmental Monitoring Program, DWR, 2005- 2025.",
+          "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-data-c-2005-2025"
+        },
+        {
+          "name": "i12-salinity-transects-southdelta",
+          "title": "i12 Salinity Transects SouthDelta",
+          "url": "https://data.ca.gov/dataset/i12-salinity-transects-southdelta"
+        },
+        {
+          "name": "2021-2022-west-false-river-emergency-drought-barrier-water-quality-flow-and-fish-monitoring1",
+          "title": "2021-2022 West False River Emergency Drought Barrier water quality, flow, and fish monitoring",
+          "url": "https://data.ca.gov/dataset/2021-2022-west-false-river-emergency-drought-barrier-water-quality-flow-and-fish-monitoring1"
+        },
+        {
+          "name": "interagency-ecological-program-monitoring-of-water-quality-phytoplankton-zooplankton-2018-2024",
+          "title": "Interagency Ecological Program: Monitoring of water quality, phytoplankton, zooplankton, clams, and Delta Smelt to support the Summer-Fall Suisun Marsh Salinity Control Gates Action 2018-2024",
+          "url": "https://data.ca.gov/dataset/interagency-ecological-program-monitoring-of-water-quality-phytoplankton-zooplankton-2018-2024"
+        },
+        {
+          "name": "interagency-ecological-program-data-for-synthesis-for-ecological-impacts-of-drought-i-1975-2021",
+          "title": "Interagency Ecological Program: Data for Synthesis for Ecological Impacts of Drought in the Upper San Francisco Estuary, 1975-2021",
+          "url": "https://data.ca.gov/dataset/interagency-ecological-program-data-for-synthesis-for-ecological-impacts-of-drought-i-1975-2021"
+        },
+        {
+          "name": "fish-restoration-program-tidal-wetland-restoration-continuous-monitoring-15-minute-in-upper-san",
+          "title": "Fish Restoration Program Tidal Wetland Restoration Continuous Monitoring (15-minute) in Upper San Francisco Estuary, 2019-ongoing",
+          "url": "https://data.ca.gov/dataset/fish-restoration-program-tidal-wetland-restoration-continuous-monitoring-15-minute-in-upper-san"
+        }
+      ]
+    },
+    {
+      "term": "continuous water quality",
+      "result_count": 360
+    },
+    {
+      "term": "continuous temperature logger",
+      "result_count": 8
+    },
+    {
+      "term": "sonde San Diego water quality",
+      "result_count": 14
+    },
+    {
+      "term": "Tijuana River temperature monitoring",
+      "result_count": 21
+    },
+    {
+      "term": "San Diego water quality sensor",
+      "result_count": 7
+    },
+    {
+      "term": "Los Penasquitos continuous water quality",
+      "result_count": 5
+    }
+  ],
+  "catalog_candidates": [
+    {
+      "name": "california-precipitation-data-federated",
+      "title": "California Precipitation Data (Federated)",
+      "url": "https://data.ca.gov/dataset/california-precipitation-data-federated",
+      "description": "This federated catalog entry enhances discovery of selected precipitation resources maintained by the California Data Exchange Center (CDEC) by describing and linking to them from the California Natural Resources Agency Open Data Platform. CDEC remains the authoritative source for these resources, and the underlying data, applications, and services continue to be hosted and maintained by CDEC. Data stewardship, quality control, update schedules, and authoritative publication remain with CDEC and"
+    },
+    {
+      "name": "continuous-groundwater-level-measurements",
+      "title": "Continuous Groundwater Level Measurements",
+      "url": "https://data.ca.gov/dataset/continuous-groundwater-level-measurements",
+      "description": "DWR continuous groundwater level measurements contains continuous time-series data from automated recorders at sites operated by the Department of Water Resources. Readings are taken at 15-minute to one-hour intervals. Some of the readings are relayed to the California Data Exchange Center. However, most of the monitoring sites are visited once every month or two, when readings are off-loaded from data recorders, then finalized and published. Wells monitored for this dataset are located within B"
+    },
+    {
+      "name": "drought-monitoring-on-south-central-california-coastal-watersheds-2022-2023",
+      "title": "Drought Monitoring on South-Central California Coastal Watersheds - 2022-2023",
+      "url": "https://data.ca.gov/dataset/drought-monitoring-on-south-central-california-coastal-watersheds-2022-2023",
+      "description": "Watersheds included within 2022-2023 South-Central California coast drought monitoring efforts are Chorro, San Luis Obispo, San Simeon, and Santa Rosa Creeks, as well as the Big Sur River. Continuous water temperature data were collected from multiple stream reaches per watershed using Hobo Tidbit loggers. Discharge (cfs) and instantaneous water temperature and dissolved oxygen concentration were collected weekly at most montiored wateresheds using a Hach 950 flow meter and YSI handheld meter. A"
+    },
+    {
+      "name": "dwr-airborne-electromagnetic-aem-surveys-data",
+      "title": "DWR Airborne Electromagnetic (AEM) Surveys Data",
+      "url": "https://data.ca.gov/dataset/dwr-airborne-electromagnetic-aem-surveys-data",
+      "description": "*Back to [Basin Characterization Program webpage](https://data.cnra.ca.gov/dataset/dwr-basin-characterization \"Basin Characterization Program webpage\")* #Statewide AEM Surveys Project Overview The Department of Water Resources’ (DWR’s) Statewide Airborne Electromagnetic (AEM) Surveys Project is funded through California’s Proposition 68 and the General Fund. The goal of the project is to improve the understanding of groundwater aquifer structure to support the state and local goal of sustainable"
+    },
+    {
+      "name": "dwr-continuous-data-download-links",
+      "title": "DWR Continuous Data Download Links",
+      "url": "https://data.ca.gov/dataset/dwr-continuous-data-download-links",
+      "description": "Stations and a table of download links for time-series data, from DWR's continuous environmental monitoring database. For more information, see DWR's Water Data Library, continuous data section: https://wdl.water.ca.gov/ContinuousData.aspx, where this data is also available."
+    },
+    {
+      "name": "fish-restoration-program-tidal-wetland-restoration-continuous-monitoring-15-minute-in-upper-san",
+      "title": "Fish Restoration Program Tidal Wetland Restoration Continuous Monitoring (15-minute) in Upper San Francisco Estuary, 2019-ongoing",
+      "url": "https://data.ca.gov/dataset/fish-restoration-program-tidal-wetland-restoration-continuous-monitoring-15-minute-in-upper-san",
+      "description": "The DWR Fish Restoration Program (FRP) Continuous Water Quality Monitoring Team tracks the interior water quality of FRP tidal habitat restoration sites. This dataset captures 15-minute interval data at 13 monitoring stations, utilizing YSI EXO sondes to record water quality measurements. This dataset will be updated annually. Within the interior of each FRP restoration site, there is at least one multi-parameter water quality instrument collecting regular 15-minute data. The suite of environmen"
+    },
+    {
+      "name": "i08-stations-monitoring-continuous-hydstra",
+      "title": "i08 Stations Monitoring Continuous Hydstra",
+      "url": "https://data.ca.gov/dataset/i08-stations-monitoring-continuous-hydstra",
+      "description": "<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a point feature class of environmental monitoring stations maintained in the California Department of Water Resources’ (hereafter the Department) Hydstra continuous database management system used for collection of high frequency continuous timeseries data for groundwater, surface water, water quality and tidal statio"
+    },
+    {
+      "name": "i08-stations-monitoring-continuous-hydstra-period",
+      "title": "i08 Stations Monitoring Continuous Hydstra Period",
+      "url": "https://data.ca.gov/dataset/i08-stations-monitoring-continuous-hydstra-period",
+      "description": "<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a point feature class of environmental monitoring stations maintained in the California Department of Water Resources’ (hereafter the Department) Hydstra continuous database management system used for collection of high frequency continuous timeseries data for groundwater, surface water, water quality and tidal statio"
+    },
+    {
+      "name": "i08-stations-monitoring-continuous-hydstra-por",
+      "title": "i08 Stations Monitoring Continuous Hydstra POR",
+      "url": "https://data.ca.gov/dataset/i08-stations-monitoring-continuous-hydstra-por",
+      "description": "<span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a point feature class of environmental monitoring stations maintained in the California Department of Water Resources’ (hereafter the Department) Hydstra continuous database management system used for collection of high frequency continuous timeseries data for groundwater, surface water, water quality and tidal statio"
+    },
+    {
+      "name": "i12-salinity-transects-southdelta",
+      "title": "i12 Salinity Transects SouthDelta",
+      "url": "https://data.ca.gov/dataset/i12-salinity-transects-southdelta",
+      "description": "<div style='text-align:Left;'><p><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'>This is a point feature class of high-frequency specific conductance and water temperature measurements at specific points in the South Delta. Specific conductance data was collected for the Department’s involvement in the South Delta Salinity Monitoring Special Study required by the State Wat"
+    },
+    {
+      "name": "interagency-ecological-program-data-for-synthesis-for-ecological-impacts-of-drought-i-1975-2021",
+      "title": "Interagency Ecological Program: Data for Synthesis for Ecological Impacts of Drought in the Upper San Francisco Estuary, 1975-2021",
+      "url": "https://data.ca.gov/dataset/interagency-ecological-program-data-for-synthesis-for-ecological-impacts-of-drought-i-1975-2021",
+      "description": "These data were collected for the special issue on Drought in the Sacramento-San Joaquin Delta published in San Francisco Estuary and Watershed Sciences, Volume 22, Issue 1, March of 2024. Multi-year droughts are important and impactful features of California’s Mediterranean climate and can fundamentally affect the water quality and the ecosystem response of the San Francisco Estuary and the Sacramento-San Joaquin Delta. This data set was assembled from data collected by long-term monitoring pro"
+    },
+    {
+      "name": "interagency-ecological-program-water-quality-fish-and-zooplankton-monitoring-and-modeling-to-su",
+      "title": "Interagency Ecological Program: Water quality, fish, and zooplankton monitoring and modeling to support the 2018 Suisun Marsh Salinity Control Gates Summer Action",
+      "url": "https://data.ca.gov/dataset/interagency-ecological-program-water-quality-fish-and-zooplankton-monitoring-and-modeling-to-su",
+      "description": "In summer 2018 we used a unique water control structure in the San Francisco Estuary (SFE) to direct a managed flow pulse into Suisun Marsh, one of the largest contiguous tidal marshes on the west coast of the United States. The action was designed to increase habitat suitability for the endangered Delta Smelt Hypomesus transpacificus, a small osmerid fish endemic to the upper SFE. The approach was to operate the Suisun Marsh Salinity Control Gates (SMSCG) in conjunction with increased Sacrament"
+    },
+    {
+      "name": "los-angeles-river-restoration-and-access-llarra-temperature-analysis-lower-los-angele-2024-2025",
+      "title": "Los Angeles River Restoration and Access (LLARRA) Temperature Analysis - Lower Los Angeles River - 2024-2025",
+      "url": "https://data.ca.gov/dataset/los-angeles-river-restoration-and-access-llarra-temperature-analysis-lower-los-angele-2024-2025",
+      "description": "WCB Grant 2023114: Lower Los Angeles River Restoration and Access: Data includes one (1) year of temperature analysis to inform the design and serve as a baseline for restoration efforts. Two (2) sampling locations (Imperial Hwy. and Del Amo Blvd.) with direct measurement of water temperatures recorded from submerged data loggers over that time period. Data collected from two (2) locations over the course of one (1) year to capture seasonal temperature variation in the lower Los Angeles River. D"
+    },
+    {
+      "name": "mercury-imports-and-exports-of-four-tidal-wetlands-in-the-sacramento-valley-california",
+      "title": "Mercury Imports and Exports of Four Tidal Wetlands in the Sacramento Valley, California",
+      "url": "https://data.ca.gov/dataset/mercury-imports-and-exports-of-four-tidal-wetlands-in-the-sacramento-valley-california",
+      "description": "The California Department of Water Resources (DWR) measured import and export loads of methylmercury (MeHg) and total mercury (THg) at four tidal wetlands in the Sacramento Valley of California to comply with the Central Valley Regional Water Quality Control Board’s Delta Methylmercury Total Maximum Daily Load (TMDL). In addition to mercury, DWR collected organic carbon, total suspended sediment, chlorophyll-a, temperature, dissolved oxygen, specific conductance, turbidity, total chlorophyll, ve"
+    },
+    {
+      "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-data-c-2005-2025",
+      "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 Minute) water quality monitoring data collected by the Continuous Environmental Monitoring Program, DWR, 2005- 2025.",
+      "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-data-c-2005-2025",
+      "description": "The Continuous Environmental Monitoring Program (CEMP) plays an instrumental role in overseeing real-time water quality in the Sacramento-San Joaquin Delta (the Delta) and Suisun Bay. The program harnesses wireless telemetry to transmit crucial data to the California Data Exchange Center (CDEC), making high-resolution environmental data pertaining to the Delta and Suisun Bay publicly accessible. The extensive dataset captures information at 15-minute intervals from 15 monitoring stations, utiliz"
+    },
+    {
+      "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-central-delta-re",
+      "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 minute) Water Quality Monitoring: Central Delta Region, collected by the North Central Region Office, Department of Water Resources, 2005 – ongoing.",
+      "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-central-delta-re",
+      "description": "The Department of Water Resources (DWR) Water Quality Evaluation Section (WQES) provides technical expertise and program support for regulatory compliance, water operations, emergency response, and environmental restoration. Wireless telemetry is used to transmit real-time data to the California Data Exchange Center (CDEC), making the data publicly available. The dataset contains 15-minute interval measurements collected from 12 monitoring stations using Xylem Yellow Springs Instruments (YSI) EX"
+    },
+    {
+      "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-rock-s-2001-2025",
+      "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 minute) Water Quality Monitoring: Rock Slough, collected by the North Central Region Office, Department of Water Resources, 2001 – 2025",
+      "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-rock-s-2001-2025",
+      "description": "The Department of Water Resources (DWR) Water Quality Evaluation Section (WQES) provides technical expertise and program support for regulatory compliance, water operations, emergency response, and environmental restoration. The dataset details information at 15-minute intervals from 4 monitoring stations, using Xylem’s Yellow Spring's Instrument's (YSI) EXO2 and 6600 multiparameter sondes to document individual water quality measurements of multiple parameters. The data set consists of water qu"
+    },
+    {
+      "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-south-delta-regi",
+      "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 minute) Water Quality Monitoring: South Delta Region, collected by the North Central Region Office, DWR, 1999 – ongoing",
+      "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-south-delta-regi",
+      "description": "The Department of Water Resources (DWR) Water Quality Evaluation Section (WQES) provides technical expertise and program support for regulatory compliance, water operations, emergency response, and environmental restoration. Wireless telemetry is used to transmit real-time provisional data to the California Data Exchange Center (CDEC), making the data publicly available. The published dataset is quality controlled and quality assured providing detailed information at 15-minute intervals from 18 "
+    },
+    {
+      "name": "sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-yolo-b-2013-2025",
+      "title": "Sacramento-San Joaquin Bay-Delta Continuous (15 minute) Water Quality Monitoring: Yolo Bypass, collected by the North Central Region Office, Department of Water Resources, 2013 – 2025",
+      "url": "https://data.ca.gov/dataset/sacramento-san-joaquin-bay-delta-continuous-15-minute-water-quality-monitoring-yolo-b-2013-2025",
+      "description": "The Department of Water Resources (DWR) Water Quality Evaluation Section (WQES) provides technical expertise and program support for regulatory compliance, water operations, emergency response, and environmental restoration. Wireless telemetry is used to transmit real-time data to the California Data Exchange Center (CDEC), making the data publicly available. The dataset details information at 15-minute intervals from 7 monitoring stations, using Xylem’s Yellow Spring’s Instrument’s (YSI) EXO2 a"
+    },
+    {
+      "name": "surface-and-bottom-hourly-water-temperature-from-the-san-francisco-estuary-2012-2019",
+      "title": "Surface and bottom hourly water temperature from the San Francisco Estuary, 2012-2019",
+      "url": "https://data.ca.gov/dataset/surface-and-bottom-hourly-water-temperature-from-the-san-francisco-estuary-2012-2019",
+      "description": "Projected temperature increases due to global climate change are likely to have localized impacts on the San Francisco Estuary (SFE). Increased water temperature in the SFE will lead to challenges for managing water resources. Many native species, such as salmon and smelt, rely on cooler water, and will be further stressed by increased water temperature, which may cause them to seek microrefugia. While several state and federal agencies in the SFE collect real-time water temperature data, most o"
+    },
+    {
+      "name": "truckee-river-continuous-15-minute-water-quality-monitoring-collected-by-the-north-ce-1998-2025",
+      "title": "Truckee River Continuous (15 minute) Water Quality Monitoring: collected by the North Central Region Office, California Department of Water Resources, 1998-2025",
+      "url": "https://data.ca.gov/dataset/truckee-river-continuous-15-minute-water-quality-monitoring-collected-by-the-north-ce-1998-2025",
+      "description": "The California Department of Water Resources (DWR) Water Quality Evaluation Section (WQES) provides technical expertise and program support for regulatory compliance, water operations, emergency response, and environmental restoration. The dataset details information at 15-minute intervals from 4 monitoring stations, using Xylem’s Yellow Spring's Instrument's (YSI) EXO2 and 6600 multiparameter sondes to document individual water quality measurements of multiple parameters. The dataset also detai"
+    },
+    {
+      "name": "upper-mattole-river-regional-cannabis-pilot-project-hydrology-dissolved-oxygen-and-temperature",
+      "title": "Upper Mattole River Regional Cannabis Pilot Project - Hydrology, Dissolved Oxygen, and Temperature",
+      "url": "https://data.ca.gov/dataset/upper-mattole-river-regional-cannabis-pilot-project-hydrology-dissolved-oxygen-and-temperature",
+      "description": "Data collected includes pressure and temperature readings logged by a pressure tranducer. The pressure data is converted to stage data. Stream low data is collected to develop a stage-discarge rating curve. This rating curve is then used to estimate flow from. Dissvoled oxygen is collected from loggers. Flow, termperature and dissolved xoygen are realted to habitat requiremetns of threatened and endangered salmonids. This data and metadata were submitted by California Department of Fish and Wild"
+    },
+    {
+      "name": "water-quality-data",
+      "title": "Water Quality Data",
+      "url": "https://data.ca.gov/dataset/water-quality-data",
+      "description": "The California Department of Water Resources (DWR) discrete (vs. continuous) water quality datasets contains DWR-collected, current and historical, chemical and physical parameters found in routine environmental, regulatory compliance monitoring, and special studies throughout the state."
+    },
+    {
+      "name": "water-temperature-measurements-van-damme-state-park-1992-2025",
+      "title": "Water Temperature Measurements - Van Damme State Park - 1992-2025",
+      "url": "https://data.ca.gov/dataset/water-temperature-measurements-van-damme-state-park-1992-2025",
+      "description": "Instantaneous temperatures (C) at intervals ranging from 5 to 60 minutes obtained with HOBOtemp data loggers (Onset Computer Corp.) at 10m depth for May 1992 through August 2025 (missing August, 2018 to August, 2019). This data and metadata were submitted by California Department of Fish and Wildlife (CDFW) Staff though the Data Management Plan (DMP) framework with the id: DMP000075. For more information, please visit https://wildlife.ca.gov/Data/Sci-Data."
+    }
+  ],
+  "dwr_hydstra_station_check": {
+    "catalog_package": "https://data.ca.gov/dataset/dwr-continuous-data-download-links",
+    "station_layer_url": "https://utility.arcgis.com/usrsvcs/servers/a647cba3a7554c48ac3e3472cd3861b2/rest/services/Geoscientific/i08_Stations_Monitoring_Continuous_Hydstra_Period/MapServer/0",
+    "period_of_record_layer_url": "https://utility.arcgis.com/usrsvcs/servers/a647cba3a7554c48ac3e3472cd3861b2/rest/services/Geoscientific/i08_Stations_Monitoring_Continuous_Hydstra_Period/MapServer/1",
+    "san_diego_county_station_count": 5,
+    "san_diego_county_stations": [
+      {
+        "station_name": "BWD-01B/MW-6D Deep",
+        "station_number": "10S06E08A002S",
+        "station_short_name": "BWD-01B/MW-6D",
+        "cdec_id": null,
+        "station_type": "Groundwater",
+        "County": "San Diego"
+      },
+      {
+        "station_name": "BWD-01A/MW-6S Shallow",
+        "station_number": "10S06E08A003S",
+        "station_short_name": "BWD-01A/MW-6S",
+        "cdec_id": null,
+        "station_type": "Groundwater",
+        "County": "San Diego"
+      },
+      {
+        "station_name": "Ramona Municipal Water District Well #15",
+        "station_number": "13S01E10J005S",
+        "station_short_name": "RMWD Well #15",
+        "cdec_id": null,
+        "station_type": "Groundwater",
+        "County": "San Diego"
+      },
+      {
+        "station_name": "SDC Parks & Rec Well 21",
+        "station_number": "13S01E18D002S",
+        "station_short_name": "SDC Well 21",
+        "cdec_id": null,
+        "station_type": "Groundwater",
+        "County": "San Diego"
+      },
+      {
+        "station_name": "San Luis Rey R A Pauma Valley",
+        "station_number": "X31050",
+        "station_short_name": "PAU SRO",
+        "cdec_id": "PAU",
+        "station_type": "Surface Water",
+        "County": "San Diego"
+      }
+    ],
+    "pauma_valley_station_period_records": 0,
+    "disposition": "The one San Diego County surface-water station is San Luis Rey River at Pauma Valley (station X31050, CDEC PAU), upstream of the selected Lower San Luis Rey listing segment and not a station code cited in its Appendix B1 LOEs; the period-of-record layer returned no record for X31050. No DO/pH/temperature measurement series was linked to the selected LOE codes."
+  },
+  "regional_candidate_sources": [
+    {
+      "name": "los-angeles-river-restoration-and-access-llarra-temperature-analysis-lower-los-angele-2024-2025",
+      "title": "Los Angeles River Restoration and Access (LLARRA) Temperature Analysis - Lower Los Angeles River - 2024-2025",
+      "url": "https://data.ca.gov/dataset/los-angeles-river-restoration-and-access-llarra-temperature-analysis-lower-los-angele-2024-2025",
+      "description": "WCB Grant 2023114: Lower Los Angeles River Restoration and Access: Data includes one (1) year of temperature analysis to inform the design and serve as a baseline for restoration efforts. Two (2) sampling locations (Imperial Hwy. and Del Amo Blvd.) with direct measurement of water temperatures recorded from submerged data loggers over that time period. Data collected from two (2) locations over the course of one (1) year to capture seasonal temperature variation in the lower Los Angeles River. Data was collected from TidbiT data loggers that were kept submerged in the low-flow channel; both Imperial and Del Amo have bridge piers located in the middle of the low-flow channel, which makes year-round submersion of the temperature sensors possible. Data was collected in support of restoration efforts in the lower Los Angeles River, specifically the Lower Los Angeles River Restoration and Access (LLARRA) project. The project is in the planning and design phase (9/2025) and the collected data will serve to both guide restoration priorities going forward and serve as a baseline for projected beneficial outcomes of the project. The LLARRA project area is located between Paramount and Compton, roughly equidistant from the Imperial and Del Amo sampling locations. Those locations were selected for sampling due to mid-stream bridge piers that allowed sampling and measurement in relatively safe locations over the course of the work. Temperatures fluctuated seasonally, as expected, with colder temps dipping below 10 degrees C in the winter months, and reaching as high as 30 degrees C during the height of summer. These parameters provide a clear but challenging matrix for restoration priorities. This data and metadata were submitted by California Department of Fish and Wildlife (CDFW) Staff though the Data Management Plan (DMP) framework with the id: DMP000718. For more information, please visit https://wildlife.ca.gov/Data/Sci-Data.",
+      "resources": [
+        {
+          "id": "b3b6aead-961b-47a3-90c7-54e8488266fa",
+          "name": "CDFW DMP Metadata Worksheet - Temp LO 20250919",
+          "format": "XLS",
+          "url": "https://data.cnra.ca.gov/dataset/e9c302aa-d0aa-4e58-859d-3f8f10e417ad/resource/1afd734b-8167-4c51-9c8e-a4935d2d59d0/download/cdfw-dmp-metadata-worksheet-temp_lo_20250919.xlsx"
+        },
+        {
+          "id": "79f28666-5b7a-4742-9061-e12bae77b5cd",
+          "name": "LLARRA Temperature",
+          "format": "ZIP",
+          "url": "https://data.cnra.ca.gov/dataset/e9c302aa-d0aa-4e58-859d-3f8f10e417ad/resource/bd0b634c-f319-4ae1-a7da-ed5b1b0b3202/download/llarra_temp_gdb.zip"
+        }
+      ]
+    },
+    {
+      "name": "los-angeles-river-restoration-and-access-llarra-water-quality-analysis-lower-los-ange-2024-2025",
+      "title": "Los Angeles River Restoration and Access (LLARRA) Water Quality Analysis - Lower Los Angeles River - 2024-2025",
+      "url": "https://data.ca.gov/dataset/los-angeles-river-restoration-and-access-llarra-water-quality-analysis-lower-los-ange-2024-2025",
+      "description": "WCB Grant 2023114: Lower Los Angeles River Restoration and Access: Data includes one (1) year of water quality analysis to inform the design and serve as a baseline for restoration efforts. Two (2) sampling locations (Imperial Hwy. and Del Amo Blvd.) with both laboratory and field analysis for relevant WQ constituents. Data collected from two (2) locations over the course of one year to characterize both organic and inorganic indicators of water quality in the lower Los Angeles River. Data includes analytes targeted by laboratory analysis (sulfate, chloride, metals, etc.) and field measurement where appropriate (Temperature, pH, Electrical conductivity, Dissolved Oxygen, etc.) This data and metadata were submitted by California Department of Fish and Wildlife (CDFW) Staff though the Data Management Plan (DMP) framework with the id: DMP000719. For more information, please visit https://wildlife.ca.gov/Data/Sci-Data.",
+      "resources": [
+        {
+          "id": "32dd0350-27f5-4b1b-ad5a-40c8a3455398",
+          "name": "CDFW DMP Metadata Worksheet - WQ LO",
+          "format": "XLS",
+          "url": "https://data.cnra.ca.gov/dataset/b5af270a-80c5-4955-bebd-b893ea16bd11/resource/309049f8-e761-42d3-b979-8310f04b0b07/download/cdfw-dmp-metadata-worksheet-wq_lo_20250919.xlsx"
+        },
+        {
+          "id": "aded1349-7e57-4688-8040-53d0600ef5e2",
+          "name": "LLARRA Water Quality",
+          "format": "ZIP",
+          "url": "https://data.cnra.ca.gov/dataset/b5af270a-80c5-4955-bebd-b893ea16bd11/resource/c4c0a0af-380c-4310-957d-40b305f4f57e/download/llarra_wq_gdb.zip"
+        }
+      ]
+    },
+    {
+      "name": "drought-monitoring-on-south-central-california-coastal-watersheds-2022-2023",
+      "title": "Drought Monitoring on South-Central California Coastal Watersheds - 2022-2023",
+      "url": "https://data.ca.gov/dataset/drought-monitoring-on-south-central-california-coastal-watersheds-2022-2023",
+      "description": "Watersheds included within 2022-2023 South-Central California coast drought monitoring efforts are Chorro, San Luis Obispo, San Simeon, and Santa Rosa Creeks, as well as the Big Sur River. Continuous water temperature data were collected from multiple stream reaches per watershed using Hobo Tidbit loggers. Discharge (cfs) and instantaneous water temperature and dissolved oxygen concentration were collected weekly at most montiored wateresheds using a Hach 950 flow meter and YSI handheld meter. At San Simeon Creek, water quality (dissolved oxygen, temperature, salinity) profiles were taken in the estuary. Ocean connectivity was assessd visually at most watersheds on a weekly basis. The longitudinal extent of wetted channel (wet-dry mapping) was assessed using Survey123 at each stream at several points throughout 2022 and the results were imported into ArcGIS. Steelhead stranding events ansd mortalities were assessed and the number of individuals impacted were recorded. This data and metadata were submitted by California Department of Fish and Wildlife (CDFW) Staff though the Data Management Plan (DMP) framework with the id: DMP000541. For more information, please visit https://wildlife.ca.gov/Data/Sci-Data.",
+      "resources": [
+        {
+          "id": "9a3d906d-00a2-4ae2-b3d1-def4396eef46",
+          "name": "CDFW Metadata Worksheet - 2022-23 South-Central CA Drought Monitoring.xlsx",
+          "format": "XLSX",
+          "url": "https://data.cnra.ca.gov/dataset/35350986-d3d8-4c2e-bbe4-94c359c65157/resource/9bd7c92c-26c8-4a8f-b641-dee956f2e0b5/download/cdfw-metadata-worksheet-2022-23-south-central-ca-drought-monitoring.xlsx"
+        },
+        {
+          "id": "6c57afd6-c5a2-43ef-90a6-cf0805b2a11e",
+          "name": "2022-23_Drought_Data.zip",
+          "format": "ZIP",
+          "url": "https://data.cnra.ca.gov/dataset/35350986-d3d8-4c2e-bbe4-94c359c65157/resource/74bc4466-12cf-4ffb-b9cb-fd88a129b688/download/2022-23_drought_data.zip"
+        }
+      ]
+    }
+  ],
+  "disposition": "Not merged into NextCycle counts. The 15-minute sonde/continuous candidates are primarily the Truckee River, Sacramento–San Joaquin Delta/Suisun Marsh, San Francisco Estuary, Van Damme coast, and Upper Mattole; LLARRA covers Imperial Highway and Del Amo Boulevard on the Lower Los Angeles River (Region 4) during 2024–2025; the drought-monitoring package covers Chorro, San Luis Obispo, San Simeon, Santa Rosa Creeks and Big Sur. The sole San Diego County surface-water station in the DWR Hydstra station layer is upstream at Pauma Valley and lacks a selected LOE code or period record. No candidate matched the selected Region 9 Appendix B1 station-code/source evidence."
+}

@@ -1,0 +1,717 @@
+{
+  "language": "Idioma",
+  "english": "English",
+  "spanish": "Español",
+  "home": "Inicio",
+  "watch": "Aguas en seguimiento",
+  "map": "Mapa",
+  "gaps": "Faltan datos",
+  "method": "Método",
+  "utilities": "Para servicios públicos",
+  "about": "Acerca de",
+  "updates": "Actualizaciones",
+  "api": "API",
+  "showcase": "Resumen",
+  "findTitle": "Encuentre aguas cercanas",
+  "findHint": "Busque por cuerpo de agua, condado, ciudad o código postal. La búsqueda permanece en este navegador.",
+  "findPlaceholder": "Pruebe un cuerpo de agua, ciudad, condado o código postal",
+  "findButton": "Buscar",
+  "geoButton": "Usar mi ubicación",
+  "geoPrivacy": "Su ubicación se usa solo en este navegador para encontrar las cinco aguas incluidas más cercanas. No se envía ni se guarda.",
+  "geoDenied": "No se compartió la ubicación. Aún puede buscar por nombre, condado, ciudad o código postal.",
+  "geoUnsupported": "Este navegador no ofrece ubicación.",
+  "geoFailed": "No se pudo determinar su ubicación. Intente de nuevo o busque por lugar.",
+  "nearest": "Aguas incluidas más cercanas",
+  "distance": "a {distance} mi",
+  "noMatches": "No hay coincidencias en el índice de lugares disponible.",
+  "coverageNote": "Las coincidencias de ciudades y códigos postales son intersecciones candidatas con áreas del Censo y aún requieren revisión. La coincidencia postal usa ZCTA, no límites del USPS. Si no está disponible, la búsqueda solo coincide con nombres de aguas y condados.",
+  "calculatorTitle": "Pruebe un escenario de muestreo",
+  "calculatorIntro": "Explore cómo muestras adicionales podrían cambiar una estimación de evaluación. No es una decisión oficial.",
+  "additionalSamples": "Muestras adicionales (k)",
+  "additionalExceedances": "Excedencias entre esas muestras (m)",
+  "scenarioResult": "Resultado del escenario",
+  "scenarioUnsupported": "Este par está fuera de la cobertura verificada de las tablas; no se muestra una estimación.",
+  "scenarioNotListed": "Este par no está incluido actualmente; las tablas de eliminación no aplican.",
+  "scenarioDisclaimer": "Estimación de evaluación, no una determinación.",
+  "cleanSamples": "Mínimo de muestras adicionales sin excedencias",
+  "source": "Fuente oficial",
+  "coverage": "Cobertura de tablas",
+  "embed": "Insertar este resultado",
+  "copyEmbed": "Copiar código de inserción",
+  "copied": "Copiado al portapapeles",
+  "print": "Imprimir resumen de una página",
+  "community": "Contexto comunitario",
+  "tribalUnknown": "La intersección con tierras tribales no está verificada para esta agua.",
+  "tribalVerified": "La información de intersección con tierras tribales está verificada en los datos fuente proporcionados.",
+  "feedback": "Compartir comentarios",
+  "useful": "Esto fue útil",
+  "notUseful": "Esto no fue útil",
+  "emailFeedback": "Enviar comentarios por correo",
+  "issue": "Sugerir una corrección",
+  "repoUnavailable": "No hay enlace para reportar una corrección porque no se configuró un repositorio.",
+  "updatesTitle": "Qué cambió y cuándo",
+  "updatesIntro": "Las actualizaciones solo se comparan cuando hay instantáneas disponibles. Sin una referencia anterior, no se afirma ningún cambio.",
+  "noHistory": "Aún no hay historial de actualizaciones.",
+  "apiTitle": "API de datos abiertos",
+  "apiIntro": "Archivos estáticos y versionados para reutilizar. Las solicitudes usan la ruta base configurada del sitio.",
+  "fetchExample": "Ejemplo de solicitud",
+  "showcaseTitle": "Una vista más clara entre ciclos oficiales",
+  "showcaseProblem": "El monitoreo público llega continuamente. Las decisiones oficiales sobre aguas deterioradas siguen un ciclo más lento.",
+  "showcaseExplanation": "NextCycle presenta observaciones públicas recientes junto a las listas oficiales. Los conteos y vínculos de origen son preliminares hasta que una persona los revise; no es una determinación regulatoria.",
+  "findWaters": "Buscar aguas",
+  "fullDetail": "Abrir detalles completos",
+  "sampleDisclaimer": "Datos ilustrativos de ejemplo; no son una evaluación real.",
+  "provisionalDisclaimer": "Datos públicos reales. Evaluación preliminar, aún no revisada. No es una determinación regulatoria.",
+  "screenDisclaimer": "Estimación de evaluación, no una decisión oficial sobre aguas deterioradas.",
+  "statusIllustrative": "Ilustrativo",
+  "statusProvisional": "Preliminar",
+  "statusReviewed": "Revisado",
+  "pageSummary": "NextCycle ayuda a las comunidades de California a entender en lenguaje claro la evidencia reciente de monitoreo del agua antes de la próxima lista oficial de aguas deterioradas.",
+  "heroEyebrow": "La evidencia es pública. El calendario, no.",
+  "heroTitle": "Qué puede decir el monitoreo reciente sobre las aguas incluidas en California.",
+  "heroBody": "California actualiza su lista de aguas deterioradas cada pocos años; las muestras posteriores al corte esperan el próximo ciclo. NextCycle presenta resultados públicos recientes en una evaluación preliminar; la calidad, los vínculos de estaciones y las decisiones de política aún necesitan revisión humana.",
+  "exploreMap": "Explorar el mapa",
+  "seeWaters": "Ver todas las aguas",
+  "screeningOutcomes": "Resultados de evaluación",
+  "whyMatters": "Por qué importa",
+  "headStart": "Anticiparse a lo que viene.",
+  "utilitiesWhy": "Identifique antes posibles cambios de permisos, costos de carga diaria máxima total y presupuestos de monitoreo.",
+  "communitiesWhy": "Conozca la evidencia reciente sin esperar la próxima lista oficial.",
+  "regulatorsWhy": "Encuentre los lugares donde más muestras podrían aclarar la situación.",
+  "howItWorks": "Cómo funciona",
+  "simpleOpenScreen": "Una evaluación sencilla y abierta.",
+  "first": "Primero",
+  "next": "Después",
+  "then": "Luego",
+  "officialListStart": "Partir de la lista oficial",
+  "officialListBody": "Usar los pares de agua y contaminante ya evaluados por el estado.",
+  "newerResults": "Añadir resultados públicos recientes",
+  "newerResultsBody": "Incluir monitoreo posterior a la fecha de corte oficial.",
+  "countRules": "Aplicar las reglas de conteo estatales",
+  "countRulesBody": "Usar las mismas pruebas de muestras y excedencias del estado.",
+  "officialList": "Lista oficial",
+  "nextCycleData": "Datos de NextCycle",
+  "expected": "previsto",
+  "latestRefresh": "Última actualización",
+  "noComparableBaseline": "Aún no hay una referencia comparable.",
+  "changedPairs": "pares nuevos o con cambios.",
+  "mapIntro": "Aguas incluidas en {region}, coloreadas según el resultado de evaluación.",
+  "legend": "Leyenda",
+  "stations": "Estaciones de monitoreo",
+  "dacToggle": "Resaltar comunidades desfavorecidas",
+  "dacHint": "Halo para pares con percentil CalEnviroScreen 75 o superior",
+  "stationCount": "{count} estaciones vinculadas a aguas incluidas",
+  "tribalToggle": "Tierras tribales",
+  "tribalHint": "Capa opcional de límites del GeoJSON proporcionado",
+  "tribalBoundary": "Límite de tierras tribales · fuente en datos opcionales",
+  "stationMapLabel": "Estación de monitoreo",
+  "dacHalo": "Halo de comunidad desfavorecida",
+  "choosePair": "Elija un par incluido para explorar",
+  "selectWaterbody": "Seleccione un cuerpo de agua",
+  "downloadFullCsv": "Descargar conjunto completo de aguas en CSV",
+  "endpoint": "Punto de acceso",
+  "shape": "Estructura",
+  "fetchCaution": "Los identificadores de pares son estables dentro del conjunto publicado. Cite NextCycle, la versión del conjunto y los registros fuente. Revise los metadatos antes de reutilizar; no se implica un servicio API ni garantía de disponibilidad.",
+  "dataThrough": "Datos de monitoreo hasta",
+  "lastRefresh": "Última actualización",
+  "monthBaseline": "Referencia mensual",
+  "comparedWith": "Comparado con",
+  "pairsChanged": "pares con cambios de conteo o estado",
+  "newPair": "par nuevo",
+  "availableSnapshots": "Instantáneas disponibles",
+  "findSectionLabel": "Buscar aguas",
+  "officialSources": "Fuentes y datos",
+  "demoTitle": "Demostración de cinco minutos",
+  "problemTitle": "El problema",
+  "toolTitle": "La herramienta",
+  "findStep": "Busque por cuerpo de agua o ubicación cercana.",
+  "compareStep": "Compare el estado oficial con la evidencia reciente.",
+  "scenarioStep": "Pruebe un escenario de muestreo y revise el método.",
+  "gapsStep": "Abra la lista de vacíos y descargue su CSV.",
+  "shareStep": "Copie una inserción o cita; converse sobre sus límites.",
+  "findingsTitle": "Tres hallazgos de este conjunto",
+  "gapsFields": "Vacíos de datos y campos recomendados",
+  "teamTruth": "Los datos del equipo solo se muestran cuando están presentes en los datos publicados; no se infieren reconocimientos.",
+  "privacyTitle": "Privacidad y conteos de páginas opcionales",
+  "privacyText": "La ubicación del navegador se usa localmente y no se envía a un servidor. Si se configura VITE_GOATCOUNTER_CODE, el sitio carga GoatCounter para conteos de páginas respetuosos con la privacidad. Sin esa configuración no se carga ningún script de análisis. GoatCounter se describe como un servicio sin cookies; aquí no se afirman conteos de uso individuales.",
+  "outcomeImproving": "Los resultados recientes cumplen la prueba de conteo estatal para considerar la eliminación de la lista.",
+  "outcomeStill": "Los resultados recientes quedan fuera del límite aplicable con demasiada frecuencia para pasar esa prueba.",
+  "outcomeUnder": "Aún no hay suficientes resultados recientes para aplicar la prueba.",
+  "example": "Ejemplo:",
+  "viewWaters": "Ver aguas: {status}",
+  "exampleImproving": "Cumple la prueba numérica",
+  "exampleImpaired": "Fuera del criterio",
+  "exampleNeedsData": "Faltan datos",
+  "timelineNext": "Próxima lista oficial",
+  "communityAudience": "Comunidades",
+  "regulatorAudience": "Reguladores",
+  "tablesLoading": "Verificando la tabla publicada de eliminación…",
+  "tablesUnavailable": "No se pudo verificar la tabla publicada. No hay una estimación disponible.",
+  "scenarioSentence": "Si las próximas {k} muestras incluyen {m} excedencias, el resultado sería: {result}",
+  "minimumUnknown": "No se ha establecido dentro de la cobertura verificada de la tabla.",
+  "scenarioInsufficient": "Aún no hay suficientes muestras: {total} de {minimum}.",
+  "scenarioPass": "Este escenario cumple el umbral de conteo de la tabla.",
+  "scenarioFail": "Este escenario supera el margen permitido por la tabla.",
+  "flagCandidate": "Cumple la prueba numérica",
+  "flagExceeding": "Fuera del criterio",
+  "flagUnder": "Necesita más muestras",
+  "subCandidate": "Umbral numérico cumplido; estado oficial sin cambios",
+  "subExceeding": "Las muestras recientes siguen fuera del criterio",
+  "subUnder": "No alcanza el mínimo de muestras adoptado",
+  "officialListed": "Incluida",
+  "officialNotListed": "No incluida",
+  "dacBadge": "Comunidad desfavorecida",
+  "sampleDataLabel": "Datos de ejemplo",
+  "freshness": "Datos de monitoreo hasta {date}",
+  "loadingData": "Cargando datos",
+  "sampleNotice": "Datos de ejemplo para demostración.",
+  "sampleNoticeBody": "Los valores son ilustrativos, no evaluaciones reales.",
+  "dismissSample": "Cerrar aviso de datos de ejemplo durante esta sesión",
+  "exploreFooter": "Explorar",
+  "sourcesFooter": "Fuentes",
+  "mitNotice": "Código abierto bajo la licencia MIT.",
+  "builtBy": "Desarrollado por",
+  "aboutEyebrow": "Acerca de",
+  "aboutTitle": "La evidencia es pública. El calendario, no.",
+  "readMethod": "Leer el método",
+  "sourceCode": "Código fuente",
+  "contact": "Contacto",
+  "contactBody": "Preguntas, correcciones o datos que deberíamos revisar.",
+  "privacySection": "Privacidad y conteos de páginas opcionales",
+  "privacyDescription": "La ubicación del navegador se usa localmente y no se envía a un servidor. Si se configura VITE_GOATCOUNTER_CODE, el sitio carga GoatCounter para conteos de páginas respetuosos con la privacidad. Sin esa configuración no se carga ningún script de análisis. GoatCounter se describe como un servicio sin cookies; aquí no se afirman conteos de uso individuales.",
+  "loadMapPreview": "Cargar mapa interactivo",
+  "mapPreviewNote": "Vista interactiva de las aguas incluidas de California, agrupadas por resultado de evaluación.",
+  "checkingLocation": "Consultando la ubicación en este dispositivo…",
+  "verdictCandidate": "Las muestras recientes sugieren que {water} podría cumplir la prueba para considerar su salida de la lista por {pollutant}: {count} de {samples} muestras recientes quedan fuera del criterio aplicable desde {cutoff}.",
+  "verdictStill": "Las muestras recientes de {water} siguen fuera del criterio aplicable para {pollutant}: {count} de {samples} muestras están fuera del criterio desde {cutoff}. Esta evaluación no modifica el estado oficial.",
+  "verdictUnder": "No hay suficientes datos recientes para saber si {water} podría salir de la lista por {pollutant}: {count} de {samples} muestras recientes quedan fuera del criterio aplicable desde {cutoff}.",
+  "newerSamplesSuggest": "Qué sugieren las muestras recientes",
+  "copyCitation": "Copiar cita",
+  "exportFigure": "Exportar figura principal (PNG)",
+  "rendering": "Preparando",
+  "officialStatus": "Estado oficial",
+  "nextcycleResult": "Resultado de NextCycle",
+  "plainLanguage": "En lenguaje claro",
+  "whatMeans": "Qué significa",
+  "whatNotMeans": "Qué no significa",
+  "monitoringResults": "Resultados de monitoreo para {pollutant}",
+  "printDisclaimer": "Estimación de evaluación, no una determinación.",
+  "officialFactSheet": "Ficha oficial",
+  "detailCommunityNote": "Este indicador a nivel de área no establece exposición para una persona o comunidad específica.",
+  "gapHeadline": "Dónde más muestras podrían aclarar la situación",
+  "gapDescription": "Aguas incluidas con pocas muestras desde {date} para aplicar una prueba de eliminación, ordenadas por la cantidad de muestras adicionales necesarias.",
+  "zeroSampleHeadline": "{count} de {total} aguas incluidas en {region} no tienen muestras públicas utilizables desde {date}.",
+  "samplesNeeded": "Muestras necesarias",
+  "rankedBySamples": "Ordenado por muestras necesarias",
+  "noPairsNeedSamples": "Ningún par necesita más datos",
+  "everyPairEnough": "Todos los pares incluidos tienen suficientes muestras para la prueba.",
+  "recommendedFields": "Elementos de datos recomendados",
+  "recommendedIntro": "Adiciones pequeñas y específicas a los datos públicos que harían la evaluación más rápida, reproducible y verificable.",
+  "selectPairPrompt": "Elija un par incluido para explorar",
+  "selectWaterPrompt": "Seleccione un cuerpo de agua",
+  "downloadCsv": "Descargar CSV",
+  "downloadedCsv": "Se descargaron {count} fila(s) en CSV",
+  "loadErrorTitle": "No se pudieron cargar estos datos",
+  "tryAgain": "Intentar de nuevo",
+  "dataConnectionError": "No se pudo acceder al archivo. Revise la conexión e inténtelo de nuevo.",
+  "dataHttpError": "El archivo devolvió un error HTTP.",
+  "dataJsonError": "El archivo no contiene JSON válido.",
+  "dataContractError": "El archivo no coincide con el contrato de datos de NextCycle.",
+  "dataCrossFileError": "Los archivos del conjunto de datos no coinciden entre sí.",
+  "dataSampleError": "El archivo de muestras no coincide con su registro de resumen.",
+  "disclaimerTitle": "Evaluación, no una determinación",
+  "disclaimerBody": "NextCycle muestra indicadores provisionales basados en datos públicos de monitoreo. No es una determinación regulatoria ni reemplaza las decisiones de las Juntas Estatal o Regional del Agua ni de la EPA de EE. UU. Los datos de monitoreo son provisionales y pueden revisarse.",
+  "samplesA11y": "{samples} muestra(s) desde el corte; {exceedances} excedencia(s) del criterio. La prueba requiere al menos {minimum} muestras.",
+  "samplesA11yMissing": "{samples} muestra(s) desde el corte; {exceedances} excedencia(s) del criterio. La prueba requiere al menos {minimum} muestras. Faltan {needed}.",
+  "meetsCriterion": "Cumple el criterio",
+  "exceedsCriterion": "Fuera del criterio",
+  "samplesStillNeeded": "Aún necesarias",
+  "minimumN": "Mínimo ({count})",
+  "sampleFigure": "Datos de ejemplo · ilustrativos, no son una evaluación real",
+  "copiedCitation": "Cita copiada",
+  "exportedFigure": "Figura principal exportada como PNG",
+  "exportFailed": "La exportación falló. Inténtelo de nuevo.",
+  "figureExceedanceCount": "{exceedances} de {samples} fuera del criterio desde {date}",
+  "figureSource": "Fuente: Programa de Monitoreo Ambiental de Aguas Superficiales y Red de Intercambio de Datos Ambientales de California (SWAMP/CEDEN)",
+  "exceedanceOutside": "{count} de {total} fuera del límite aplicable",
+  "lastSampled": "Última muestra",
+  "tableCaptionPairs": "Aguas, resultados recientes de muestras y fechas de última muestra",
+  "dataRowAria": "{samples} muestras, {exceedances} fuera del límite",
+  "cat": "Categoría {category}",
+  "lowerLimit": "Límite inferior",
+  "upperLimit": "Límite superior",
+  "criterion": "Criterio",
+  "maximum": "máximo",
+  "minimum": "mínimo",
+  "cutoffYear": "Corte de datos del ciclo {year}",
+  "notDetectedLimit": "No detectado; límite de reporte",
+  "detectedNotQuantified": "Detectado, no cuantificado ~",
+  "belowValue": "Por debajo de",
+  "station": "Estación",
+  "outsideCriterionStatus": "Fuera del criterio",
+  "meetsCriterionStatus": "Cumple el criterio",
+  "beforeCutoff": "Antes del corte",
+  "sinceCutoff": "Desde el corte",
+  "nonDetect": "No detectado",
+  "nonDetectPlotted": "No detectado (graficado en el límite de reporte)",
+  "outsideDirection": "fuera",
+  "aboveDirection": "por encima",
+  "belowDirection": "por debajo",
+  "exceedsCriterionLegend": "Fuera del criterio ({direction})",
+  "dataCutoff": "Corte de datos",
+  "closeDetails": "Cerrar detalles",
+  "openDetails": "Abrir detalles",
+  "sideCandidate": "Los resultados recientes podrían cumplir la prueba para considerar la salida de la lista por {pollutant}.",
+  "sideStill": "Los resultados recientes siguen fuera del criterio aplicable para {pollutant}.",
+  "sideUnder": "Hay muy pocos resultados recientes para evaluar {pollutant}.",
+  "sideCount": "{count} de {total} muestras recientes están {direction} del criterio desde {date}.",
+  "keyFigureSource": "Fuente: {source}. Datos en CEDEN al {date}; es posible que los datos recientes aún no se hayan enviado. Conjunto {version}.",
+  "figureSummary": "{count} de {total} muestras están fuera del criterio aplicable desde {date}",
+  "illustrativeNotAssessment": "Datos de ejemplo ilustrativos, no son una evaluación real"
+  ,"watchTitle": "Todos los pares incluidos, evaluados"
+  ,"watchIntro": "Las muestras recientes se cuentan desde {date}. El estado oficial se mantiene separado de esta evaluación preliminar."
+  ,"allResults": "Todos"
+  ,"search": "Buscar"
+  ,"waterbodyOrPollutant": "Cuerpo de agua o contaminante"
+  ,"pollutantGroup": "Grupo de contaminantes"
+  ,"dacFilter": "Comunidades desfavorecidas"
+  ,"cesThreshold": "Percentil 75 o superior de CalEnviroScreen 4.0"
+  ,"moreFilters": "Más filtros"
+  ,"county": "Condado"
+  ,"waterbodyType": "Tipo de cuerpo de agua"
+  ,"filterByResult": "Filtrar por resultado"
+  ,"watchFilters": "Filtros de aguas en seguimiento"
+  ,"results": "Resultados"
+  ,"showingResults": "Se muestran {shown} de {total} aguas"
+  ,"clearFilters": "Borrar filtros"
+  ,"noFilterMatches": "Ninguna agua coincide con estos filtros"
+  ,"tryOtherFilters": "Pruebe otro cuerpo de agua, contaminante o resultado."
+  ,"colWaterbody": "Cuerpo de agua"
+  ,"colResult": "Resultado"
+  ,"colRecentSamples": "Muestras recientes"
+  ,"colLastSampled": "Última muestra"
+  ,"groupMetals": "Metales"
+  ,"groupNutrients": "Nutrientes"
+  ,"groupConventional": "Convencionales"
+  ,"groupToxicity": "Toxicidad"
+  ,"groupOther": "Otros"
+  ,"aboutMeta": "Por qué NextCycle compara evidencia reciente de monitoreo del agua en California con decisiones oficiales sobre aguas deterioradas."
+  ,"aboutParagraph1": "California actualiza en ciclos de varios años su lista de aguas deterioradas conforme a la sección 303(d) de la Ley de Agua Limpia. Cada ciclo considera datos hasta una fecha de corte. Las muestras posteriores esperan al ciclo siguiente, a veces cuatro años o más."
+  ,"aboutParagraph2": "Ese desfase importa. Los servicios públicos definen presupuestos y planes de monitoreo según las listas. Las comunidades cercanas a aguas deterioradas esperan respuestas que quizá ya existan en los datos."
+  ,"aboutParagraph3": "NextCycle presenta observaciones públicas recientes como una evaluación preliminar. La calidad de origen, los vínculos de estaciones y las tablas de política necesitan revisión humana; la evaluación nunca sustituye una decisión oficial."
+  ,"aboutParagraph4": "Utilyst desarrolla NextCycle como herramienta de inteligencia para infraestructura de agua y energía. Los métodos son abiertos y el código de evaluación se publica bajo la licencia MIT."
+  ,"showcaseOverview": "Demostración y resumen del proyecto"
+  ,"openMethodsTitle": "Métodos abiertos"
+  ,"openMethodsBody": "La página de método documenta cada regla y umbral."
+  ,"openCodeTitle": "Código abierto"
+  ,"openCodeBody": "Código de evaluación con licencia MIT y contrato de datos publicado."
+  ,"plainLanguageTitle": "Lenguaje claro"
+  ,"plainLanguageBody": "Frases cortas, siglas explicadas y estados que nunca dependen solo del color."
+  ,"recognitionTitle": "Reconocimientos y programas"
+  ,"learnMore": "Más información"
+  ,"waterMonitoringCalifornia": "Monitoreo del agua en California"
+  ,"openFullMap": "Abrir mapa completo"
+  ,"monitoringTimeline": "Cronología de monitoreo"
+  ,"skipToContent": "Saltar al contenido"
+  ,"homeLinkAria": "Inicio de NextCycle"
+  ,"primaryNavigation": "Navegación principal"
+  ,"mobileNavigation": "Navegación móvil"
+  ,"closeMenu": "Cerrar menú"
+  ,"openMenu": "Abrir menú"
+  ,"catShort": "Cat. {category}"
+  ,"dacTooltip": "Percentil {percentile} de CalEnviroScreen 4.0"
+  ,"disadvantagedCommunity": "Comunidad desfavorecida"
+  ,"mapInteractiveAria": "Mapa interactivo de cuerpos de agua incluidos en la lista por etiqueta de evaluación. Use la lista contigua para acceder con el teclado."
+  ,"mapInitFailed": "No se pudo iniciar el mapa. Use la lista de cuerpos de agua para explorar los datos."
+  ,"mapStyleTimeout": "El estilo de OpenFreeMap no terminó de cargar. Compruebe el acceso de red a tiles.openfreemap.org."
+  ,"basemapLoadFailed": "No se pudo cargar el mapa base."
+  ,"layersLoadFailed": "No se pudieron mostrar las capas de cuerpos de agua y estaciones."
+  ,"mapLoadingMessage": "Cargando OpenFreeMap… Los detalles de los cuerpos de agua siguen disponibles en la lista."
+  ,"mapListFallback": "Use la lista de cuerpos de agua para explorar los datos."
+  ,"screeningResultTitle": "Resultado de evaluación para {waterbody}"
+  ,"resultUnavailable": "Resultado no disponible"
+  ,"embedUnavailable": "Este resultado del cuerpo de agua no está disponible en el conjunto actual."
+  ,"waterbodyDetails": "Detalles de {waterbody}"
+  ,"details": "Detalles"
+  ,"sampleClause": " (datos ilustrativos de ejemplo)"
+  ,"notFoundMeta": "No se encontró la página solicitada."
+  ,"notFoundHeading": "Esta página no está en la lista."
+  ,"notFoundBody": "La dirección podría tener un error o la página pudo haberse movido."
+  ,"goWatchList": "Ir a las aguas en seguimiento"
+  ,"openMap": "Abrir mapa"
+  ,"dataAsOf": "Datos al"
+  ,"cedenFreshness": "Los conteos reflejan los datos disponibles en CEDEN al {date}. Es posible que los datos recientes aún no se hayan enviado."
+  ,"inCedenAsOfColumn": "Datos CEDEN al"
+  ,"recentDataSubmissionNote": "Es posible que los datos recientes aún no se hayan enviado."
+  ,"openReviewerQuestion": "Pregunta abierta para revisión"
+  ,"unknownNrReviewerQuestion": "¿Deben seguir siendo elegibles los resultados con DataQuality=Unknown data quality y BatchVerification=NR? Esta combinación reproduce los conteos oficiales en cinco pares de calibración, pero una persona revisora debe confirmar que corresponde aplicarla fuera de esas ventanas de origen."
+  ,"footerNavigation": "Pie de página"
+  ,"atomFeed": "Canal Atom de actualizaciones"
+  ,"stationPopup": "Estación {code} · {count} · {method}"
+  ,"dataUnknownError": "No se pudo validar el conjunto publicado."
+  ,"genericError": "Ocurrió un error al cargar esta vista."
+  ,"validationIssueCount": "Se encontraron {count} problema(s) técnicos de validación."
+  ,"act303Definition": "Sección 303(d) de la Ley de Agua Limpia, la lista de aguas deterioradas"
+  ,"unitsLabel": "Unidades"
+  ,"shareableRecord": "Registro de evaluación de NextCycle"
+  ,"recommendedDataEyebrow": "Qué permitiría reproducir la próxima evaluación"
+  ,"recommendedDataTitle": "Elementos de datos recomendados"
+  ,"recommendedDataIntro": "Publique estos campos vinculados y legibles por máquina con su procedencia, para que comunidades, servicios públicos y revisores puedan comprobar cada paso."
+  ,"recommendedElement1Title": "Tabla de vínculo entre estaciones y cuerpos de agua"
+  ,"recommendedElement1Body": "ID de estación, ID del cuerpo de agua evaluado, método de vínculo, documento fuente, fecha de vigencia e ID de registro estable."
+  ,"recommendedElement2Title": "Registro de monitoreo por muestra"
+  ,"recommendedElement2Body": "Fecha de recolección, ID de estación, analito, valor, unidad, calificador, límite de detección y límite de reporte."
+  ,"recommendedElement3Title": "Calidad y elegibilidad para evaluación"
+  ,"recommendedElement3Body": "Estado de control de calidad, elegibilidad para la sección 303(d) de la Ley de Agua Limpia, motivo de exclusión y tratamiento explícito de no detectados y valores censurados."
+  ,"recommendedElement4Title": "Criterio asociado a cada decisión"
+  ,"recommendedElement4Body": "Valor o rango del criterio, dirección, unidad, periodo de promedio, uso beneficioso e ID de decisión."
+  ,"recommendedElement5Title": "Tablas de política adoptada legibles por máquina"
+  ,"recommendedElement5Body": "Tablas versionadas 3.1, 3.2, 4.1 y 4.2, con cada rango de tamaño de muestra y número de excedencias permitido."
+  ,"recommendedElement6Title": "Geografía con procedencia"
+  ,"recommendedElement6Body": "Documente las intersecciones de geometría completa, la versión de ZCTA del Censo y el estado de revisión; las ZCTA no son límites de entrega de USPS."
+  ,"fiveMinuteLabel": "Recorrido de cinco minutos"
+  ,"fiveMinuteTitle": "Del indicio a los próximos pasos"
+  ,"demoMinute1": "Contexto: estado oficial, corte de datos y por qué importan las muestras recientes."
+  ,"demoMinute2": "Busque un cuerpo de agua por nombre, ciudad o ZIP/ZCTA; explique la asociación geográfica."
+  ,"demoMinute3": "Lea la gráfica de muestras, la línea del criterio, el corte y el estado oficial vigente."
+  ,"demoMinute4": "Pruebe muestras adicionales y consulte la tabla publicada que sustenta la estimación."
+  ,"demoMinute5": "Revise los vacíos de muestreo, abra los datos e identifique los campos necesarios para reproducir la evaluación."
+  ,"typeRiver": "Río/arroyo"
+  ,"typeLake": "Lago/embalse"
+  ,"typeBay": "Bahía/puerto"
+  ,"typeCoastal": "Costera"
+  ,"typeLagoon": "Laguna/estuario"
+  ,"sampleDataCsv": "Datos ilustrativos de ejemplo, no son una evaluación real"
+  ,"provisionalCsv": "Evaluación preliminar"
+  ,"methodTitle": "Cómo evalúa NextCycle un cuerpo de agua"
+  ,"methodIntro": "Los datos y las comprobaciones son abiertos. Esta entrega es preliminar; los vínculos de estaciones, filtros de calidad y tablas de política aún necesitan revisión humana."
+  ,"onThisPage": "En esta página"
+  ,"plainMethod": "Método en lenguaje claro"
+  ,"disclaimerNav": "Aviso"
+  ,"technicalDetails": "Detalles técnicos"
+  ,"sourcesCitation": "Fuentes y cita"
+  ,"stepLabel": "Paso {number}"
+  ,"methodStart": "Partir de la lista oficial"
+  ,"methodStartBody": "Esta entrega combina pares de categoría 5 de la Región 9 del Informe Integrado final de 2026 con pares seleccionados de categoría 5 de la Región 3 del informe final de 2024."
+  ,"methodGather": "Reunir resultados recientes"
+  ,"methodGatherBody": "Conservamos resultados vinculados de CEDEN antes y después del corte. Se aplica la misma regla de calidad calibrada en ambos periodos; los resultados que no la cumplen siguen visibles como pendientes de revisión."
+  ,"methodCount": "Contar según la política"
+  ,"methodCountBody": "Calibramos la evaluación con cinco pares cuyos conteos de CEDEN, vinculados por estación, fuente y fecha, reproducen los totales oficiales. Las demás comparaciones y sus causas aparecen abajo y siguen siendo preliminares."
+  ,"methodLabel": "Etiquetar, no decidir"
+  ,"methodLabelBody": "Cada par recibe una etiqueta de evaluación, mostrada junto al estado oficial y nunca en su lugar."
+  ,"candidateMethod": "Incluida, con suficientes muestras y pocas excedencias para cumplir la evaluación numérica de eliminación."
+  ,"stillMethod": "Incluida, con muestras recientes fuera del criterio más veces de lo permitido por la tabla de eliminación."
+  ,"underMethod": "Incluida, pero con muy pocas muestras desde el corte para aplicar la evaluación de eliminación."
+  ,"technicalCaveat": "Los umbrales siguientes transcriben las tablas de la Política de Listado de 2015. Su uso para estos criterios es preliminar y espera la confirmación del revisor; no reemplazan la evaluación integral del estado."
+  ,"sourcesVersions": "Fuentes y versiones de datos"
+  ,"cutoffDates": "Fechas de corte por ciclo"
+  ,"stationLinks": "Cómo se vinculan estaciones con cuerpos de agua"
+  ,"replicateQa": "Réplicas y filtro de control de calidad"
+  ,"criterionTitle": "Criterio"
+  ,"policyTablesTitle": "Tablas de la Política de Listado y tamaños de muestra"
+  ,"limitations": "Limitaciones"
+  ,"listingRule31": "Para sustancias tóxicas, la Tabla 3.1 de la Política de Listado adoptada en 2015 usa un umbral según el tamaño de muestra. Con n = 2–24 se requieren al menos dos excedencias para evidencia de inclusión; no existe una regla universal de 16 muestras sin excedencias."
+  ,"listingRule32": "La Tabla 3.2 aplica a contaminantes convencionales y otros. Use la tabla adoptada y los criterios específicos del contaminante; no sustituya un umbral general."
+  ,"delistingRule": "La Tabla 4.1 (sustancias tóxicas) requiere al menos 28 muestras para la evaluación de eliminación. La Tabla 4.2 (convencionales y otros) requiere al menos 26."
+  ,"allowedTableIntro": "Conteos publicados de excedencias permitidas que usa esta evaluación:"
+  ,"samplesColumn": "Muestras"
+  ,"allowedColumn": "Excedencias permitidas"
+  ,"visitSource": "Visitar fuente"
+  ,"recommendedCitation": "Cita recomendada para los datos fuente"
+  ,"citationGuideCaveat": "Siga las instrucciones de cita del publicador de la fuente cuando estén disponibles."
+  ,"dataCutoffSentence": "Corte de datos"
+  ,"countedNewAfter": "Solo se cuentan los resultados que cumplen el filtro preliminar de elegibilidad; los demás quedan pendientes."
+  ,"cutoffConfirm": "Esta versión no usa otros cortes de ciclo."
+  ,"factSheetLink": "Ficha técnica"
+  ,"spatialJoin": "Unión espacial"
+  ,"qaNonDetect": "Los cinco pares de calibración no contienen no detectados. Como la extracción no incluye límites de reporte para interpretar resultados censurados frente a cada criterio, ND, <, DNQ y otros calificadores distintos de = quedan pendientes."
+  ,"upperCriterion": "máximo"
+  ,"lowerCriterion": "mínimo"
+  ,"rangeCriterion": "rango"
+  ,"criterionDescription": "El par registra un criterio fijo simplificado transcrito de su ficha. Los promedios, periodos estacionales y matices de usos específicos no están representados completamente y requieren revisión."
+  ,"techLimitWeight": "No se modelan las consideraciones de peso de evidencia que pueden usar las Juntas del Agua."
+  ,"techLimitSediment": "No se modelan las reglas específicas para sedimentos, tejido de peces y bacterias."
+  ,"techLimitSeason": "Se simplifican los periodos de promedio, la estacionalidad y la representatividad espacial."
+  ,"techLimitProvisional": "Los datos de monitoreo son provisionales y pueden revisarse después de su publicación."
+  ,"tableLabel": "Tabla {table}"
+  ,"replicateRule": "Se consolidan las filas de origen exactamente duplicadas. CollectionReplicate y ResultsReplicate deben ser 1; otros índices quedan pendientes y nunca se promedian."
+  ,"qaReject": "Los cinco pares exactos respaldan Passed con BatchVerification=VAC y Unknown data quality con BatchVerification=NR, solo cuando QACode está vacío/None. Some review needed, MetaData, otras combinaciones de QA y QACodes quedan pendientes; Reject record se excluye."
+  ,"qaCalibrationNote": "Las ventanas de calibración contienen resultados numéricos sin calificador, en matriz de agua, con QACode vacío/None y réplicas primarias. La misma regla se aplica antes y después del corte. Se incluye Unknown/NR porque reproduce los conteos oficiales en los cinco pares; esto no significa que todo el conjunto esté revisado."
+  ,"methodSectionAria": "Método en lenguaje claro"
+  ,"datasetVersionLabel": "Versión del conjunto"
+  ,"generatedLabel": "generado"
+  ,"sampleBuildNote": "Esta compilación usa datos de ejemplo ilustrativos."
+  ,"swampDefinition": "SWAMP es el Programa de Monitoreo Ambiental de Aguas Superficiales."
+  ,"cedenDefinition": "CEDEN es la Red de Intercambio de Datos Ambientales de California."
+  ,"accessedVia": "Consultado en data.ca.gov el {date}."
+  ,"utilitiesHero": "Anticipe años antes qué podría significar la próxima lista de aguas deterioradas para sus permisos."
+  ,"utilitiesAudience": "Para servicios de agua y aguas residuales, programas de aguas pluviales y sus consultores."
+  ,"whatYouGet": "Qué ofrece"
+  ,"utilityBulletEarly": "Una vista anticipada de posibles cambios en la lista"
+  ,"utilityBulletEarlyBody": "que podrían afectar permisos de descarga, requisitos de carga diaria máxima total y planes de monitoreo."
+  ,"utilityBulletSampling": "Dónde más muestras podrían cambiar un resultado"
+  ,"utilityBulletSamplingBody": "ordenado por la cantidad de muestras adicionales necesarias."
+  ,"utilityBulletOutputs": "Resultados claros y citables"
+  ,"utilityBulletOutputsBody": "incluidos CSV de cada vista, citas y figuras para cada cuerpo de agua y contaminante."
+  ,"whatNot": "Qué no es"
+  ,"utilityDisclaimer": "No es una herramienta de cumplimiento ni una opinión legal. Los resultados son indicadores provisionales de evaluación. Las decisiones oficiales corresponden a las Juntas Estatal y Regional del Agua y a la Agencia de Protección Ambiental de EE. UU."
+  ,"exampleUseCases": "Casos de uso"
+  ,"caseStormwater": "Programa de aguas pluviales"
+  ,"caseWastewater": "Servicio de aguas residuales"
+  ,"caseConsultant": "Consultoría"
+  ,"caseStillTitle": "Planifique para resultados que siguen fuera del criterio"
+  ,"caseStillBody": "{water} {pollutant}: {count} de {total} muestras recientes quedan fuera del criterio aplicable. Planifique controles y requisitos que podrían afectar su programa."
+  ,"caseCandidateTitle": "Prepare evidencia para un posible cambio de lista"
+  ,"caseCandidateBody": "{water} {pollutant}: {count} de {total} muestras recientes quedan fuera del criterio aplicable. El conteo cumple la prueba preliminar para considerar la eliminación; el estado oficial no ha cambiado."
+  ,"caseUnderTitle": "Dirija el muestreo donde pueda aclarar la situación"
+  ,"caseUnderBody": "{water} {pollutant} necesita {needed} muestra(s) adicional(es) para alcanzar el mínimo de la evaluación numérica. Más muestreo puede aportar evidencia para futuras revisiones."
+  ,"seeExample": "Ver ejemplo"
+  ,"utilitySteps": "Encuentre sus aguas|Revise el resultado|Planifique muestreo o presupuesto"
+  ,"utilityHowLabel": "Cómo pueden usar NextCycle los servicios públicos"
+  ,"utilityRequestTitle": "¿Necesita otra región o contaminante?"
+  ,"utilityRequestBody": "Elija una opción de correo para indicar qué necesita evaluar."
+  ,"requestRegion": "Solicitar región o contaminante"
+  ,"tellUse": "Cuéntenos cómo usa NextCycle"
+  ,"utilityRequestSubject": "Solicitud para NextCycle"
+  ,"utilityFeedbackSubject": "Comentarios sobre NextCycle"
+  ,"utilityFeedbackBody": "Cómo uso NextCycle: "
+  ,"meaningCandidateOne": "Hay al menos {minimum} muestras recientes y no más de {allowed} excedencias permitidas."
+  ,"meaningCandidateTwo": "Solo por conteo de muestras, este par cumple la prueba numérica estatal para considerar su salida de la lista."
+  ,"meaningStillOne": "{count} de {total} muestras recientes están {direction} del criterio aplicable."
+  ,"meaningStillTwo": "Ese conteo supera el margen de la tabla adoptada de eliminación."
+  ,"meaningUnderOne": "Hay {count} muestras recientes; la prueba requiere al menos {minimum}."
+  ,"meaningUnderTwo": "Se necesitan {needed} muestra(s) adicional(es) antes de poder evaluar el conteo."
+  ,"notDelisted": "El cuerpo de agua no ha sido eliminado de la lista oficial."
+  ,"onlyAgenciesDecide": "Solo las Juntas del Agua y la Agencia de Protección Ambiental de EE. UU. toman esa decisión."
+  ,"notViolation": "Esto no es una nueva infracción ni un hallazgo de cumplimiento."
+  ,"notPermit": "No determina los requisitos de un permiso."
+  ,"notCleanOrImpaired": "No determina que el agua esté limpia o deteriorada."
+  ,"tooFewToTell": "Significa que hay muy pocas muestras recientes para saberlo."
+  ,"breadcrumbWatch": "Aguas en seguimiento"
+  ,"beneficialUses": "Usos beneficiosos"
+  ,"printBrief": "Resumen imprimible del cuerpo de agua"
+  ,"recentSampleCount": "Conteo de muestras recientes"
+  ,"notFlaggedCount": "{count} no marcadas como excedencias"
+  ,"monitoringSourceCaption": "Unidades: {unit}. Fuente: Programa de Monitoreo Ambiental de Aguas Superficiales y Red de Intercambio de Datos Ambientales de California{sampleClause}. Datos en CEDEN al {date}; es posible que los datos recientes aún no se hayan enviado."
+  ,"chartA11y": "Diagrama de dispersión de {count} resultados de {pollutant} en {unit}, con criterio y corte de datos. {outside} de {total} resultados recientes están fuera del criterio aplicable."
+  ,"loadingResults": "Cargando resultados"
+  ,"noResultsFile": "No hay resultados en este archivo"
+  ,"officialStatusExplanation": "La decisión vigente de las Juntas del Agua y la Agencia de Protección Ambiental de EE. UU. NextCycle no la modifica."
+  ,"cycleListing": "Informe Integrado de {year}. Categoría oficial {category}."
+  ,"earlyScreenSince": "Evaluación preliminar con datos públicos de monitoreo desde {date}."
+  ,"earlySignal": "Señal temprana: {count} de {total} resultados recientes elegibles están {direction} del criterio aplicable. Es descriptiva; no es un resultado de prueba."
+  ,"sampleOutsideText": "{count} de {total} muestras recientes están {direction} del criterio aplicable."
+  ,"screeningWithPending": "{count} de {total} resultados elegibles están {direction} del criterio ({pending} más pendientes de revisión QA)."
+  ,"dataGapNote": "Nota sobre falta de datos"
+  ,"verifiedPlaceCoverage": "Cobertura verificada de lugares: {places}."
+  ,"tribalAreaCaveat": "Percentil {percentile} de CalEnviroScreen; indicador de área, no una afirmación sobre una persona o condición tribal."
+  ,"technicalSummary": "Es una evaluación preliminar, no una determinación regulatoria. Aquí se muestran términos oficiales y campos de respaldo para revisión."
+  ,"waterbodyId": "ID del cuerpo de agua"
+  ,"pairId": "ID del par"
+  ,"decisionId": "ID de decisión"
+  ,"officialStatusTechnical": "Estado oficial"
+  ,"officialCategoryTechnical": "{status}; categoría {category}. TMDL significa carga diaria máxima total; estado: {tmdl}."
+  ,"listingTable": "Tabla de inclusión"
+  ,"delistingTable": "tabla de eliminación"
+  ,"tablePair": "Tabla {listing}; tabla de eliminación {delisting}."
+  ,"criterionBasis": "Base del criterio"
+  ,"testThresholds": "Umbrales de prueba"
+  ,"notEnoughMinimum": "Aún no hay suficientes muestras; la prueba requiere al menos {minimum}."
+  ,"allowedMinimum": "{allowed} excedencia(s) permitida(s); mínimo de {minimum} muestras."
+  ,"screeningLabel": "Etiqueta de evaluación"
+  ,"samplingWindow": "Periodo de muestreo"
+  ,"throughDate": "a"
+  ,"monitoringStations": "Estaciones de monitoreo"
+  ,"stationResultSummary": "{count} resultados · última muestra {date} · {method}"
+  ,"noStationsLinked": "No hay estaciones vinculadas a este cuerpo de agua."
+  ,"policyThresholds": "Umbrales de muestra de la Política de Listado"
+  ,"countTestTables": "Tablas publicadas que usa la evaluación numérica."
+  ,"sampleRange": "Rango de muestras"
+  ,"viewIndividualResults": "Ver resultados individuales ({count})"
+  ,"dateColumn": "Fecha"
+  ,"stationColumn": "Estación"
+  ,"valueColumn": "Valor"
+  ,"qualifierColumn": "Calificador"
+  ,"outsideColumn": "Fuera del criterio"
+  ,"periodColumn": "Periodo"
+  ,"yes": "Sí"
+  ,"no": "No"
+  ,"dataSourceTerms": "Fuente: Programa de Monitoreo Ambiental de Aguas Superficiales (SWAMP) y Red de Intercambio de Datos Ambientales de California (CEDEN). Datos al {date}."
+  ,"citationTemplate": "NextCycle. {name}, {pollutant}: resultado preliminar de evaluación “{flag}” ({exceedances} de {samples} muestras fuera del criterio aplicable desde {cutoff}). Conjunto {version}{sampleClause}; datos en CEDEN al {through}. Es posible que los datos recientes aún no se hayan enviado. Registros de fuentes: {sources}. No es una determinación regulatoria. {url} Consultado el {accessed}."
+  ,"citationSources": "SWAMP/CEDEN"
+  ,"sampleCitationClause": ", datos ilustrativos de ejemplo, no una evaluación real"
+  ,"iframeTitle": "Resultado de evaluación de NextCycle para {waterbody}"
+  ,"issueTitle": "Problema de datos: {pair} — {waterbody} — {version}"
+  ,"issueBody": "ID del par: {pair}\nVersión del conjunto: {version}\n\nDescriba el problema y la evidencia de respaldo:\n"
+  ,"mailFeedbackSubject": "Comentarios de NextCycle — {pair}"
+  ,"mailFeedbackBody": "¿Fue útil esta página del cuerpo de agua? {answer}\nPar: {pair}\nConjunto: {version}\n\nSus comentarios:"
+  ,"answerYes": "Sí"
+  ,"answerNo": "No"
+  ,"mailGenericBody": "ID del par: {pair}\nConjunto: {version}\n"
+  ,"printOutside": "{outside} fuera del criterio · {within} no marcadas como excedencias"
+  ,"historyUnavailable": "No se pudo cargar el historial. Versión actual del conjunto: {version}."
+  ,"monthComparison": "Comparación mensual"
+  ,"baselineUnavailable": "No hay una instantánea comparable con el mismo estado de datos. No se afirman cambios."
+  ,"historyRuleChanged": "La regla de calidad cambió en esta entrega. Los conteos anteriores no son comparables y no se afirman cambios en muestras."
+  ,"changedPairsCount": "{count} pares existentes con cambios de estado o conteos de muestras y excedencias"
+  ,"flagChangesCount": "{count} cambios de estado"
+  ,"newSamplesCount": "{count} muestras adicionales en pares existentes"
+  ,"newPairsCount": "{count} pares recién añadidos"
+  ,"newPairLabel": "Par nuevo"
+  ,"sampleCountLabel": "{count} muestras"
+  ,"sampleDataBadge": "Datos ilustrativos de ejemplo"
+  ,"refreshSnapshots": "Instantáneas disponibles"
+  ,"historyChangeDetail": "{flagChange}; {samples} muestras y {exceedances} excedencias"
+  ,"detailMeta": "Evidencia de monitoreo de {water} {pollutant}, estado oficial y evaluación de NextCycle."
+  ,"notFoundTitle": "Cuerpo de agua no encontrado"
+  ,"breadcrumb": "Ruta de navegación"
+  ,"countyName": "Condado de {county}"
+  ,"printChartA11y": "{outside} de {total} muestras recientes fuera del criterio"
+  ,"shadingCutoff": "El sombreado marca el periodo posterior al corte oficial de datos."
+  ,"officialCycle": "Informe Integrado de {year}. Categoría oficial {category}."
+  ,"tmdlMeaning": "TMDL significa carga diaria máxima total."
+  ,"sampleCountRecent": "{count} muestra(s) reciente(s)"
+  ,"dataGapContext": "Este par necesita {count} muestra(s) adicional(es) antes de aplicar la evaluación numérica."
+  ,"tribalCoverageVerified": "Información verificada de intersección:"
+  ,"zipPrefix": "Código postal {code}"
+  ,"technicalToggle": "Detalles técnicos"
+  ,"technicalReviewNote": "El resultado del próximo ciclo es una evaluación preliminar, no una determinación regulatoria. Aquí se muestran términos oficiales y campos de respaldo para revisión."
+  ,"tmdlRequired": "Se requiere TMDL"
+  ,"tmdlAdopted": "TMDL adoptado"
+  ,"otherControl": "Otro control"
+  ,"noTmdl": "Ninguno"
+  ,"detailPairMissing": "Este conjunto no contiene un par de cuerpo de agua con ID «{id}»."
+  ,"geographyCaveat": "Las asociaciones de lugares usan la geometría completa del cuerpo de agua; las ZCTA aproximan áreas ZIP y no son límites postales de USPS. Las asociaciones espaciales aún requieren revisión."
+  ,"endpointColumn": "Recurso"
+  ,"shapeColumn": "Contenido"
+  ,"endpointAllWaters": "Arreglo de pares completos de cuerpo de agua y contaminante."
+  ,"endpointOneWater": "Un par completo, identificado por pair_id."
+  ,"endpointGaps": "Pares con muestreo insuficiente y samples_needed."
+  ,"endpointMetadata": "Versión del conjunto, fecha de actualización y metadatos de fuentes y licencias."
+  ,"endpointCsv": "Exportación CSV completa de los pares activos."
+  ,"apiUsageNote": "Los ID de par son estables dentro del conjunto publicado. Cite NextCycle, el conjunto {version} y los registros de las fuentes. Revise los metadatos antes de reutilizar; no se garantiza un servicio API ni su disponibilidad."
+  ,"licenseLabel": "Licencia"
+  ,"licenseFallback": "Consulte los metadatos de la fuente y el repositorio del proyecto para conocer las condiciones aplicables."
+  ,"showcaseMeta": "Vista en lenguaje claro del conjunto actual de NextCycle, su flujo de uso, fuentes y comprobaciones de integridad publicadas."
+  ,"findingCandidate": "{count} pares cumplen el umbral numérico adoptado para considerar una posible eliminación de la lista."
+  ,"findingStill": "{count} pares siguen fuera del criterio aplicable según el conteo reciente de muestras."
+  ,"findingUnder": "{count} pares necesitan {samples} muestras adicionales en total para alcanzar el mínimo adoptado."
+  ,"showcaseProblemLabel": "El problema"
+  ,"showcaseToolLabel": "La herramienta"
+  ,"showcaseFindingsTitle": "Tres hallazgos de este conjunto"
+  ,"datasetThrough": "Conjunto {version}; monitoreo hasta {date}."
+  ,"showcaseGapsTitle": "Vacíos de datos y campos recomendados"
+  ,"showcaseGapsBody": "{count} pares tienen muestreo insuficiente; hacen falta {samples} muestras adicionales."
+  ,"sourcesData": "Fuentes y datos"
+  ,"openRepository": "Repositorio de código abierto"
+  ,"validationTitle": "Informe publicado de integridad de datos"
+  ,"qaValidation": "Calibración y validación de QA"
+  ,"qaValidationIntro": "La regla de QA se calibró con cinco pares que coinciden exactamente con los conteos oficiales. La reproducción de LOE de CEDEN es distinta de la evaluación posterior al corte; ambas siguen siendo preliminares."
+  ,"qaMatchTableTitle": "Conteos oficiales y reproducidos"
+  ,"qaPostTableTitle": "Evaluación posterior al corte por par"
+  ,"qaPostTableIntro": "Solo los resultados elegibles posteriores al corte determinan la etiqueta. Los demás registros retenidos se cuentan como pendientes de QA."
+  ,"showcaseExactMatches": "CEDEN reproduce exactamente los conteos oficiales en {exact} de {total} pares; {close} están cerca y {gap} tienen brechas mayores."
+  ,"showcaseMethodSummary": "La misma regla de QA calibrada se aplica antes y después del corte. Los resultados elegibles posteriores determinan la evaluación; los registros no verificados siguen pendientes."
+  ,"qaValidationWaterbody": "Cuerpo de agua / contaminante"
+  ,"qaOfficialCounts": "n / excedencias oficiales"
+  ,"qaReproducedCounts": "n / excedencias reproducidas en CEDEN"
+  ,"qaMatchStatus": "Coincidencia"
+  ,"qaMatchCause": "Causa"
+  ,"qaEligibleCounts": "n / excedencias elegibles"
+  ,"qaPendingCount": "Pendientes de QA"
+  ,"qaFlag": "Etiqueta preliminar"
+  ,"qaValidationFooter": "{exact} exactos, {close} cercanos y {gap} con brechas de {total} pares. Esta actualización de QA no modifica las brechas grandes de conteo por fuente."
+  ,"validationExact": "Exacta"
+  ,"validationClose": "Cercana"
+  ,"validationGap": "Brecha"
+  ,"qaValidationMissing": "El informe de validación de QA no está disponible."
+  ,"qaValidationMismatch": "El informe de QA no coincide con la versión de datos cargada."
+  ,"validationCauseExact": "Coinciden los totales de estación, fuente y periodo incluidos."
+  ,"validationCauseSanMateo": "La LOE histórica incluida de 18/12 no tiene código de estación legible, así que CEDEN no puede reproducirla."
+  ,"validationCauseTecolote": "La LOE de pH de campo de San Diego de 15/1 en SD5 no está en CEDEN; otros periodos TMDL/NPDES citados devuelven filas extra."
+  ,"validationCauseSanDiegoRiver": "Las LOE históricas de promedios mensuales en RSW-003 y RSW-006 no están en CEDEN; varios periodos Coastkeeper también devuelven filas extra."
+  ,"validationCauseSycamore": "La LOE histórica de promedios mensuales 60/20 en RSW-001 y RSW-001A no está en CEDEN."
+  ,"validationCauseForester": "La LOE histórica de promedios mensuales 60/5 en RSW-004 no está en CEDEN; otra línea incluida carece de código de estación."
+  ,"validationCauseChollas": "Varias LOE incluidas no tienen código de estación legible; CC-SD8 y SD8 no tienen coincidencia en CEDEN."
+  ,"validationCauseTijuanaPh": "Coincide el total del par, aunque una LOE NPDES tiene un resultado extra en CEDEN; otros periodos lo compensan."
+  ,"validationCauseSanDieguito": "Varios periodos Coastkeeper/NPDES contienen de una a dos filas extra, con una muestra y excedencia adicional en total."
+  ,"validationCauseSweetwater": "Coincide el total del par, aunque un periodo Coastkeeper tiene un resultado y una excedencia extra que se compensan en otros periodos."
+  ,"validationCauseCarmel": "Ahora coincide el alias LPC-TWAS-3; los periodos NPDES y Coastkeeper aún contienen dos filas y una excedencia extra."
+  ,"validationCauseSanLuisRey": "El periodo del Banco de Mitigación de San Luis Rey tiene seis resultados CEDEN no excedentes adicionales."
+  ,"validationCauseRainbow": "Dos periodos NPDES tienen una fila CEDEN adicional cada uno, incluida una excedencia adicional."
+  ,"validationMissing": "No se proporcionó validation.json; no se afirma que haya comprobaciones aprobadas."
+  ,"validationMismatch": "Este informe de integridad no coincide con la versión o el estado de datos del conjunto cargado."
+  ,"integritySummary": "El informe publicado indica {passed} comprobaciones de integridad aprobadas y {other} en otro estado, en {pairs} pares de cuerpos de agua y {stations} estaciones de monitoreo. Solo cubre la integridad del conjunto, no conclusiones científicas, calidad del agua ni decisiones regulatorias."
+  ,"integrityScope": "Alcance de integridad: {scope}."
+  ,"checkedAt": "Revisado {date}."
+  ,"validationJsonDetails": "JSON de validación opcional"
+  ,"realDataBadge": "Datos públicos de monitoreo"
+  ,"teamHeading": "Equipo"
+  ,"factSheetLinkBody": "Una estación CEDEN es un vínculo candidato si su nombre o la ficha técnica respaldan el cuerpo de agua. Todos los vínculos siguen marcados VERIFY."
+  ,"spatialJoinBody": "Estaciones candidatas cercanas a la geometría del cuerpo de agua. La proximidad no confirma el tramo; cada asociación requiere revisión."
+  ,"methodCitation": "Junta Estatal de Control de Recursos Hídricos de California. Datos del Programa de Monitoreo Ambiental de Aguas Superficiales (SWAMP) y de la Red de Intercambio de Datos Ambientales de California (CEDEN). Consultado el {date}."
+  ,"officialFlagCandidate": "Candidato a eliminación de la lista"
+  ,"officialFlagExceeding": "Aún excede el criterio"
+  ,"officialFlagUnder": "Muestreo insuficiente"
+  ,"samplesByGroup": "Muestras adicionales necesarias por grupo de contaminante"
+  ,"gapChartFoot": "Unidades: muestras adicionales. {pairs} pares necesitan más datos; datos de CEDEN al {date}. Es posible que los datos recientes aún no se hayan enviado."
+  ,"reportingLagTitle": "Retraso de publicación de CEDEN"
+  ,"reportingLagUnavailable": "Las filas de química de CEDEN disponibles contienen SampleDate, pero no una fecha de carga o publicación por registro. El recurso de todos los años solo está disponible aquí como una lista de archivos ZIP, no como instantáneas históricas fechadas de filas; por eso no se puede establecer la primera aparición de cada registro. No se calcula el retraso y no se muestra un gráfico."
+  ,"reportingLagCaveat": "Es posible que las muestras recientes aún no se hayan enviado."
+  ,"dataGapsLabel": "Vacíos de datos"
+  ,"summaryFindings": "Hallazgos resumidos"
+  ,"gapPairsToTest": "En {count} pares de cuerpo de agua y contaminante para alcanzar el mínimo de la prueba numérica."
+  ,"dacOverlap": "Coincidencia con comunidades desfavorecidas"
+  ,"dacOverlapCount": "{affected} de {total} pares que necesitan más muestras se encuentran en áreas en el percentil 75 o superior de CalEnviroScreen."
+  ,"dacOverlapAll": "Entre todos los pares incluidos en la lista, {affected} de {total} están en áreas en el percentil 75 o superior. Son indicadores de área, no afirmaciones sobre personas."
+  ,"exceedanceCountSoFar": "{count} excedencia(s) hasta ahora"
+  ,"moreSamplesNeeded": "muestra(s) adicional(es) necesaria(s)"
+  ,"samplesCollected": "{current} de {minimum} muestras elegibles recopiladas"
+  ,"recCrosswalkTitle": "Tabla publicada de estaciones y cuerpos de agua"
+  ,"recCrosswalkBody": "Una tabla que identifique qué estaciones de monitoreo cuentan para cada cuerpo de agua evaluado, para que cualquiera pueda reproducir la asociación."
+  ,"recTablesTitle": "Tablas de la Política de Listado legibles por máquina"
+  ,"recTablesBody": "Tablas 3.1, 3.2, 4.1 y 4.2 como datos, no PDF, para aplicar de forma consistente los umbrales de tamaño de muestra y excedencias."
+  ,"recCoordinatesTitle": "Coordenadas y datum consistentes"
+  ,"recCoordinatesBody": "Latitud y longitud decimales con datum declarado para cada estación, para evitar desfases de cientos de metros en las uniones espaciales."
+  ,"recAssessmentTitle": "Indicadores aptos para evaluación en CEDEN"
+  ,"recAssessmentBody": "Un campo que indique si un resultado pasó el control de calidad y puede usarse en la evaluación de la sección 303(d) de la Ley de Agua Limpia, incluida la razón cuando no."
+  ,"recCriterionTitle": "Criterio usado en cada decisión"
+  ,"recCriterionBody": "El valor exacto del criterio, la unidad y el periodo de promedio aplicado en cada decisión, publicado con su ID."
+  ,"qualifierYes": "Sí"
+  ,"qualifierNo": "No"
+  ,"beforeCutoffLabel": "Antes del corte"
+  ,"afterCutoffLabel": "Desde el corte"
+  ,"scenarioTotals": "{total} muestras en total · {exceedances} excedencias · {allowed} permitidas"
+  ,"scenarioAllowedUnknown": "aún no establecido"
+  ,"tableMinimum": "Mínimo de {count} muestras"
+  ,"verifiedOn": "verificado el {date}"
+  ,"tableSourceCoverage": "Tabla {table} · {minimum}; versión fuente {version}, {verified}"
+  ,"pollutantDissolvedZinc": "Zinc disuelto"
+  ,"pollutantTotalNitrogen": "Nitrógeno total"
+  ,"pollutantPhosphorus": "Fósforo"
+  ,"pollutantDissolvedCopper": "Cobre disuelto"
+  ,"pollutantDissolvedOxygen": "Oxígeno disuelto"
+  ,"pollutantSelenium": "Selenio"
+  ,"pollutantToxicity": "Toxicidad"
+  ,"policyVersion2015": "Política de inclusión en la lista de California, modificada el 3 de febrero de 2015, páginas impresas 14–15"
+  ,"pendingObservationCount": "{count} resultado(s) público(s) reciente(s) de CEDEN esperan revisión de calidad y no se cuentan."
+  ,"qaPendingTooltip": "No se cuenta en la evaluación: falta revisar la calidad de origen o los replicados."
+  ,"censoredNotPlotted": "Los resultados censurados o no numéricos se conservan, pero no se grafican ni se cuentan."
+  ,"pendingQa": "Calidad pendiente"
+  ,"pendingQaCount": "{count} pendiente(s)"
+  ,"pendingChangesCount": "{count} observación(es) nuevas pendientes de revisión"
+  ,"dacUnavailable": "El contexto comunitario no está disponible porque esta entrega no incluye una asociación de CalEnviroScreen revisada."
+  ,"statusLabel": "Estado de datos"
+  ,"policySelectionPending": "Para esta entrega, la Tabla 4.2 es una selección preliminar de evaluación, no una interpretación regulatoria confirmada. El revisor debe comprobar la tabla asignada y cada criterio."
+  ,"placeCandidateCoverage": "Posibles intersecciones de lugares: {places}. Estas asociaciones derivadas de la geometría aún requieren revisión humana."
+  ,"provisionalCitationClause": " (evaluación preliminar con datos públicos; aún no revisada)"
+  ,"regionSwitcher": "Región de evaluación"
+  ,"regionSanDiego": "Región de San Diego"
+  ,"regionCentralCoast": "Región de la Costa Central"
+  ,"qaRegion3Scope": "Los conteos de la Región 3 comparan las LOE seleccionadas con un criterio fijo del Apéndice B1; los totales completos de la decisión se muestran por separado como contexto."
+  ,"qaFullPairCounts": "n/ex oficial del par completo"
+  ,"qaCriterion": "Criterio fijo seleccionado"
+  ,"validationCauseRegion3": "La coincidencia de fuentes está incompleta; consulte la nota de cada par para ver fuentes CEDEN, conteos solo por estación y fecha e identificadores sin coincidencia."
+  ,"regionValidationNotice": "Validación pendiente: las evaluaciones oficiales de esta región incluyen datos que aún no se han vinculado con CEDEN. Trate los resultados como una evaluación preliminar."
+  ,"validationNotReproduced": "Validación: no reproducida"
+}

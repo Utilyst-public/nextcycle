@@ -1,0 +1,355 @@
+[
+  {
+    "pair_id": "r9-2026-111216-do",
+    "waterbody_name": "San Mateo Creek (San Diego County)",
+    "county": "San Diego",
+    "cities": [],
+    "zips": [
+      "92055",
+      "92562",
+      "92672"
+    ],
+    "lat": 33.4323633,
+    "lon": -117.522129
+  },
+  {
+    "pair_id": "r9-2026-111713-ph",
+    "waterbody_name": "Los Penasquitos Creek",
+    "county": "San Diego",
+    "cities": [],
+    "zips": [],
+    "lat": 32.933113207268576,
+    "lon": -117.14312801814368
+  },
+  {
+    "pair_id": "r9-2026-111826-ph",
+    "waterbody_name": "Tecolote Creek",
+    "county": "San Diego",
+    "cities": [],
+    "zips": [],
+    "lat": 32.80183771284462,
+    "lon": -117.19217212406537
+  },
+  {
+    "pair_id": "r9-2026-111896-do",
+    "waterbody_name": "San Diego River (Lower)",
+    "county": "San Diego",
+    "cities": [
+      "San Diego",
+      "Santee",
+      "Eucalyptus Hills",
+      "Lakeside"
+    ],
+    "zips": [
+      "92040",
+      "92071",
+      "92108",
+      "92109",
+      "92110",
+      "92119",
+      "92120",
+      "92124"
+    ],
+    "lat": 32.8390699,
+    "lon": -117.0221558
+  },
+  {
+    "pair_id": "r9-2026-111943-do",
+    "waterbody_name": "Sycamore Canyon",
+    "county": "San Diego",
+    "cities": [
+      "San Diego",
+      "Santee"
+    ],
+    "zips": [
+      "92040",
+      "92064",
+      "92071",
+      "92131"
+    ],
+    "lat": 32.8989723,
+    "lon": -116.9902902
+  },
+  {
+    "pair_id": "r9-2026-111953-do",
+    "waterbody_name": "Forester Creek",
+    "county": "San Diego",
+    "cities": [
+      "El Cajon",
+      "San Diego",
+      "Santee",
+      "Crest",
+      "Granite Hills"
+    ],
+    "zips": [
+      "92019",
+      "92020",
+      "92021",
+      "92071"
+    ],
+    "lat": 32.8035564,
+    "lon": -116.9585412
+  },
+  {
+    "pair_id": "r9-2026-112079-do",
+    "waterbody_name": "Chollas Creek",
+    "county": "San Diego",
+    "cities": [
+      "Lemon Grove",
+      "San Diego"
+    ],
+    "zips": [
+      "91945",
+      "92102",
+      "92104",
+      "92105",
+      "92113",
+      "92114",
+      "92115",
+      "92136"
+    ],
+    "lat": 32.7185275,
+    "lon": -117.1116717
+  },
+  {
+    "pair_id": "r9-2026-112126-do",
+    "waterbody_name": "Otay River",
+    "county": "San Diego",
+    "cities": [
+      "Chula Vista",
+      "San Diego"
+    ],
+    "zips": [
+      "91911",
+      "91913",
+      "91915",
+      "92154"
+    ],
+    "lat": 32.5914353,
+    "lon": -117.0186631
+  },
+  {
+    "pair_id": "r9-2026-112165-do",
+    "waterbody_name": "Tijuana River",
+    "county": "San Diego",
+    "cities": [],
+    "zips": [],
+    "lat": 32.55255264036589,
+    "lon": -117.0991878550793
+  },
+  {
+    "pair_id": "r9-2026-112167-ph",
+    "waterbody_name": "Tijuana River",
+    "county": "San Diego",
+    "cities": [],
+    "zips": [],
+    "lat": 32.55255264036589,
+    "lon": -117.0991878550793
+  },
+  {
+    "pair_id": "r9-2026-113328-do",
+    "waterbody_name": "San Dieguito River",
+    "county": "San Diego",
+    "cities": [
+      "San Diego",
+      "Fairbanks Ranch",
+      "Rancho Santa Fe"
+    ],
+    "zips": [
+      "92014",
+      "92029",
+      "92067",
+      "92091",
+      "92127",
+      "92130"
+    ],
+    "lat": 33.0110942,
+    "lon": -117.1769302
+  },
+  {
+    "pair_id": "r9-2026-113981-do",
+    "waterbody_name": "Sweetwater River, Lower (below Sweetwater Reservoir)",
+    "county": "San Diego",
+    "cities": [
+      "Chula Vista",
+      "National City",
+      "Bonita",
+      "La Presa"
+    ],
+    "zips": [
+      "91902",
+      "91910",
+      "91950",
+      "91977"
+    ],
+    "lat": 32.6806574,
+    "lon": -117.0134605
+  },
+  {
+    "pair_id": "r9-2026-114818-do",
+    "waterbody_name": "Carmel Valley Creek",
+    "county": "San Diego",
+    "cities": [],
+    "zips": [],
+    "lat": 32.93960215006839,
+    "lon": -117.22070214625795
+  },
+  {
+    "pair_id": "r9-2026-148304-do",
+    "waterbody_name": "San Luis Rey River, Lower (west of Interstate 15)",
+    "county": "San Diego",
+    "cities": [
+      "Oceanside",
+      "Bonsall"
+    ],
+    "zips": [
+      "92003",
+      "92028",
+      "92054",
+      "92057",
+      "92058"
+    ],
+    "lat": 33.2582752,
+    "lon": -117.2716782
+  },
+  {
+    "pair_id": "r9-2026-164236-nitrate",
+    "waterbody_name": "Rainbow Creek",
+    "county": "Riverside, San Diego",
+    "cities": [
+      "Rainbow"
+    ],
+    "zips": [
+      "92028",
+      "92592"
+    ],
+    "lat": 33.4137063,
+    "lon": -117.156107
+  },
+  {
+    "pair_id": "r3-2024-107660-ph",
+    "waterbody_name": "Carmel River",
+    "county": "Monterey",
+    "cities": [],
+    "zips": [],
+    "lat": 36.41040744814746,
+    "lon": -121.72008466564562
+  },
+  {
+    "pair_id": "r3-2024-109064-oxygen-dissolved",
+    "waterbody_name": "Chorro Creek",
+    "county": "San Luis Obispo",
+    "cities": [],
+    "zips": [],
+    "lat": 35.339226311222525,
+    "lon": -120.7316142153201
+  },
+  {
+    "pair_id": "r3-2024-109438-ph",
+    "waterbody_name": "Arroyo Grande Creek (below Lopez Lake)",
+    "county": "San Luis Obispo",
+    "cities": [],
+    "zips": [],
+    "lat": 35.149122956600365,
+    "lon": -120.5420153643399
+  },
+  {
+    "pair_id": "r3-2024-109309-ph",
+    "waterbody_name": "San Luis Obispo Creek (below Osos Street)",
+    "county": "San Luis Obispo",
+    "cities": [],
+    "zips": [],
+    "lat": 35.23677499494301,
+    "lon": -120.68423505551756
+  },
+  {
+    "pair_id": "r3-2024-107997-ph",
+    "waterbody_name": "Tembladero Slough",
+    "county": "Monterey",
+    "cities": [],
+    "zips": [],
+    "lat": 36.76116791327571,
+    "lon": -121.76085793686988
+  },
+  {
+    "pair_id": "r3-2024-107093-ph",
+    "waterbody_name": "Pajaro River",
+    "county": "Monterey, San Benito, Santa Clara, Santa Cruz",
+    "cities": [],
+    "zips": [],
+    "lat": 36.91348366509391,
+    "lon": -121.63628387152761
+  },
+  {
+    "pair_id": "r3-2024-106511-oxygen-dissolved",
+    "waterbody_name": "San Lorenzo River",
+    "county": "Santa Cruz",
+    "cities": [],
+    "zips": [],
+    "lat": 37.0815433395438,
+    "lon": -122.08290973119759
+  },
+  {
+    "pair_id": "r3-2024-110225-ph",
+    "waterbody_name": "Santa Ynez River (below city of Lompoc to Ocean)",
+    "county": "Santa Barbara",
+    "cities": [],
+    "zips": [],
+    "lat": 34.67476076515479,
+    "lon": -120.52185461971146
+  },
+  {
+    "pair_id": "r3-2024-110132-ph",
+    "waterbody_name": "San Antonio Creek (San Antonio Watershed, Rancho del las Flores Bridge at Hwy 135 to downstream at Railroad Bridge)",
+    "county": "Santa Barbara",
+    "cities": [],
+    "zips": [],
+    "lat": 34.75308874007557,
+    "lon": -120.35533531887106
+  },
+  {
+    "pair_id": "r3-2024-86206-total-dissolved-solids",
+    "waterbody_name": "Santa Rosa Creek (San Luis Obispo County)",
+    "county": "San Luis Obispo",
+    "cities": [],
+    "zips": [],
+    "lat": 35.56630266175361,
+    "lon": -120.99842984607119
+  },
+  {
+    "pair_id": "r3-2024-110514-ph",
+    "waterbody_name": "Jalama Creek",
+    "county": "Santa Barbara",
+    "cities": [],
+    "zips": [],
+    "lat": 34.509251020541754,
+    "lon": -120.43571698638169
+  },
+  {
+    "pair_id": "r3-2024-106938-ph",
+    "waterbody_name": "Aptos Creek",
+    "county": "Santa Cruz",
+    "cities": [],
+    "zips": [],
+    "lat": 37.00966666354851,
+    "lon": -121.89695003927586
+  },
+  {
+    "pair_id": "r3-2024-112832-oxygen-dissolved",
+    "waterbody_name": "Old Salinas River",
+    "county": "Monterey",
+    "cities": [],
+    "zips": [],
+    "lat": 36.76573135962172,
+    "lon": -121.79390299115332
+  },
+  {
+    "pair_id": "r3-2024-109381-oxygen-dissolved",
+    "waterbody_name": "Pismo Creek",
+    "county": "San Luis Obispo",
+    "cities": [],
+    "zips": [],
+    "lat": 35.17261191486407,
+    "lon": -120.62235109978036
+  }
+]

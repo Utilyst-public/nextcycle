@@ -1,0 +1,71 @@
+{
+  "source": "SWAMP Stations",
+  "url": "https://data.ca.gov/api/3/action/datastore_search?resource_id=df69fdd7-1475-4e57-9385-bb1514f0291e&limit=5",
+  "http_status": 200,
+  "resource_id": "df69fdd7-1475-4e57-9385-bb1514f0291e",
+  "total_records_available": 7046,
+  "sample_record_count": 5,
+  "field_names": [
+    "_id",
+    "StationCode",
+    "StationName",
+    "TargetLatitude",
+    "TargetLongitude",
+    "LastSampleDate",
+    "Region",
+    "StationCategory"
+  ],
+  "note": null,
+  "records": [
+    {
+      "_id": 1,
+      "StationCode": "723ARGRB1",
+      "StationName": "Alamo River Outlet",
+      "TargetLatitude": 33.1992,
+      "TargetLongitude": -115.5971,
+      "LastSampleDate": "2026-10-20T00:00:00.000",
+      "Region": 7,
+      "StationCategory": null
+    },
+    {
+      "_id": 2,
+      "StationCode": "723NROTWM",
+      "StationName": "New River Outlet",
+      "TargetLatitude": 33.10472,
+      "TargetLongitude": -115.66361,
+      "LastSampleDate": "2026-10-20T00:00:00.000",
+      "Region": 7,
+      "StationCategory": null
+    },
+    {
+      "_id": 3,
+      "StationCode": "719CVSCOT",
+      "StationName": "Coachella Valley Stormwater Channel Outlet",
+      "TargetLatitude": 33.525292,
+      "TargetLongitude": -116.079253,
+      "LastSampleDate": "2026-10-20T00:00:00.000",
+      "Region": 7,
+      "StationCategory": null
+    },
+    {
+      "_id": 4,
+      "StationCode": "628MOJ001",
+      "StationName": "Mojave River, at Upper Narrows",
+      "TargetLatitude": 34.53176,
+      "TargetLongitude": -117.28534,
+      "LastSampleDate": "2026-10-19T00:00:00.000",
+      "Region": 6,
+      "StationCategory": null
+    },
+    {
+      "_id": 5,
+      "StationCode": "906MISPNT",
+      "StationName": "Mission Bay at Mission Point",
+      "TargetLatitude": 32.762355,
+      "TargetLongitude": -117.245932,
+      "LastSampleDate": "2026-10-05T00:00:00.000",
+      "Region": 9,
+      "StationCategory": null
+    }
+  ]
+}

@@ -1,0 +1,2079 @@
+[
+  {
+    "station_code": "901DCCSMC",
+    "station_name": "Devils Canyon Creek above San Mateo Cyn. Creek",
+    "lat": 33.473036,
+    "lon": -117.4659043,
+    "waterbody_id": "CAR9014000019980911121604",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2025-05-07",
+    "official_loe_station_codes": [
+      "901DCCSMC"
+    ]
+  },
+  {
+    "station_code": "901S00469",
+    "station_name": "San Mateo Canyon above Tenaja Cyn. Cr.",
+    "lat": 33.52999,
+    "lon": -117.408551,
+    "waterbody_id": "CAR9014000019980911121604",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2021-04-06",
+    "official_loe_station_codes": [
+      "901S00469"
+    ]
+  },
+  {
+    "station_code": "901S04309",
+    "station_name": "San Mateo Canyon Creek above Devil Cyn. Cr.",
+    "lat": 33.474861,
+    "lon": -117.466052,
+    "waterbody_id": "CAR9014000019980911121604",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2025-05-07",
+    "official_loe_station_codes": [
+      "901S04309"
+    ]
+  },
+  {
+    "station_code": "902M20161",
+    "station_name": "Rainbow Creek approx. 360 m u/s of Rainbow Valley Blvd.",
+    "lat": 33.41868,
+    "lon": -117.14384,
+    "waterbody_id": "CAR9022200019980803102333",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2015-06-25",
+    "official_loe_station_codes": [
+      "902M20161"
+    ]
+  },
+  {
+    "station_code": "902M20173",
+    "station_name": "Rainbow Creek",
+    "lat": 33.40528246,
+    "lon": -117.1809655,
+    "waterbody_id": "CAR9022200019980803102333",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2016-06-07",
+    "official_loe_station_codes": [
+      "902M20173"
+    ]
+  },
+  {
+    "station_code": "RBC-WGR",
+    "station_name": "Rainbow Creek at Willow Glen Rd. Bridge",
+    "lat": 33.40773,
+    "lon": -117.20246,
+    "waterbody_id": "CAR9022200019980803102333",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2017-07-06",
+    "official_loe_station_codes": [
+      "RBC-WGR"
+    ]
+  },
+  {
+    "station_code": "903M20214",
+    "station_name": "Lower San Luis Rey River at Benet Rd.",
+    "lat": 33.22036,
+    "lon": -117.35819,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2018-05-08",
+    "official_loe_station_codes": [
+      "903M20214"
+    ]
+  },
+  {
+    "station_code": "903M20230",
+    "station_name": "Lower San Luis Rey River at Douglas Dr.",
+    "lat": 33.24064,
+    "lon": -117.32132,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2018-05-08",
+    "official_loe_station_codes": [
+      "903M20230"
+    ]
+  },
+  {
+    "station_code": "903SLRRBB",
+    "station_name": "San Luis Rey River at Benet Road Bridge",
+    "lat": 33.22036,
+    "lon": -117.35821,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 9,
+    "last_sample_date": "2026-05-05",
+    "official_loe_station_codes": [
+      "903SLRRBB"
+    ]
+  },
+  {
+    "station_code": "SLR-010",
+    "station_name": "Pacific Coast Highway Bridge",
+    "lat": 33.20627,
+    "lon": -117.3865,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 12,
+    "last_sample_date": "2018-10-06",
+    "official_loe_station_codes": [
+      "SLR-010"
+    ]
+  },
+  {
+    "station_code": "SLR-030",
+    "station_name": "Douglas Ave Bridge",
+    "lat": 33.23977,
+    "lon": -117.32243,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 7,
+    "last_sample_date": "2018-06-02",
+    "official_loe_station_codes": [
+      "SLR-030"
+    ]
+  },
+  {
+    "station_code": "SLR-040",
+    "station_name": "Near Mission Ave where Hwy 76 crosses SLR",
+    "lat": 33.26137,
+    "lon": -117.23512,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 7,
+    "last_sample_date": "2018-06-02",
+    "official_loe_station_codes": [
+      "SLR-040"
+    ]
+  },
+  {
+    "station_code": "SLR-050",
+    "station_name": "Old Hwy 395 bridge W side of Interstate 15",
+    "lat": 33.32417,
+    "lon": -117.15998,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 5,
+    "last_sample_date": "2018-04-07",
+    "official_loe_station_codes": [
+      "SLR-050"
+    ]
+  },
+  {
+    "station_code": "SLR-MLS",
+    "station_name": "San Luis Rey River MLS",
+    "lat": 33.220648,
+    "lon": -117.35825,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 7,
+    "last_sample_date": "2017-06-01",
+    "official_loe_station_codes": [
+      "SLR-MLS"
+    ]
+  },
+  {
+    "station_code": "SLRR1",
+    "station_name": "San Luis Rey River_A",
+    "lat": 33.2597,
+    "lon": -117.2521,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 4,
+    "last_sample_date": "2019-12-04",
+    "official_loe_station_codes": [
+      "SLRR1"
+    ]
+  },
+  {
+    "station_code": "SLRR2",
+    "station_name": "San Luis Rey River_B",
+    "lat": 33.2582,
+    "lon": -117.2543,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 15,
+    "last_sample_date": "2020-02-10",
+    "official_loe_station_codes": [
+      "SLRR2"
+    ]
+  },
+  {
+    "station_code": "SLRTWAS1",
+    "station_name": "San Luis Rey River TWAS 1 (SLR-TWAS-1)",
+    "lat": 33.289248,
+    "lon": -117.224192,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 4,
+    "last_sample_date": "2015-05-05",
+    "official_loe_station_codes": [
+      "SLR-TWAS-1"
+    ]
+  },
+  {
+    "station_code": "SMC00665",
+    "station_name": "SMC00665",
+    "lat": 33.27401,
+    "lon": -117.23159,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2011-07-27",
+    "official_loe_station_codes": [
+      "SMC00665"
+    ]
+  },
+  {
+    "station_code": "SMC00857",
+    "station_name": "SMC00857",
+    "lat": 33.2461,
+    "lon": -117.30088,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2011-07-13",
+    "official_loe_station_codes": [
+      "SMC00857"
+    ]
+  },
+  {
+    "station_code": "SMC01689",
+    "station_name": "SMC01689",
+    "lat": 33.26792,
+    "lon": -117.23507,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2012-07-05",
+    "official_loe_station_codes": [
+      "SMC01689"
+    ]
+  },
+  {
+    "station_code": "SMC01881",
+    "station_name": "SMC01881",
+    "lat": 33.2355,
+    "lon": -117.3417,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2013-07-09",
+    "official_loe_station_codes": [
+      "SMC01881"
+    ]
+  },
+  {
+    "station_code": "SMC02905",
+    "station_name": "SMC02905",
+    "lat": 33.24004,
+    "lon": -117.3287,
+    "waterbody_id": "CAR9031100020011005104327",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2013-07-09",
+    "official_loe_station_codes": [
+      "SMC02905"
+    ]
+  },
+  {
+    "station_code": "905SDRSAN",
+    "station_name": "San Dieguito River Calle Ambiente",
+    "lat": 33.040615,
+    "lon": -117.155928,
+    "waterbody_id": "CAR9051100020080825090830",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2012-05-17",
+    "official_loe_station_codes": [
+      "905SDRSAN"
+    ]
+  },
+  {
+    "station_code": "905SDSDQ9",
+    "station_name": "San Dieguito River 9",
+    "lat": 32.97877,
+    "lon": -117.23506,
+    "waterbody_id": "CAR9051100020080825090830",
+    "link_method": "Fact sheet",
+    "sample_count": 12,
+    "last_sample_date": "2026-05-06",
+    "official_loe_station_codes": [
+      "905SDSDQ9"
+    ]
+  },
+  {
+    "station_code": "SDC-MLS",
+    "station_name": "San Dieguito River MLS",
+    "lat": 32.999082,
+    "lon": -117.205596,
+    "waterbody_id": "CAR9051100020080825090830",
+    "link_method": "Fact sheet",
+    "sample_count": 21,
+    "last_sample_date": "2023-04-24",
+    "official_loe_station_codes": [
+      "SDC-MLS"
+    ]
+  },
+  {
+    "station_code": "SGT-020",
+    "station_name": "Via De Santa Fe",
+    "lat": 33.00364,
+    "lon": -117.19939,
+    "waterbody_id": "CAR9051100020080825090830",
+    "link_method": "Fact sheet",
+    "sample_count": 18,
+    "last_sample_date": "2018-10-06",
+    "official_loe_station_codes": [
+      "SGT-020"
+    ]
+  },
+  {
+    "station_code": "SGT-028",
+    "station_name": "Del Dios Hwy at fruit stand",
+    "lat": 33.04036,
+    "lon": -117.15764,
+    "waterbody_id": "CAR9051100020080825090830",
+    "link_method": "Fact sheet",
+    "sample_count": 18,
+    "last_sample_date": "2018-10-06",
+    "official_loe_station_codes": [
+      "SGT-028"
+    ]
+  },
+  {
+    "station_code": "SMC04934",
+    "station_name": "SMC04934",
+    "lat": 33.03248,
+    "lon": -117.16315,
+    "waterbody_id": "CAR9051100020080825090830",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2013-07-12",
+    "official_loe_station_codes": [
+      "SMC04934"
+    ]
+  },
+  {
+    "station_code": "906LPLPC6",
+    "station_name": "Los Penasquitos Creek 6",
+    "lat": 32.9072,
+    "lon": -117.23055,
+    "waterbody_id": "CAR9061000020011025112826",
+    "link_method": "Fact sheet",
+    "sample_count": 14,
+    "last_sample_date": "2026-05-06",
+    "official_loe_station_codes": [
+      "906LPLPC6"
+    ]
+  },
+  {
+    "station_code": "LPC-MLS",
+    "station_name": "Los Penasquitos Creek MLS",
+    "lat": 32.904437,
+    "lon": -117.222833,
+    "waterbody_id": "CAR9061000020011025112826",
+    "link_method": "Fact sheet",
+    "sample_count": 55,
+    "last_sample_date": "2025-06-24",
+    "official_loe_station_codes": [
+      "LPC-MLS"
+    ]
+  },
+  {
+    "station_code": "LPCTWAS2",
+    "station_name": "Los Penasquitos Creek TWAS 2 (LPC-TWAS-2)",
+    "lat": 32.942518,
+    "lon": -117.083485,
+    "waterbody_id": "CAR9061000020011025112826",
+    "link_method": "Fact sheet",
+    "sample_count": 16,
+    "last_sample_date": "2015-05-13",
+    "official_loe_station_codes": [
+      "LPC-TWAS-2"
+    ]
+  },
+  {
+    "station_code": "LPQ-030",
+    "station_name": "Roselle St.",
+    "lat": 32.90689,
+    "lon": -117.23036,
+    "waterbody_id": "CAR9061000020011025112826",
+    "link_method": "Fact sheet",
+    "sample_count": 104,
+    "last_sample_date": "2018-10-06",
+    "official_loe_station_codes": [
+      "LPQ-030"
+    ]
+  },
+  {
+    "station_code": "LPQ-040",
+    "station_name": "Vista Sorrento Pkwy bridge",
+    "lat": 32.90497,
+    "lon": -117.22281,
+    "waterbody_id": "CAR9061000020011025112826",
+    "link_method": "Fact sheet",
+    "sample_count": 87,
+    "last_sample_date": "2018-10-06",
+    "official_loe_station_codes": [
+      "LPQ-040"
+    ]
+  },
+  {
+    "station_code": "SMC00198",
+    "station_name": "SMC00198",
+    "lat": 32.9371,
+    "lon": -117.13851,
+    "waterbody_id": "CAR9061000020011025112826",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2014-07-09",
+    "official_loe_station_codes": [
+      "SMC00198"
+    ]
+  },
+  {
+    "station_code": "SMC04294",
+    "station_name": "SMC04294",
+    "lat": 32.93741,
+    "lon": -117.14162,
+    "waterbody_id": "CAR9061000020011025112826",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2013-07-11",
+    "official_loe_station_codes": [
+      "SMC04294"
+    ]
+  },
+  {
+    "station_code": "906LPCYNU",
+    "station_name": "Los Penasquitos Creek Upstream",
+    "lat": 32.93613,
+    "lon": -117.22816,
+    "waterbody_id": "CAR9061000020190730045785",
+    "link_method": "Fact sheet",
+    "sample_count": 6,
+    "last_sample_date": "2016-09-12",
+    "official_loe_station_codes": [
+      "906LPCYNU"
+    ]
+  },
+  {
+    "station_code": "LPCTWAS3",
+    "station_name": "Los Penasquitos Creek TWAS 3 (LPC -TWAS-3)",
+    "lat": 32.94636,
+    "lon": -117.2046,
+    "waterbody_id": "CAR9061000020190730045785",
+    "link_method": "Fact sheet",
+    "sample_count": 18,
+    "last_sample_date": "2025-06-02",
+    "official_loe_station_codes": [
+      "LPC-TWAS-3"
+    ]
+  },
+  {
+    "station_code": "LPQ-020",
+    "station_name": "Hwy I-5 overpass",
+    "lat": 32.92969,
+    "lon": -117.24119,
+    "waterbody_id": "CAR9061000020190730045785",
+    "link_method": "Fact sheet",
+    "sample_count": 17,
+    "last_sample_date": "2018-10-06",
+    "official_loe_station_codes": [
+      "LPQ-020"
+    ]
+  },
+  {
+    "station_code": "906M23302",
+    "station_name": "Tecolote Creek North Fork approx 615 m u/s of Balboa Ave",
+    "lat": 32.81721,
+    "lon": -117.20024,
+    "waterbody_id": "CAR9065000019990208103941",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2015-06-23",
+    "official_loe_station_codes": [
+      "906M23302"
+    ]
+  },
+  {
+    "station_code": "MB-TWAS-2",
+    "station_name": "Mission Bay TWAS 2",
+    "lat": 32.798,
+    "lon": -117.19,
+    "waterbody_id": "CAR9065000019990208103941",
+    "link_method": "Fact sheet",
+    "sample_count": 12,
+    "last_sample_date": "2014-05-01",
+    "official_loe_station_codes": [
+      "MB-TWAS-2"
+    ]
+  },
+  {
+    "station_code": "SMC06918",
+    "station_name": "SMC06918",
+    "lat": 32.78179,
+    "lon": -117.18423,
+    "waterbody_id": "CAR9065000019990208103941",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2012-07-16",
+    "official_loe_station_codes": [
+      "SMC06918"
+    ]
+  },
+  {
+    "station_code": "SMC13062",
+    "station_name": "SMC13062",
+    "lat": 32.7755,
+    "lon": -117.19557,
+    "waterbody_id": "CAR9065000019990208103941",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2024-05-16",
+    "official_loe_station_codes": [
+      "SMC13062"
+    ]
+  },
+  {
+    "station_code": "TC-MLS",
+    "station_name": "Tecolote Creek MLS",
+    "lat": 32.772938,
+    "lon": -117.203076,
+    "waterbody_id": "CAR9065000019990208103941",
+    "link_method": "Fact sheet",
+    "sample_count": 261,
+    "last_sample_date": "2025-06-11",
+    "official_loe_station_codes": [
+      "TC-MLS"
+    ]
+  },
+  {
+    "station_code": "TC-MLS-US",
+    "station_name": "Tecolote Creek MLS (upstream)",
+    "lat": 32.77572,
+    "lon": -117.196827,
+    "waterbody_id": "CAR9065000019990208103941",
+    "link_method": "Fact sheet",
+    "sample_count": 36,
+    "last_sample_date": "2025-06-23",
+    "official_loe_station_codes": [
+      "TC-MLS-US"
+    ]
+  },
+  {
+    "station_code": "TC-TCNP",
+    "station_name": "Tecolote Creek TWAS at Mt. Acadia",
+    "lat": 32.79809,
+    "lon": -117.18967,
+    "waterbody_id": "CAR9065000019990208103941",
+    "link_method": "Fact sheet",
+    "sample_count": 317,
+    "last_sample_date": "2025-09-30",
+    "official_loe_station_codes": [
+      "TC-TCNP"
+    ]
+  },
+  {
+    "station_code": "907SDRWAR",
+    "station_name": "San Diego River at Ward Road",
+    "lat": 32.78032,
+    "lon": -117.11046,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 15,
+    "last_sample_date": "2026-05-06",
+    "official_loe_station_codes": [
+      "907SDRWAR"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-002",
+    "station_name": "County_SDR-ST-002_San Diego River",
+    "lat": 32.843374,
+    "lon": -116.997649,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2017-09-24",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-002"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-003",
+    "station_name": "County_SDR-ST-003_San Diego River",
+    "lat": 32.84432,
+    "lon": -116.98977,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2017-09-24",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-003"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-004",
+    "station_name": "County_SDR-ST-004_San Diego River",
+    "lat": 32.84645,
+    "lon": -116.98403,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2017-09-24",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-004"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-008",
+    "station_name": "County_SDR-ST-008_San Diego River",
+    "lat": 32.84771,
+    "lon": -116.96982,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2017-09-24",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-008"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-009",
+    "station_name": "County_SDR-ST-009_San Diego River",
+    "lat": 32.84969,
+    "lon": -116.961397,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2017-09-24",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-009"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-DS",
+    "station_name": "County_SDR-ST-DS_San Diego River",
+    "lat": 32.8394688,
+    "lon": -117.024543,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2017-09-24",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-DS"
+    ]
+  },
+  {
+    "station_code": "RW-001_E",
+    "station_name": "Estuary E of Wier",
+    "lat": 32.76131,
+    "lon": -117.20373,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 109,
+    "last_sample_date": "2019-01-21",
+    "official_loe_station_codes": [
+      "RW-001_E"
+    ]
+  },
+  {
+    "station_code": "RW-002_E",
+    "station_name": "River Garden E of Riffle",
+    "lat": 32.76235,
+    "lon": -117.19453,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 111,
+    "last_sample_date": "2019-01-20",
+    "official_loe_station_codes": [
+      "RW-002_E"
+    ]
+  },
+  {
+    "station_code": "RW-003",
+    "station_name": "Fashion Valley",
+    "lat": 32.76633,
+    "lon": -117.1655,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 112,
+    "last_sample_date": "2019-01-20",
+    "official_loe_station_codes": [
+      "RW-003"
+    ]
+  },
+  {
+    "station_code": "RW-006",
+    "station_name": "Ward Road",
+    "lat": 32.78035,
+    "lon": -117.11022,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 110,
+    "last_sample_date": "2019-01-20",
+    "official_loe_station_codes": [
+      "RW-006"
+    ]
+  },
+  {
+    "station_code": "RW-007",
+    "station_name": "Kaiser Pond",
+    "lat": 32.78386,
+    "lon": -117.10314,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 109,
+    "last_sample_date": "2019-01-20",
+    "official_loe_station_codes": [
+      "RW-007"
+    ]
+  },
+  {
+    "station_code": "RW-008",
+    "station_name": "Admiral Baker Golf Course at Zion and Riverdale",
+    "lat": 32.79038,
+    "lon": -117.10314,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 110,
+    "last_sample_date": "2019-01-20",
+    "official_loe_station_codes": [
+      "RW-008"
+    ]
+  },
+  {
+    "station_code": "RW-009",
+    "station_name": "Jackson Dr. at MTRP",
+    "lat": 32.82127,
+    "lon": -117.06205,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 103,
+    "last_sample_date": "2019-01-21",
+    "official_loe_station_codes": [
+      "RW-009"
+    ]
+  },
+  {
+    "station_code": "RW-011_W",
+    "station_name": "Old Mission Dam W",
+    "lat": 32.83954,
+    "lon": -117.0432,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 105,
+    "last_sample_date": "2019-01-21",
+    "official_loe_station_codes": [
+      "RW-011_W"
+    ]
+  },
+  {
+    "station_code": "RW-012",
+    "station_name": "Cottonwood Ave., RCP Plant",
+    "lat": 32.84707,
+    "lon": -116.97335,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 87,
+    "last_sample_date": "2017-12-15",
+    "official_loe_station_codes": [
+      "RW-012"
+    ]
+  },
+  {
+    "station_code": "RW-012B",
+    "station_name": "Magnolia Ave.",
+    "lat": 32.84776,
+    "lon": -116.96979,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 23,
+    "last_sample_date": "2019-01-18",
+    "official_loe_station_codes": [
+      "RW-012B"
+    ]
+  },
+  {
+    "station_code": "RW-013",
+    "station_name": "West Hills Pkwy., Gauging Station",
+    "lat": 32.83953,
+    "lon": -117.02402,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 107,
+    "last_sample_date": "2019-01-18",
+    "official_loe_station_codes": [
+      "RW-013"
+    ]
+  },
+  {
+    "station_code": "RW-015",
+    "station_name": "Mast Park (Ped. Bridge)",
+    "lat": 32.844,
+    "lon": -116.9897,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 105,
+    "last_sample_date": "2019-01-18",
+    "official_loe_station_codes": [
+      "RW-015"
+    ]
+  },
+  {
+    "station_code": "SDG-010",
+    "station_name": "Fashion Valley Road",
+    "lat": 32.76433,
+    "lon": -117.17008,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 17,
+    "last_sample_date": "2018-10-06",
+    "official_loe_station_codes": [
+      "SDG-010"
+    ]
+  },
+  {
+    "station_code": "SDG-020",
+    "station_name": "Old Mission Historical Dam",
+    "lat": 32.83886,
+    "lon": -117.04522,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 15,
+    "last_sample_date": "2018-08-04",
+    "official_loe_station_codes": [
+      "SDG-020"
+    ]
+  },
+  {
+    "station_code": "SDR-MLS",
+    "station_name": "San Diego River MLS",
+    "lat": 32.765245,
+    "lon": -117.168629,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 28,
+    "last_sample_date": "2024-05-06",
+    "official_loe_station_codes": [
+      "SDR-MLS"
+    ]
+  },
+  {
+    "station_code": "SDRTWAS1",
+    "station_name": "San Diego River TWAS 1 (SDR-TWAS-1)",
+    "lat": 32.783095,
+    "lon": -117.104305,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2024-10-14",
+    "official_loe_station_codes": [
+      "SDR-TWAS-1"
+    ]
+  },
+  {
+    "station_code": "SDRTWAS2",
+    "station_name": "San Diego River TWAS 2 (SDR-TWAS-2)",
+    "lat": 32.839678,
+    "lon": -117.024379,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2014-05-07",
+    "official_loe_station_codes": [
+      "SDR-TWAS-2"
+    ]
+  },
+  {
+    "station_code": "SDRTWAS3",
+    "station_name": "San Diego River TWAS 3 (SDR-TWAS-3)",
+    "lat": 32.856669,
+    "lon": -116.947622,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2014-05-07",
+    "official_loe_station_codes": [
+      "SDR-TWAS-3"
+    ]
+  },
+  {
+    "station_code": "SMC03110",
+    "station_name": "SMC03110",
+    "lat": 32.81106,
+    "lon": -117.07336,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2011-07-26",
+    "official_loe_station_codes": [
+      "SMC03110"
+    ]
+  },
+  {
+    "station_code": "SMC04134",
+    "station_name": "SMC04134",
+    "lat": 32.82874,
+    "lon": -117.05243,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2011-07-26",
+    "official_loe_station_codes": [
+      "SMC04134"
+    ]
+  },
+  {
+    "station_code": "SMC07126",
+    "station_name": "SMC07126",
+    "lat": 32.84093,
+    "lon": -117.03624,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2012-07-12",
+    "official_loe_station_codes": [
+      "SMC07126"
+    ]
+  },
+  {
+    "station_code": "SMC12246",
+    "station_name": "SMC12246",
+    "lat": 32.83933,
+    "lon": -117.04484,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2013-07-23",
+    "official_loe_station_codes": [
+      "SMC12246"
+    ]
+  },
+  {
+    "station_code": "SMC19552",
+    "station_name": "SMC19552",
+    "lat": 32.83984,
+    "lon": -117.02451,
+    "waterbody_id": "CAR9071100020011025101606",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2013-07-15",
+    "official_loe_station_codes": [
+      "SMC19552"
+    ]
+  },
+  {
+    "station_code": "907SDPD02",
+    "station_name": "Padre Dam 2",
+    "lat": 32.84463,
+    "lon": -117.00646,
+    "waterbody_id": "CAR9071200020011005135819",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2011-03-09",
+    "official_loe_station_codes": [
+      "907SDPD02"
+    ]
+  },
+  {
+    "station_code": "907SDPD03",
+    "station_name": "Upstream from Padre Dam",
+    "lat": 32.88779,
+    "lon": -116.99469,
+    "waterbody_id": "CAR9071200020011005135819",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2011-03-09",
+    "official_loe_station_codes": [
+      "907SDPD03"
+    ]
+  },
+  {
+    "station_code": "RSW-001",
+    "station_name": "Permanente Creek at RSW-001",
+    "lat": 37.31672,
+    "lon": -122.10242,
+    "waterbody_id": "CAR9071200020011005135819",
+    "link_method": "Fact sheet",
+    "sample_count": 22,
+    "last_sample_date": "2024-06-27",
+    "official_loe_station_codes": [
+      "RSW-001"
+    ]
+  },
+  {
+    "station_code": "RSW-001A",
+    "station_name": "Permanente Creek at RSW-001A",
+    "lat": 37.3198854,
+    "lon": -122.1305567,
+    "waterbody_id": "CAR9071200020011005135819",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2020-04-29",
+    "official_loe_station_codes": [
+      "RSW-001A"
+    ]
+  },
+  {
+    "station_code": "RW-014",
+    "station_name": "Carlton Oaks Dr.",
+    "lat": 32.84435,
+    "lon": -117.00643,
+    "waterbody_id": "CAR9071200020011005135819",
+    "link_method": "Fact sheet",
+    "sample_count": 63,
+    "last_sample_date": "2019-01-18",
+    "official_loe_station_codes": [
+      "RW-014"
+    ]
+  },
+  {
+    "station_code": "907M23325",
+    "station_name": "Forester Creek Tributary 10 m u/s of Johnson Ave",
+    "lat": 32.79865,
+    "lon": -116.97077,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2015-04-25",
+    "official_loe_station_codes": [
+      "907M23325"
+    ]
+  },
+  {
+    "station_code": "907M23379",
+    "station_name": "Forester Creek approx. 330 m u/s of Main St.",
+    "lat": 32.80333,
+    "lon": -116.92432,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2018-05-30",
+    "official_loe_station_codes": [
+      "907M23379"
+    ]
+  },
+  {
+    "station_code": "907SDFOL1",
+    "station_name": "Forester Creek at the Olive Lane Bridge",
+    "lat": 32.833902,
+    "lon": -116.988989,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2012-11-27",
+    "official_loe_station_codes": [
+      "907SDFOL1"
+    ]
+  },
+  {
+    "station_code": "907SDFPB1",
+    "station_name": "Forester Creek at the Propsect Bridge",
+    "lat": 32.831679,
+    "lon": -116.985984,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2012-11-27",
+    "official_loe_station_codes": [
+      "907SDFPB1"
+    ]
+  },
+  {
+    "station_code": "907SDFRC2",
+    "station_name": "Forrester Creek 2",
+    "lat": 32.83945,
+    "lon": -117.00107,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 8,
+    "last_sample_date": "2012-11-27",
+    "official_loe_station_codes": [
+      "907SDFRC2"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-FC1A",
+    "station_name": "County_SDR-FC1A_San Diego River",
+    "lat": 32.839778,
+    "lon": -117.004166,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 24,
+    "last_sample_date": "2017-10-22",
+    "official_loe_station_codes": [
+      "CT_SDR-FC1A"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-FC2A",
+    "station_name": "County_SDR-FC2A_San Diego River",
+    "lat": 32.826845,
+    "lon": -116.982373,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 8,
+    "last_sample_date": "2017-10-22",
+    "official_loe_station_codes": [
+      "CT_SDR-FC2A"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-001",
+    "station_name": "County_SDR-ST-001_San Diego River",
+    "lat": 32.8369,
+    "lon": -117.01811,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2017-09-24",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-001"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-005",
+    "station_name": "County_SDR-ST-005_San Diego River",
+    "lat": 32.83914,
+    "lon": -116.998066,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 27,
+    "last_sample_date": "2017-10-22",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-005"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-005A",
+    "station_name": "County_SDR-ST-005A_San Diego River",
+    "lat": 32.838567,
+    "lon": -116.997253,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 25,
+    "last_sample_date": "2017-10-22",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-005A"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-006",
+    "station_name": "County_SDR-ST-006_San Diego River",
+    "lat": 32.835609,
+    "lon": -116.992628,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 26,
+    "last_sample_date": "2017-10-22",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-006"
+    ]
+  },
+  {
+    "station_code": "CT_SDR-ST-007",
+    "station_name": "County_SDR-ST-007_San Diego River",
+    "lat": 32.833926,
+    "lon": -116.988989,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2017-09-24",
+    "official_loe_station_codes": [
+      "CT_SDR-ST-007"
+    ]
+  },
+  {
+    "station_code": "RSW-004",
+    "station_name": "Permanente Creek at RSW-004",
+    "lat": 37.32217,
+    "lon": -122.08436,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 59,
+    "last_sample_date": "2025-10-13",
+    "official_loe_station_codes": [
+      "RSW-004"
+    ]
+  },
+  {
+    "station_code": "RW-016",
+    "station_name": "Forester Creek U/S",
+    "lat": 32.83549,
+    "lon": -116.99255,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 107,
+    "last_sample_date": "2019-01-18",
+    "official_loe_station_codes": [
+      "RW-016"
+    ]
+  },
+  {
+    "station_code": "SDR-FC1",
+    "station_name": "Forester Creek at Lower Forester Creek",
+    "lat": 32.83986,
+    "lon": -117.00395,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 26,
+    "last_sample_date": "2017-10-22",
+    "official_loe_station_codes": [
+      "SDR-FC1"
+    ]
+  },
+  {
+    "station_code": "SDR-FC2",
+    "station_name": "Lower Forester Creek at Prospect Ave",
+    "lat": 32.8313,
+    "lon": -116.98572,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 26,
+    "last_sample_date": "2017-10-22",
+    "official_loe_station_codes": [
+      "SDR-FC2"
+    ]
+  },
+  {
+    "station_code": "SMC08150",
+    "station_name": "SMC08150",
+    "lat": 32.8372,
+    "lon": -117.0201,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2014-07-08",
+    "official_loe_station_codes": [
+      "SMC08150"
+    ]
+  },
+  {
+    "station_code": "SMC09174",
+    "station_name": "SMC09174",
+    "lat": 32.83971,
+    "lon": -117.002,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2012-07-13",
+    "official_loe_station_codes": [
+      "SMC09174"
+    ]
+  },
+  {
+    "station_code": "SMC10198",
+    "station_name": "SMC10198",
+    "lat": 32.82184,
+    "lon": -116.97642,
+    "waterbody_id": "CAR9071300020010924120240",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2012-07-13",
+    "official_loe_station_codes": [
+      "SMC10198"
+    ]
+  },
+  {
+    "station_code": "CC-NF54",
+    "station_name": "Chollas Creek MLS(Dry weather only)",
+    "lat": 32.741427,
+    "lon": -117.083484,
+    "waterbody_id": "CAR9082200019990208140725",
+    "link_method": "Fact sheet",
+    "sample_count": 10,
+    "last_sample_date": "2022-04-05",
+    "official_loe_station_codes": [
+      "CC-NF54"
+    ]
+  },
+  {
+    "station_code": "LG1",
+    "station_name": "Lemon Grove Jurisdicitional Boundary",
+    "lat": 32.72708,
+    "lon": -117.06999,
+    "waterbody_id": "CAR9082200019990208140725",
+    "link_method": "Fact sheet",
+    "sample_count": 184,
+    "last_sample_date": "2020-06-18",
+    "official_loe_station_codes": [
+      "LG1"
+    ]
+  },
+  {
+    "station_code": "PBL-016",
+    "station_name": "Market St at I-15",
+    "lat": 32.71196,
+    "lon": -117.12023,
+    "waterbody_id": "CAR9082200019990208140725",
+    "link_method": "Fact sheet",
+    "sample_count": 17,
+    "last_sample_date": "2024-03-02",
+    "official_loe_station_codes": [
+      "PBL-016"
+    ]
+  },
+  {
+    "station_code": "PBL-020",
+    "station_name": "Federal Blvd.",
+    "lat": 32.72715,
+    "lon": -117.06995,
+    "waterbody_id": "CAR9082200019990208140725",
+    "link_method": "Fact sheet",
+    "sample_count": 52,
+    "last_sample_date": "2024-09-25",
+    "official_loe_station_codes": [
+      "PBL-020"
+    ]
+  },
+  {
+    "station_code": "PBL-040",
+    "station_name": "Alpha St. and 38th St. Restoration area",
+    "lat": 32.69192,
+    "lon": -117.11264,
+    "waterbody_id": "CAR9082200019990208140725",
+    "link_method": "Fact sheet",
+    "sample_count": 34,
+    "last_sample_date": "2024-03-02",
+    "official_loe_station_codes": [
+      "PBL-040"
+    ]
+  },
+  {
+    "station_code": "909SWCYNU",
+    "station_name": "Sweetwater River Upstream",
+    "lat": 32.65047,
+    "lon": -117.06393,
+    "waterbody_id": "CAR9091200020091030145725",
+    "link_method": "Fact sheet",
+    "sample_count": 7,
+    "last_sample_date": "2016-09-29",
+    "official_loe_station_codes": [
+      "909SWCYNU"
+    ]
+  },
+  {
+    "station_code": "SMC01962",
+    "station_name": "SMC01962",
+    "lat": 32.66102,
+    "lon": -117.03916,
+    "waterbody_id": "CAR9091200020091030145725",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2014-07-17",
+    "official_loe_station_codes": [
+      "SMC01962"
+    ]
+  },
+  {
+    "station_code": "SMC17918",
+    "station_name": "SMC17918",
+    "lat": 32.66246,
+    "lon": -117.03475,
+    "waterbody_id": "CAR9091200020091030145725",
+    "link_method": "Fact sheet",
+    "sample_count": 1,
+    "last_sample_date": "2013-07-25",
+    "official_loe_station_codes": [
+      "SMC17918"
+    ]
+  },
+  {
+    "station_code": "SR-MLS",
+    "station_name": "Sweetwater River MLS",
+    "lat": 32.650472,
+    "lon": -117.063446,
+    "waterbody_id": "CAR9091200020091030145725",
+    "link_method": "Fact sheet",
+    "sample_count": 9,
+    "last_sample_date": "2019-06-18",
+    "official_loe_station_codes": [
+      "SR-MLS"
+    ]
+  },
+  {
+    "station_code": "SWT-010",
+    "station_name": "Plaza Bonita Rd.",
+    "lat": 32.6505,
+    "lon": -117.06353,
+    "waterbody_id": "CAR9091200020091030145725",
+    "link_method": "Fact sheet",
+    "sample_count": 16,
+    "last_sample_date": "2018-10-06",
+    "official_loe_station_codes": [
+      "SWT-010"
+    ]
+  },
+  {
+    "station_code": "SWT-020",
+    "station_name": "S17 Sweetwater Rd.",
+    "lat": 32.67492,
+    "lon": -117.01656,
+    "waterbody_id": "CAR9091200020091030145725",
+    "link_method": "Fact sheet",
+    "sample_count": 5,
+    "last_sample_date": "2017-06-03",
+    "official_loe_station_codes": [
+      "SWT-020"
+    ]
+  },
+  {
+    "station_code": "910OTCYNM",
+    "station_name": "Otay River Mid-slough",
+    "lat": 32.58804,
+    "lon": -117.10574,
+    "waterbody_id": "CAR9102000019991117160226",
+    "link_method": "Fact sheet",
+    "sample_count": 6,
+    "last_sample_date": "2016-09-12",
+    "official_loe_station_codes": [
+      "910OTCYNM"
+    ]
+  },
+  {
+    "station_code": "OR-TWAS-1",
+    "station_name": "Otay River TWAS 1",
+    "lat": 32.5904,
+    "lon": -117.073,
+    "waterbody_id": "CAR9102000019991117160226",
+    "link_method": "Fact sheet",
+    "sample_count": 7,
+    "last_sample_date": "2025-04-08",
+    "official_loe_station_codes": [
+      "OR-TWAS-1"
+    ]
+  },
+  {
+    "station_code": "OTY-011",
+    "station_name": "Under Trolley Bridge on Hollister st",
+    "lat": 32.59004,
+    "lon": -117.08398,
+    "waterbody_id": "CAR9102000019991117160226",
+    "link_method": "Fact sheet",
+    "sample_count": 8,
+    "last_sample_date": "2018-06-02",
+    "official_loe_station_codes": [
+      "OTY-011"
+    ]
+  },
+  {
+    "station_code": "OTY-020",
+    "station_name": "Date St.",
+    "lat": 32.58753,
+    "lon": -117.04619,
+    "waterbody_id": "CAR9102000019991117160226",
+    "link_method": "Fact sheet",
+    "sample_count": 11,
+    "last_sample_date": "2018-06-02",
+    "official_loe_station_codes": [
+      "OTY-020"
+    ]
+  },
+  {
+    "station_code": "911TTJR06",
+    "station_name": "Tijuana River 6",
+    "lat": 32.55113,
+    "lon": -117.08252,
+    "waterbody_id": "CAR9111100019990208133940",
+    "link_method": "Fact sheet",
+    "sample_count": 8,
+    "last_sample_date": "2011-09-29",
+    "official_loe_station_codes": [
+      "911TTJR06"
+    ]
+  },
+  {
+    "station_code": "TJN-040",
+    "station_name": "Saturn Blvd",
+    "lat": 32.55932,
+    "lon": -117.09284,
+    "waterbody_id": "CAR9111100019990208133940",
+    "link_method": "Fact sheet",
+    "sample_count": 11,
+    "last_sample_date": "2015-02-21",
+    "official_loe_station_codes": [
+      "TJN-040"
+    ]
+  },
+  {
+    "station_code": "TJN-050",
+    "station_name": "Hollister bridge",
+    "lat": 32.55103,
+    "lon": -117.08405,
+    "waterbody_id": "CAR9111100019990208133940",
+    "link_method": "Fact sheet",
+    "sample_count": 13,
+    "last_sample_date": "2015-05-16",
+    "official_loe_station_codes": [
+      "TJN-050"
+    ]
+  },
+  {
+    "station_code": "TJN-060",
+    "station_name": "Dairy Mart bridge",
+    "lat": 32.54764,
+    "lon": -117.06555,
+    "waterbody_id": "CAR9111100019990208133940",
+    "link_method": "Fact sheet",
+    "sample_count": 14,
+    "last_sample_date": "2015-05-16",
+    "official_loe_station_codes": [
+      "TJN-060"
+    ]
+  },
+  {
+    "station_code": "TJR-MLS",
+    "station_name": "Tijuana River MLS",
+    "lat": 32.551311,
+    "lon": -117.084061,
+    "waterbody_id": "CAR9111100019990208133940",
+    "link_method": "Fact sheet",
+    "sample_count": 52,
+    "last_sample_date": "2021-01-29",
+    "official_loe_station_codes": [
+      "TJR-MLS"
+    ]
+  },
+  {
+    "station_code": "307CMD",
+    "station_name": "Carmel River @ Schulte Rd",
+    "lat": 36.525518981,
+    "lon": -121.830566,
+    "waterbody_id": "CAR3070005019990223142907",
+    "link_method": "Fact sheet",
+    "sample_count": 42,
+    "last_sample_date": "2024-12-11"
+  },
+  {
+    "station_code": "307CML",
+    "station_name": "Carmel River at Highway 1",
+    "lat": 36.536375981,
+    "lon": -121.911678,
+    "waterbody_id": "CAR3070005019990223142907",
+    "link_method": "Fact sheet",
+    "sample_count": 253,
+    "last_sample_date": "2026-04-22"
+  },
+  {
+    "station_code": "307CMN",
+    "station_name": "Carmel River @ Nason Rd Community Park",
+    "lat": 36.399206981,
+    "lon": -121.660468,
+    "waterbody_id": "CAR3070005019990223142907",
+    "link_method": "Fact sheet",
+    "sample_count": 94,
+    "last_sample_date": "2024-12-11"
+  },
+  {
+    "station_code": "307CMRADC",
+    "station_name": "Carmel River above Danish Cr.",
+    "lat": 36.372226,
+    "lon": -121.663084,
+    "waterbody_id": "CAR3070005019990223142907",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2015-05-06"
+  },
+  {
+    "station_code": "307CMU",
+    "station_name": "Carmel River at Esquiline Road",
+    "lat": 36.474358981,
+    "lon": -121.727515,
+    "waterbody_id": "CAR3070005019990223142907",
+    "link_method": "Fact sheet",
+    "sample_count": 98,
+    "last_sample_date": "2024-12-11"
+  },
+  {
+    "station_code": "310CAN",
+    "station_name": "Chorro Creek at Canet Road",
+    "lat": 35.35306,
+    "lon": -120.78764,
+    "waterbody_id": "CAR3102201219980825120817",
+    "link_method": "Fact sheet",
+    "sample_count": 407,
+    "last_sample_date": "2026-02-11"
+  },
+  {
+    "station_code": "310CCC",
+    "station_name": "Chorro Creek upstream from Chorro Flats",
+    "lat": 35.35746,
+    "lon": -120.8121,
+    "waterbody_id": "CAR3102201219980825120817",
+    "link_method": "Fact sheet",
+    "sample_count": 492,
+    "last_sample_date": "2026-03-26"
+  },
+  {
+    "station_code": "310CHO",
+    "station_name": "Chorro Creek at Camp SLO",
+    "lat": 35.3221198929604,
+    "lon": -120.722205085187,
+    "waterbody_id": "CAR3102201219980825120817",
+    "link_method": "Fact sheet",
+    "sample_count": 281,
+    "last_sample_date": "2025-12-09"
+  },
+  {
+    "station_code": "310TWB",
+    "station_name": "Chorro Creek at South Bay Boulevard",
+    "lat": 35.35422598,
+    "lon": -120.826942,
+    "waterbody_id": "CAR3102201219980825120817",
+    "link_method": "Fact sheet",
+    "sample_count": 1006,
+    "last_sample_date": "2026-04-15"
+  },
+  {
+    "station_code": "310UCR",
+    "station_name": "Chorro Creek @ upper Chorro Creek Ecological Reserve",
+    "lat": 35.33861993802,
+    "lon": -120.767515394151,
+    "waterbody_id": "CAR3102201219980825120817",
+    "link_method": "Fact sheet",
+    "sample_count": 323,
+    "last_sample_date": "2025-12-30"
+  },
+  {
+    "station_code": "310AGB",
+    "station_name": "Arroyo Grande at Bittle Park",
+    "lat": 35.18509698,
+    "lon": -120.498666,
+    "waterbody_id": "CAR3103101419980804113947",
+    "link_method": "Fact sheet",
+    "sample_count": 91,
+    "last_sample_date": "2024-05-02"
+  },
+  {
+    "station_code": "310AGF",
+    "station_name": "Arroyo Grande at Fair Oaks Bridge",
+    "lat": 35.11260698,
+    "lon": -120.586269,
+    "waterbody_id": "CAR3103101419980804113947",
+    "link_method": "Fact sheet",
+    "sample_count": 102,
+    "last_sample_date": "2024-12-04"
+  },
+  {
+    "station_code": "310AGS",
+    "station_name": "Arroyo Grande Creek @ Strother Park",
+    "lat": 35.12777598,
+    "lon": -120.556479,
+    "waterbody_id": "CAR3103101419980804113947",
+    "link_method": "Fact sheet",
+    "sample_count": 103,
+    "last_sample_date": "2024-12-04"
+  },
+  {
+    "station_code": "310ARG",
+    "station_name": "Arroyo Grande Creek at 22nd Street",
+    "lat": 35.09521298,
+    "lon": -120.60625,
+    "waterbody_id": "CAR3103101419980804113947",
+    "link_method": "Fact sheet",
+    "sample_count": 309,
+    "last_sample_date": "2026-04-15"
+  },
+  {
+    "station_code": "310USG",
+    "station_name": "Arroyo Grande Creek @ old USGS gage",
+    "lat": 35.12445,
+    "lon": -120.56913,
+    "waterbody_id": "CAR3103101419980804113947",
+    "link_method": "Fact sheet",
+    "sample_count": 242,
+    "last_sample_date": "2026-03-26"
+  },
+  {
+    "station_code": "310SLB",
+    "station_name": "San Luis Obispo Creek at San Luis Bay Drive",
+    "lat": 35.18832298,
+    "lon": -120.717918,
+    "waterbody_id": "CAR3102402119980828115513",
+    "link_method": "Fact sheet",
+    "sample_count": 689,
+    "last_sample_date": "2026-04-15"
+  },
+  {
+    "station_code": "310SLM",
+    "station_name": "San Luis Obispo Creek @ Mission Plaza",
+    "lat": 35.27984598,
+    "lon": -120.663041,
+    "waterbody_id": "CAR3102402119980828115513",
+    "link_method": "Fact sheet",
+    "sample_count": 104,
+    "last_sample_date": "2024-12-04"
+  },
+  {
+    "station_code": "310SLV",
+    "station_name": "San Luis Obispo Ck at Los Osos Valley Road",
+    "lat": 35.24312398,
+    "lon": -120.680152,
+    "waterbody_id": "CAR3102402119980828115513",
+    "link_method": "Fact sheet",
+    "sample_count": 107,
+    "last_sample_date": "2024-12-04"
+  },
+  {
+    "station_code": "309TDW",
+    "station_name": "Tembladero Slough at Monterey Dunes Way",
+    "lat": 36.772182981,
+    "lon": -121.786597,
+    "waterbody_id": "CAR3091101019981209131830",
+    "link_method": "Fact sheet",
+    "sample_count": 312,
+    "last_sample_date": "2026-04-22"
+  },
+  {
+    "station_code": "309TEH",
+    "station_name": "Tembladero Slough @ Haro",
+    "lat": 36.75932,
+    "lon": -121.75487,
+    "waterbody_id": "CAR3091101019981209131830",
+    "link_method": "Fact sheet",
+    "sample_count": 279,
+    "last_sample_date": "2026-03-25"
+  },
+  {
+    "station_code": "309TEM",
+    "station_name": "Tembladero Slough @ Preston Rd",
+    "lat": 36.765043981,
+    "lon": -121.758462,
+    "waterbody_id": "CAR3091101019981209131830",
+    "link_method": "Fact sheet",
+    "sample_count": 104,
+    "last_sample_date": "2018-12-05"
+  },
+  {
+    "station_code": "305-PAJAR-21",
+    "station_name": "Pajaro River under Thurwachter Bridge",
+    "lat": 36.88,
+    "lon": -121.7931,
+    "waterbody_id": "CAR3051003019980826115152",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2015-05-02"
+  },
+  {
+    "station_code": "305CHI",
+    "station_name": "Pajaro River at Chittenden Gap",
+    "lat": 36.900329981,
+    "lon": -121.596157,
+    "waterbody_id": "CAR3051003019980826115152",
+    "link_method": "Fact sheet",
+    "sample_count": 423,
+    "last_sample_date": "2026-03-23"
+  },
+  {
+    "station_code": "305MUR",
+    "station_name": "Pajaro River at Murphy's Crossing",
+    "lat": 36.905333981,
+    "lon": -121.675238,
+    "waterbody_id": "CAR3051003019980826115152",
+    "link_method": "Fact sheet",
+    "sample_count": 150,
+    "last_sample_date": "2017-12-12"
+  },
+  {
+    "station_code": "305PAJ",
+    "station_name": "Pajaro River at Betabel Road",
+    "lat": 36.916793981,
+    "lon": -121.54828,
+    "waterbody_id": "CAR3051003019980826115152",
+    "link_method": "Fact sheet",
+    "sample_count": 165,
+    "last_sample_date": "2017-12-05"
+  },
+  {
+    "station_code": "305PJP",
+    "station_name": "Pajaro River at Porter/Main",
+    "lat": 36.90533,
+    "lon": -121.75105,
+    "waterbody_id": "CAR3051003019980826115152",
+    "link_method": "Fact sheet",
+    "sample_count": 348,
+    "last_sample_date": "2026-03-23"
+  },
+  {
+    "station_code": "305THU",
+    "station_name": "Pajaro River at Thurwachter Bridge",
+    "lat": 36.879774981,
+    "lon": -121.791946,
+    "waterbody_id": "CAR3051003019980826115152",
+    "link_method": "Fact sheet",
+    "sample_count": 328,
+    "last_sample_date": "2026-04-23"
+  },
+  {
+    "station_code": "304-SANLO-21",
+    "station_name": "San Lorenzo River downtown",
+    "lat": 36.9781,
+    "lon": -122.0231,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2015-05-02"
+  },
+  {
+    "station_code": "304-SANLO-22",
+    "station_name": "San Lorenzo River mouth",
+    "lat": 36.966,
+    "lon": -122.0132,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 4,
+    "last_sample_date": "2015-05-02"
+  },
+  {
+    "station_code": "304-SANLO-26",
+    "station_name": "San Lorenzo River at the Garden of Eden",
+    "lat": 37.01347,
+    "lon": -122.04551,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2015-05-02"
+  },
+  {
+    "station_code": "304-SANLO-27",
+    "station_name": "San Lorenzo River at Junction Park",
+    "lat": 37.127394,
+    "lon": -122.12058,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 3,
+    "last_sample_date": "2015-05-02"
+  },
+  {
+    "station_code": "304LOR",
+    "station_name": "San Lorenzo Estuary at Laurel Street",
+    "lat": 36.969739981,
+    "lon": -122.022029,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 417,
+    "last_sample_date": "2026-04-23"
+  },
+  {
+    "station_code": "304PS0253",
+    "station_name": "San Lorenzo River ~0.4mi above McGaffigan Rd.",
+    "lat": 37.20189092,
+    "lon": -122.1466515,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 2,
+    "last_sample_date": "2014-06-05"
+  },
+  {
+    "station_code": "304RIV",
+    "station_name": "San Lorenzo River at Crossing Street",
+    "lat": 36.991322981,
+    "lon": -122.030754,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 87,
+    "last_sample_date": "2017-11-28"
+  },
+  {
+    "station_code": "304SL9",
+    "station_name": "San Lorenzo River at Highway 9",
+    "lat": 37.088386411,
+    "lon": -122.0875047,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 170,
+    "last_sample_date": "2017-11-28"
+  },
+  {
+    "station_code": "304SLB",
+    "station_name": "San Lorenzo River at Big Trees Road",
+    "lat": 37.044310401,
+    "lon": -122.0709615,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 135,
+    "last_sample_date": "2017-11-28"
+  },
+  {
+    "station_code": "304SLE",
+    "station_name": "San Lorenzo Upstream Bear Creek",
+    "lat": 37.127775591,
+    "lon": -122.1210388,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 172,
+    "last_sample_date": "2017-11-28"
+  },
+  {
+    "station_code": "304SLRWAT",
+    "station_name": "San Lorenzo River below Water Street",
+    "lat": 36.97685,
+    "lon": -122.0239,
+    "waterbody_id": "CAR3041202219980827084709",
+    "link_method": "Fact sheet",
+    "sample_count": 15,
+    "last_sample_date": "2025-06-25"
+  },
+  {
+    "station_code": "314SYF",
+    "station_name": "Santa Ynez River at Floradale Rd",
+    "lat": 34.67213098,
+    "lon": -120.492103,
+    "waterbody_id": "CAR3141004020050816125631",
+    "link_method": "Fact sheet",
+    "sample_count": 312,
+    "last_sample_date": "2026-02-20"
+  },
+  {
+    "station_code": "314SYN",
+    "station_name": "Santa Ynez River at 13th Street",
+    "lat": 34.67661698,
+    "lon": -120.553388,
+    "waterbody_id": "CAR3141004020050816125631",
+    "link_method": "Fact sheet",
+    "sample_count": 713,
+    "last_sample_date": "2026-05-06"
+  },
+  {
+    "station_code": "313SAB",
+    "station_name": "San Antonio Creek at Rancho de las Flores Bridge and Highway 135",
+    "lat": 34.75588998,
+    "lon": -120.347955,
+    "waterbody_id": "CAR3130001020020918211049",
+    "link_method": "Fact sheet",
+    "sample_count": 35,
+    "last_sample_date": "2023-06-30"
+  },
+  {
+    "station_code": "313SAC",
+    "station_name": "San Antonio Creek at VAFB RR bridge",
+    "lat": 34.79008798,
+    "lon": -120.609866,
+    "waterbody_id": "CAR3130001020020918211049",
+    "link_method": "Fact sheet",
+    "sample_count": 42,
+    "last_sample_date": "2014-12-17"
+  },
+  {
+    "station_code": "313SAE",
+    "station_name": "San Antonio Creek at San Antonio Road East",
+    "lat": 34.78235698,
+    "lon": -120.529225,
+    "waterbody_id": "CAR3130001020020918211049",
+    "link_method": "Fact sheet",
+    "sample_count": 32,
+    "last_sample_date": "2026-03-31"
+  },
+  {
+    "station_code": "313SAI",
+    "station_name": "San Antonio Creek at San Antonio Rd West",
+    "lat": 34.78233,
+    "lon": -120.52997,
+    "waterbody_id": "CAR3130001020020918211049",
+    "link_method": "Fact sheet",
+    "sample_count": 613,
+    "last_sample_date": "2026-05-06"
+  },
+  {
+    "station_code": "310SRO",
+    "station_name": "Santa Rosa Ck at Moonstone Beach Drive",
+    "lat": 35.567987981,
+    "lon": -121.103195,
+    "waterbody_id": "CAR3142001120020124143542",
+    "link_method": "Fact sheet",
+    "sample_count": 224,
+    "last_sample_date": "2026-03-18"
+  },
+  {
+    "station_code": "310SRU",
+    "station_name": "Santa Rosa Creek at Ferrassi Road",
+    "lat": 35.568001981,
+    "lon": -121.064038,
+    "waterbody_id": "CAR3142001120020124143542",
+    "link_method": "Fact sheet",
+    "sample_count": 51,
+    "last_sample_date": "2024-12-09"
+  },
+  {
+    "station_code": "315JAL",
+    "station_name": "Jalama Creek at County Park at RR trussels",
+    "lat": 34.51217198,
+    "lon": -120.498226,
+    "waterbody_id": "CAR3151005119990304115034",
+    "link_method": "Fact sheet",
+    "sample_count": 348,
+    "last_sample_date": "2026-05-06"
+  },
+  {
+    "station_code": "304-APTOS-23",
+    "station_name": "Aptos Creek mouth",
+    "lat": 36.96961,
+    "lon": -121.90645,
+    "waterbody_id": "CAR3041302320020319065717",
+    "link_method": "Fact sheet",
+    "sample_count": 4,
+    "last_sample_date": "2015-05-02"
+  },
+  {
+    "station_code": "304APS",
+    "station_name": "Aptos Creek at Nisene Marks Park Road",
+    "lat": 37.001440061,
+    "lon": -121.9051422,
+    "waterbody_id": "CAR3041302320020319065717",
+    "link_method": "Fact sheet",
+    "sample_count": 138,
+    "last_sample_date": "2017-12-19"
+  },
+  {
+    "station_code": "304APT",
+    "station_name": "Aptos Creek at Spreckles Drive",
+    "lat": 36.973915261,
+    "lon": -121.9027384,
+    "waterbody_id": "CAR3041302320020319065717",
+    "link_method": "Fact sheet",
+    "sample_count": 607,
+    "last_sample_date": "2026-04-23"
+  },
+  {
+    "station_code": "309OLD",
+    "station_name": "Old Salinas River at Monterey Dunes Way",
+    "lat": 36.772290981,
+    "lon": -121.787855,
+    "waterbody_id": "CAR3091101020080611145518",
+    "link_method": "Fact sheet",
+    "sample_count": 516,
+    "last_sample_date": "2026-04-22"
+  },
+  {
+    "station_code": "309POT",
+    "station_name": "Old Salinas River @ Potrero Rd",
+    "lat": 36.790768981,
+    "lon": -121.78932,
+    "waterbody_id": "CAR3091101020080611145518",
+    "link_method": "Fact sheet",
+    "sample_count": 30,
+    "last_sample_date": "2026-02-17"
+  },
+  {
+    "station_code": "310PIS",
+    "station_name": "Pismo Creek above Highway 101, Frady Lane Bridge",
+    "lat": 35.14034698,
+    "lon": -120.634501,
+    "waterbody_id": "CAR3102601420020124125144",
+    "link_method": "Fact sheet",
+    "sample_count": 436,
+    "last_sample_date": "2026-04-15"
+  }
+]

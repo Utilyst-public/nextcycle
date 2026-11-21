@@ -1,0 +1,182 @@
+{
+  "retrieved_at": "2026-11-18T23:54:36.960Z",
+  "method": "Census TIGERweb esriGeometryPolyline intersections using each complete official 2026 waterbody geometry. Outputs are spatial candidates and remain VERIFY pending human review. ZCTA (2020) approximates a ZIP area, not postal delivery coverage.",
+  "sources": [
+    {
+      "field": "cities",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/4"
+    },
+    {
+      "field": "cities",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer/5"
+    },
+    {
+      "field": "zips",
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/PUMA_TAD_TAZ_UGA_ZCTA/MapServer/1"
+    }
+  ],
+  "associations": [
+    {
+      "pair_id": "r9-2026-164236-nitrate",
+      "geometry_sha256": "ea2f5117351b942eac8c25545996d20d5dd695517ef25f9120470ebfb8415fd5",
+      "status": "VERIFY",
+      "cities": [
+        "Rainbow"
+      ],
+      "zips": [
+        "92028",
+        "92592"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-111896-do",
+      "geometry_sha256": "f375d95ae8d578adbad398e940f09072a8fff76496a3b1839621de6549362ca3",
+      "status": "VERIFY",
+      "cities": [
+        "San Diego",
+        "Santee",
+        "Eucalyptus Hills",
+        "Lakeside"
+      ],
+      "zips": [
+        "92040",
+        "92071",
+        "92108",
+        "92109",
+        "92110",
+        "92119",
+        "92120",
+        "92124"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-148304-do",
+      "geometry_sha256": "e09e2fa6e227b9ea91663538a57a5bf5ebdfec83f2ce4f410688a3198b42ce9f",
+      "status": "VERIFY",
+      "cities": [
+        "Oceanside",
+        "Bonsall"
+      ],
+      "zips": [
+        "92003",
+        "92028",
+        "92054",
+        "92057",
+        "92058"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-111943-do",
+      "geometry_sha256": "27b683bfd6913c03486d10e84ba25d98af0b8ad9055a9decd930ef3ff7f262a1",
+      "status": "VERIFY",
+      "cities": [
+        "San Diego",
+        "Santee"
+      ],
+      "zips": [
+        "92040",
+        "92064",
+        "92071",
+        "92131"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-112079-do",
+      "geometry_sha256": "480cbd624c3e3aa5444588fc531987d7c0830f557866d5923794980268c3fc59",
+      "status": "VERIFY",
+      "cities": [
+        "Lemon Grove",
+        "San Diego"
+      ],
+      "zips": [
+        "91945",
+        "92102",
+        "92104",
+        "92105",
+        "92113",
+        "92114",
+        "92115",
+        "92136"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-111953-do",
+      "geometry_sha256": "0a8474b91c014dbaea40f2b0f3f248bc2a9e4ff1bcd38f7d814872bc8dc03f2e",
+      "status": "VERIFY",
+      "cities": [
+        "El Cajon",
+        "San Diego",
+        "Santee",
+        "Crest",
+        "Granite Hills"
+      ],
+      "zips": [
+        "92019",
+        "92020",
+        "92021",
+        "92071"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-112126-do",
+      "geometry_sha256": "ba775efa6117c18c88cd5ce7c6281c6c108d7a84413c12e915a48a0424382733",
+      "status": "VERIFY",
+      "cities": [
+        "Chula Vista",
+        "San Diego"
+      ],
+      "zips": [
+        "91911",
+        "91913",
+        "91915",
+        "92154"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-113328-do",
+      "geometry_sha256": "548072c8be872105934b513a81ded276373756becf6fe8b97b620dd0cb78b6fa",
+      "status": "VERIFY",
+      "cities": [
+        "San Diego",
+        "Fairbanks Ranch",
+        "Rancho Santa Fe"
+      ],
+      "zips": [
+        "92014",
+        "92029",
+        "92067",
+        "92091",
+        "92127",
+        "92130"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-111216-do",
+      "geometry_sha256": "917b57e6c6a9fa42c3561971b1fcfd21355040d5c0a9e88af8fc672e1fea9dbe",
+      "status": "VERIFY",
+      "cities": [],
+      "zips": [
+        "92055",
+        "92562",
+        "92672"
+      ]
+    },
+    {
+      "pair_id": "r9-2026-113981-do",
+      "geometry_sha256": "4ff35cf89aac0cb7cba4ee7966cec4b707fb4703e5b14f9f2ef4eebecbdeedf7",
+      "status": "VERIFY",
+      "cities": [
+        "Chula Vista",
+        "National City",
+        "Bonita",
+        "La Presa"
+      ],
+      "zips": [
+        "91902",
+        "91910",
+        "91950",
+        "91977"
+      ]
+    }
+  ]
+}

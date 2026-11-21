@@ -1,0 +1,22 @@
+/* NextCycle brand tokens. These are the only colors used in the app. */
+:root {
+  --nc-deep-teal: #095c53;
+  --nc-teal-800: #06433d;
+  --nc-teal-400: #3d8a80;
+  --nc-teal-200: #a9d3cd;
+  --nc-cyan: #2bb6c1;
+  --nc-amber: #fec951;
+  --nc-amber-text: #8a6100;
+  --nc-neon-orange: #ff5500;
+  --nc-body-gray: #666666;
+  --nc-midnight-navy: #123047;
+  --nc-slate-gray: #647581;
+  --nc-cloud-white: #f7fafc;
+  --nc-white: #ffffff;
+  --nc-mist: #e6f2f0;
+  --nc-line: #d9dedd;
+  --nc-link-teal: #167680;
+  --nc-ocean-blue: #1479b8;
+  --nc-ice-blue: #e7f5fa;
+  --nc-deep-water: #0e4c7a;
+}

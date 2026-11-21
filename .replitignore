@@ -1,0 +1,4 @@
+# Reproducible reports and local tooling are not part of a published site.
+node_modules
+generated-artifacts
+.local

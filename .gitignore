@@ -1,0 +1,46 @@
+# See https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# Compiled output
+dist/
+tmp/
+out-tsc/
+*.tsbuildinfo
+
+# Dependencies
+node_modules/
+
+# Local credentials and data
+.env
+.env.*
+pipeline/raw/
+
+# IDEs and editors
+/.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Miscellaneous
+/.sass-cache/
+/coverage/
+npm-debug.log*
+yarn-error.log
+.DS_Store
+Thumbs.db
+
+# Replit files are not needed in the standalone copy
+.replit
+replit.nix
+.replit-artifact/
+.local/
+
+# Reproducible static release output (created by npm run build)
+/public/api/
+/public/og/
+/public/feed.xml
+/public/data/validation.json
+/generated-artifacts/
+
+# Git cannot match files by size; the GitHub export filters files over 50 MiB.

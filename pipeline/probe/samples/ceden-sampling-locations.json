@@ -1,0 +1,59 @@
+{
+  "source": "Surface Water CEDEN sampling locations",
+  "url": "https://data.ca.gov/api/3/action/datastore_search?resource_id=a927cb45-0de1-47e8-96a5-a5290816797b&limit=5",
+  "http_status": 200,
+  "resource_id": "a927cb45-0de1-47e8-96a5-a5290816797b",
+  "total_records_available": 13315,
+  "sample_record_count": 5,
+  "field_names": [
+    "_id",
+    "StationName",
+    "SiteCode",
+    "Latitude",
+    "Longitude",
+    "Datum"
+  ],
+  "note": null,
+  "records": [
+    {
+      "_id": 1,
+      "StationName": "Sanchez Creek Upstream of Forest View Ave",
+      "SiteCode": "204R01460",
+      "Latitude": 37.5758859061,
+      "Longitude": -122.368275376,
+      "Datum": "NAD83"
+    },
+    {
+      "_id": 2,
+      "StationName": "Alameda Creek approx 600 m east of Decoto Rd",
+      "SiteCode": "204R01863",
+      "Latitude": 37.57516,
+      "Longitude": -122.02027,
+      "Datum": "NAD83"
+    },
+    {
+      "_id": 3,
+      "StationName": "Alameda Creek approximately 675m NE of the intersection of Paseo Padre Parkway and Highway 84",
+      "SiteCode": "204R02183",
+      "Latitude": 37.56653,
+      "Longitude": -121.9913,
+      "Datum": "NAD83"
+    },
+    {
+      "_id": 4,
+      "StationName": "Cordilleras Creek at Springdale Way",
+      "SiteCode": "204R01012",
+      "Latitude": 37.473689243,
+      "Longitude": -122.266389048,
+      "Datum": "NAD83"
+    },
+    {
+      "_id": 5,
+      "StationName": "Creekside Park",
+      "SiteCode": "MC13",
+      "Latitude": 37.923,
+      "Longitude": -121.712,
+      "Datum": "WGS84"
+    }
+  ]
+}

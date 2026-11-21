@@ -1,0 +1,657 @@
+[
+  {
+    "date": "2026-11-18T00:00:00Z",
+    "dataset_version": "region9-provisional-2026.1",
+    "data_status": "provisional",
+    "is_sample_data": false,
+    "pairs": [
+      {
+        "pair_id": "r9-2026-111216-do",
+        "waterbody_name": "San Mateo Creek (San Diego County)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r9-2026-111896-do",
+        "waterbody_name": "San Diego River (Lower)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r9-2026-111943-do",
+        "waterbody_name": "Sycamore Canyon",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111953-do",
+        "waterbody_name": "Forester Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112079-do",
+        "waterbody_name": "Chollas Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112126-do",
+        "waterbody_name": "Otay River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 1
+      },
+      {
+        "pair_id": "r9-2026-113328-do",
+        "waterbody_name": "San Dieguito River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r9-2026-113981-do",
+        "waterbody_name": "Sweetwater River, Lower (below Sweetwater Reservoir)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-148304-do",
+        "waterbody_name": "San Luis Rey River, Lower (west of Interstate 15)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r9-2026-164236-nitrate",
+        "waterbody_name": "Rainbow Creek",
+        "pollutant": "Nitrate/Nitrite (Nitrite + Nitrate as N)",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-20T00:00:00Z",
+    "dataset_version": "region9-provisional-2026.2",
+    "data_status": "provisional",
+    "is_sample_data": false,
+    "pairs": [
+      {
+        "pair_id": "r9-2026-111216-do",
+        "waterbody_name": "San Mateo Creek (San Diego County)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r9-2026-111713-ph",
+        "waterbody_name": "Los Penasquitos Creek",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 5
+      },
+      {
+        "pair_id": "r9-2026-111826-ph",
+        "waterbody_name": "Tecolote Creek",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 54
+      },
+      {
+        "pair_id": "r9-2026-111896-do",
+        "waterbody_name": "San Diego River (Lower)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 3
+      },
+      {
+        "pair_id": "r9-2026-111943-do",
+        "waterbody_name": "Sycamore Canyon",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111953-do",
+        "waterbody_name": "Forester Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 13
+      },
+      {
+        "pair_id": "r9-2026-112079-do",
+        "waterbody_name": "Chollas Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112126-do",
+        "waterbody_name": "Otay River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 1
+      },
+      {
+        "pair_id": "r9-2026-112165-do",
+        "waterbody_name": "Tijuana River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112167-ph",
+        "waterbody_name": "Tijuana River",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-113328-do",
+        "waterbody_name": "San Dieguito River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r9-2026-113981-do",
+        "waterbody_name": "Sweetwater River, Lower (below Sweetwater Reservoir)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-114818-do",
+        "waterbody_name": "Carmel Valley Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r9-2026-148304-do",
+        "waterbody_name": "San Luis Rey River, Lower (west of Interstate 15)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r9-2026-164236-nitrate",
+        "waterbody_name": "Rainbow Creek",
+        "pollutant": "Nitrate/Nitrite (Nitrite + Nitrate as N)",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21T00:00:00Z",
+    "dataset_version": "region9-provisional-2026.3",
+    "data_status": "provisional",
+    "is_sample_data": false,
+    "qa_rule_version": "region9-calibrated-qa-v1",
+    "pairs": [
+      {
+        "pair_id": "r9-2026-111216-do",
+        "waterbody_name": "San Mateo Creek (San Diego County)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111713-ph",
+        "waterbody_name": "Los Penasquitos Creek",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 5,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111826-ph",
+        "waterbody_name": "Tecolote Creek",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 52
+      },
+      {
+        "pair_id": "r9-2026-111896-do",
+        "waterbody_name": "San Diego River (Lower)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 3,
+        "new_exceedances": 3,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111943-do",
+        "waterbody_name": "Sycamore Canyon",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111953-do",
+        "waterbody_name": "Forester Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 13,
+        "new_exceedances": 5,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112079-do",
+        "waterbody_name": "Chollas Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112126-do",
+        "waterbody_name": "Otay River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 1,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112165-do",
+        "waterbody_name": "Tijuana River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112167-ph",
+        "waterbody_name": "Tijuana River",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-113328-do",
+        "waterbody_name": "San Dieguito River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-113981-do",
+        "waterbody_name": "Sweetwater River, Lower (below Sweetwater Reservoir)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-114818-do",
+        "waterbody_name": "Carmel Valley Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-148304-do",
+        "waterbody_name": "San Luis Rey River, Lower (west of Interstate 15)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-164236-nitrate",
+        "waterbody_name": "Rainbow Creek",
+        "pollutant": "Nitrate/Nitrite (Nitrite + Nitrate as N)",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      }
+    ]
+  },
+  {
+    "date": "2026-11-21T18:00:00Z",
+    "dataset_version": "region9-r3-provisional-2026.4",
+    "data_status": "provisional",
+    "is_sample_data": false,
+    "qa_rule_version": "region9-calibrated-qa-v1",
+    "pairs": [
+      {
+        "pair_id": "r3-2024-106511-oxygen-dissolved",
+        "waterbody_name": "San Lorenzo River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 19,
+        "new_exceedances": 1,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-106938-ph",
+        "waterbody_name": "Aptos Creek",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 18,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-107093-ph",
+        "waterbody_name": "Pajaro River",
+        "pollutant": "pH",
+        "screening_flag": "Delisting candidate",
+        "new_samples": 55,
+        "new_exceedances": 3,
+        "pending_new_samples": 1
+      },
+      {
+        "pair_id": "r3-2024-107660-ph",
+        "waterbody_name": "Carmel River",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 24,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-107997-ph",
+        "waterbody_name": "Tembladero Slough",
+        "pollutant": "pH",
+        "screening_flag": "Still exceeding",
+        "new_samples": 37,
+        "new_exceedances": 8,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-109064-oxygen-dissolved",
+        "waterbody_name": "Chorro Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Delisting candidate",
+        "new_samples": 121,
+        "new_exceedances": 12,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-109309-ph",
+        "waterbody_name": "San Luis Obispo Creek (below Osos Street)",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 22,
+        "new_exceedances": 1,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-109381-oxygen-dissolved",
+        "waterbody_name": "Pismo Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 18,
+        "new_exceedances": 9,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-109438-ph",
+        "waterbody_name": "Arroyo Grande Creek (below Lopez Lake)",
+        "pollutant": "pH",
+        "screening_flag": "Delisting candidate",
+        "new_samples": 41,
+        "new_exceedances": 4,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-110132-ph",
+        "waterbody_name": "San Antonio Creek (San Antonio Watershed, Rancho del las Flores Bridge at Hwy 135 to downstream at Railroad Bridge)",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 23,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-110225-ph",
+        "waterbody_name": "Santa Ynez River (below city of Lompoc to Ocean)",
+        "pollutant": "pH",
+        "screening_flag": "Delisting candidate",
+        "new_samples": 46,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-110514-ph",
+        "waterbody_name": "Jalama Creek",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 19,
+        "new_exceedances": 1,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r3-2024-112832-oxygen-dissolved",
+        "waterbody_name": "Old Salinas River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Still exceeding",
+        "new_samples": 35,
+        "new_exceedances": 13,
+        "pending_new_samples": 2
+      },
+      {
+        "pair_id": "r3-2024-86206-total-dissolved-solids",
+        "waterbody_name": "Santa Rosa Creek (San Luis Obispo County)",
+        "pollutant": "Total Dissolved Solids",
+        "screening_flag": "Under-sampled",
+        "new_samples": 15,
+        "new_exceedances": 13,
+        "pending_new_samples": 5
+      },
+      {
+        "pair_id": "r9-2026-111216-do",
+        "waterbody_name": "San Mateo Creek (San Diego County)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111713-ph",
+        "waterbody_name": "Los Penasquitos Creek",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 5,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111826-ph",
+        "waterbody_name": "Tecolote Creek",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 52
+      },
+      {
+        "pair_id": "r9-2026-111896-do",
+        "waterbody_name": "San Diego River (Lower)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 3,
+        "new_exceedances": 3,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111943-do",
+        "waterbody_name": "Sycamore Canyon",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-111953-do",
+        "waterbody_name": "Forester Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 13,
+        "new_exceedances": 5,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112079-do",
+        "waterbody_name": "Chollas Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112126-do",
+        "waterbody_name": "Otay River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 1,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112165-do",
+        "waterbody_name": "Tijuana River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-112167-ph",
+        "waterbody_name": "Tijuana River",
+        "pollutant": "pH",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-113328-do",
+        "waterbody_name": "San Dieguito River",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-113981-do",
+        "waterbody_name": "Sweetwater River, Lower (below Sweetwater Reservoir)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-114818-do",
+        "waterbody_name": "Carmel Valley Creek",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-148304-do",
+        "waterbody_name": "San Luis Rey River, Lower (west of Interstate 15)",
+        "pollutant": "Oxygen, Dissolved",
+        "screening_flag": "Under-sampled",
+        "new_samples": 2,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      },
+      {
+        "pair_id": "r9-2026-164236-nitrate",
+        "waterbody_name": "Rainbow Creek",
+        "pollutant": "Nitrate/Nitrite (Nitrite + Nitrate as N)",
+        "screening_flag": "Under-sampled",
+        "new_samples": 0,
+        "new_exceedances": 0,
+        "pending_new_samples": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "source": "EPA ATTAINS assessment units for California",
+  "url": "https://attains.epa.gov/attains-public/api/assessmentUnits?stateCode=CA&pageNumber=1&pageSize=5",
+  "http_status": 401,
+  "resource_id": null,
+  "total_records_available": null,
+  "sample_record_count": 0,
+  "field_names": [],
+  "note": "Blocked: EPA now requires a valid api.data.gov key. The default DEMO_KEY was not accepted. Set EPA_ATTAINS_API_KEY to rerun this section; no key is requested or written by this script.",
+  "records": []
+}

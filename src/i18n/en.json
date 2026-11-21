@@ -1,0 +1,717 @@
+{
+  "language": "Language",
+  "english": "English",
+  "spanish": "Español",
+  "home": "Home",
+  "watch": "Watch list",
+  "map": "Map",
+  "gaps": "Data gaps",
+  "method": "Method",
+  "utilities": "For utilities",
+  "about": "About",
+  "updates": "Updates",
+  "api": "API",
+  "showcase": "Showcase",
+  "findTitle": "Find nearby waters",
+  "findHint": "Search waterbody, county, city or ZIP. Search stays in this browser.",
+  "findPlaceholder": "Try a waterbody, city, county or ZIP",
+  "findButton": "Find",
+  "geoButton": "Use my location",
+  "geoPrivacy": "Your location is used only in this browser to find the five nearest listed waters. It is not sent or saved.",
+  "geoDenied": "Location was not shared. You can still search by name, county, city or ZIP.",
+  "geoUnsupported": "Location is not available in this browser.",
+  "geoFailed": "Could not determine your location. Please try again or search by place.",
+  "nearest": "Nearest listed waters",
+  "distance": "{distance} mi away",
+  "noMatches": "No matches in the available place index.",
+  "coverageNote": "City and ZIP matches are candidate intersections with Census areas and still need review. ZIP matching uses ZCTA areas, not USPS postal boundaries. If the index is unavailable, search matches waterbody and county names only.",
+  "calculatorTitle": "Try a sampling scenario",
+  "calculatorIntro": "Explore how additional samples could change a screening estimate. This is not an official decision.",
+  "additionalSamples": "Additional samples (k)",
+  "additionalExceedances": "Exceedances among those samples (m)",
+  "scenarioResult": "Scenario result",
+  "scenarioUnsupported": "This pair is outside verified table coverage, so no estimate is shown.",
+  "scenarioNotListed": "This pair is not currently listed; delisting tables do not apply.",
+  "scenarioDisclaimer": "Screening estimate, not a determination.",
+  "cleanSamples": "Minimum additional samples with no exceedances",
+  "source": "Official source",
+  "coverage": "Table coverage",
+  "embed": "Embed this result",
+  "copyEmbed": "Copy embed code",
+  "copied": "Copied to clipboard",
+  "print": "Print one-page brief",
+  "community": "Community context",
+  "tribalUnknown": "Tribal lands intersection is not verified for this waterbody.",
+  "tribalVerified": "Tribal lands intersection information is verified in the supplied source data.",
+  "feedback": "Share feedback",
+  "useful": "This was useful",
+  "notUseful": "This was not useful",
+  "emailFeedback": "Email feedback",
+  "issue": "Suggest a correction",
+  "repoUnavailable": "A correction issue link is unavailable because no repository is configured.",
+  "updatesTitle": "What changed, and when",
+  "updatesIntro": "Refreshes are compared only when snapshots are available. No earlier baseline means no change is claimed.",
+  "noHistory": "No refresh history is available yet.",
+  "apiTitle": "Open data API",
+  "apiIntro": "Static, versioned files for reuse. Fetches use the configured site base path.",
+  "fetchExample": "Fetch example",
+  "showcaseTitle": "A clearer view between official cycles",
+  "showcaseProblem": "Public monitoring arrives continuously. Official impaired-waters decisions follow a slower cycle.",
+  "showcaseExplanation": "NextCycle puts newer public observations beside official listings. Counts and source links remain provisional until reviewed; the screen is not a regulatory determination.",
+  "findWaters": "Search waters",
+  "fullDetail": "Open full detail",
+  "sampleDisclaimer": "Illustrative sample data—not a real assessment.",
+  "provisionalDisclaimer": "Real public data. Provisional screening, not yet reviewed. Not a regulatory determination.",
+  "screenDisclaimer": "A screening estimate, not an official impaired-waters decision.",
+  "statusIllustrative": "Illustrative",
+  "statusProvisional": "Provisional",
+  "statusReviewed": "Reviewed",
+  "pageSummary": "NextCycle helps California communities understand newer water monitoring evidence in plain language before the next official impaired-waters list.",
+  "heroEyebrow": "The evidence is public. The timing is not.",
+  "heroTitle": "What newer monitoring can tell us about California’s listed waters.",
+  "heroBody": "California updates its list of impaired waters every few years, and anything sampled after the data cutoff waits for a later cycle. NextCycle presents newer public results in a provisional screen; source quality, station links and policy choices still need human review.",
+  "exploreMap": "Explore the map",
+  "seeWaters": "See all waters",
+  "screeningOutcomes": "Screening outcomes",
+  "whyMatters": "Why it matters",
+  "headStart": "A head start on what comes next.",
+  "utilitiesWhy": "See possible permit changes, Total Maximum Daily Load costs, and monitoring budgets earlier.",
+  "communitiesWhy": "Know what newer monitoring says without waiting for the next official list.",
+  "regulatorsWhy": "Find the places where more sampling could settle the question.",
+  "howItWorks": "How it works",
+  "simpleOpenScreen": "A simple, open screen.",
+  "first": "First",
+  "next": "Next",
+  "then": "Then",
+  "officialListStart": "Start from the official list",
+  "officialListBody": "Use the water and pollutant pairs already assessed by the state.",
+  "newerResults": "Add newer public results",
+  "newerResultsBody": "Include monitoring collected after the official data cutoff.",
+  "countRules": "Apply the state’s counting rules",
+  "countRulesBody": "Use the same sample and exceedance tests as the state.",
+  "officialList": "Official list",
+  "nextCycleData": "NextCycle data",
+  "expected": "expected",
+  "latestRefresh": "Last updated",
+  "noComparableBaseline": "No comparable baseline yet.",
+  "changedPairs": "changed or newly added pairs.",
+  "mapIntro": "Listed waters in the {region}, styled by screening flag.",
+  "legend": "Legend",
+  "stations": "Monitoring stations",
+  "dacToggle": "Emphasize disadvantaged communities",
+  "dacHint": "Halo on pairs with CalEnviroScreen 75 or higher",
+  "stationCount": "{count} stations linked to listed waters",
+  "tribalToggle": "Tribal lands",
+  "tribalHint": "Optional boundary overlay from the supplied GeoJSON source",
+  "tribalBoundary": "Tribal lands boundary · source in optional dataset",
+  "stationMapLabel": "Monitoring station",
+  "dacHalo": "Disadvantaged community halo",
+  "choosePair": "Choose a listed pair to explore",
+  "selectWaterbody": "Select a waterbody",
+  "downloadFullCsv": "Download full waterbody dataset as CSV",
+  "endpoint": "Endpoint",
+  "shape": "Shape",
+  "fetchCaution": "Pair IDs are stable within the published dataset. Cite NextCycle, the dataset version, and the underlying source records. Check metadata before reuse; no API service or uptime guarantee is implied.",
+  "dataThrough": "Monitoring data through",
+  "lastRefresh": "Latest refresh",
+  "monthBaseline": "Month baseline",
+  "comparedWith": "Compared with",
+  "pairsChanged": "pairs with count or status changes",
+  "newPair": "new pair",
+  "availableSnapshots": "Available snapshots",
+  "findSectionLabel": "Find waters",
+  "officialSources": "Sources and data",
+  "demoTitle": "Five-minute demo",
+  "problemTitle": "The problem",
+  "toolTitle": "The tool",
+  "findStep": "Search by waterbody or nearby location.",
+  "compareStep": "Compare official status with newer monitoring evidence.",
+  "scenarioStep": "Try a sampling scenario and inspect the method.",
+  "gapsStep": "Open the data-gap list and download its CSV.",
+  "shareStep": "Copy an embed or citation; discuss limitations.",
+  "findingsTitle": "Three findings from this dataset",
+  "gapsFields": "Data gaps and recommended fields",
+  "teamTruth": "Team details are reported only when present in the published about data; no recognition claims are inferred.",
+  "privacyTitle": "Privacy and optional page counts",
+  "privacyText": "Browser location is used locally and is not sent to a server. If an administrator configures VITE_GOATCOUNTER_CODE, the site loads GoatCounter for privacy-friendly page counts. When it is not configured, no analytics script is loaded. GoatCounter is described as cookie-free; no individual use totals are claimed here.",
+  "outcomeImproving": "Newer results meet the state’s count-based test to come off the list.",
+  "outcomeStill": "Newer results remain outside the applicable limit too often to pass that test.",
+  "outcomeUnder": "There are not enough newer results to run the test yet.",
+  "example": "Example:",
+  "viewWaters": "View {status} waters",
+  "exampleImproving": "Meets count screen",
+  "exampleImpaired": "Outside criterion",
+  "exampleNeedsData": "Needs more data",
+  "timelineNext": "Next official list",
+  "communityAudience": "Communities",
+  "regulatorAudience": "Regulators",
+  "tablesLoading": "Checking the published delisting table…",
+  "tablesUnavailable": "The published table could not be verified. No estimate is available.",
+  "scenarioSentence": "If the next {k} samples include {m} exceedances, the result would be: {result}",
+  "minimumUnknown": "Not established within verified table coverage.",
+  "scenarioInsufficient": "Not enough samples yet: {total} of {minimum}.",
+  "scenarioPass": "This scenario meets the table’s count threshold.",
+  "scenarioFail": "This scenario exceeds the table’s allowance.",
+  "flagCandidate": "Meets count screen",
+  "flagExceeding": "Outside criterion",
+  "flagUnder": "Needs more samples",
+  "subCandidate": "Count threshold met; official status unchanged",
+  "subExceeding": "Recent samples remain outside criterion",
+  "subUnder": "Below the adopted sample minimum",
+  "officialListed": "Listed",
+  "officialNotListed": "Not listed",
+  "dacBadge": "Disadvantaged community",
+  "sampleDataLabel": "Sample data",
+  "freshness": "Monitoring data through {date}",
+  "loadingData": "Loading data",
+  "sampleNotice": "Sample data for demonstration.",
+  "sampleNoticeBody": "Values are illustrative, not real assessments.",
+  "dismissSample": "Dismiss sample data notice for this session",
+  "exploreFooter": "Explore",
+  "sourcesFooter": "Sources",
+  "mitNotice": "Open source under the MIT license.",
+  "builtBy": "Built by",
+  "aboutEyebrow": "About",
+  "aboutTitle": "The evidence is public. The timing is not.",
+  "readMethod": "Read the method",
+  "sourceCode": "Source code",
+  "contact": "Contact",
+  "contactBody": "Questions, corrections or data you think we should read.",
+  "privacySection": "Privacy and optional page counts",
+  "privacyDescription": "Browser location is used locally and is not sent to a server. If an administrator configures VITE_GOATCOUNTER_CODE, the site loads GoatCounter for privacy-friendly page counts. When it is not configured, no analytics script is loaded. GoatCounter is described as cookie-free; no individual use totals are claimed here.",
+  "loadMapPreview": "Load interactive map",
+  "mapPreviewNote": "An interactive view of listed California waters, grouped by screening result.",
+  "checkingLocation": "Checking location on this device…",
+  "verdictCandidate": "Recent samples suggest {water} may meet the test to come off the list for {pollutant}: {count} of {samples} recent samples are outside the applicable criterion since {cutoff}.",
+  "verdictStill": "Recent samples remain outside the applicable criterion for {pollutant} in {water}: {count} of {samples} samples are outside the criterion since {cutoff}. This screen does not change the official status.",
+  "verdictUnder": "There is not enough newer data to tell whether {water} could come off the list for {pollutant}: {count} of {samples} recent samples are outside the applicable criterion since {cutoff}.",
+  "newerSamplesSuggest": "What newer samples suggest",
+  "copyCitation": "Copy citation",
+  "exportFigure": "Export key figure (PNG)",
+  "rendering": "Rendering",
+  "officialStatus": "Official status",
+  "nextcycleResult": "NextCycle result",
+  "plainLanguage": "In plain language",
+  "whatMeans": "What this means",
+  "whatNotMeans": "What this doesn’t mean",
+  "monitoringResults": "Monitoring results for {pollutant}",
+  "printDisclaimer": "Screening estimate, not a determination.",
+  "officialFactSheet": "Official fact sheet",
+  "detailCommunityNote": "This area-level indicator does not establish exposure for a specific person or community.",
+  "gapHeadline": "Where more sampling would settle the question",
+  "gapDescription": "Listed waters with too few samples since {date} to run a delisting test, ranked by how many more samples are needed.",
+  "zeroSampleHeadline": "{count} of {total} listed {region} waters have no usable public samples since {date}.",
+  "samplesNeeded": "Samples needed",
+  "rankedBySamples": "Ranked by samples needed",
+  "noPairsNeedSamples": "No pairs need more data",
+  "everyPairEnough": "Every listed pair has enough samples for the test.",
+  "recommendedFields": "Recommended data elements",
+  "recommendedIntro": "Small, specific additions to public data that would make screening faster, more reproducible and easier to check.",
+  "selectPairPrompt": "Choose a listed pair to explore",
+  "selectWaterPrompt": "Select a waterbody",
+  "downloadCsv": "Download CSV",
+  "downloadedCsv": "Downloaded {count} row(s) as CSV",
+  "loadErrorTitle": "We could not load this data",
+  "tryAgain": "Try again",
+  "dataConnectionError": "The file could not be reached. Check your connection and try again.",
+  "dataHttpError": "The file returned an HTTP error.",
+  "dataJsonError": "The file is not valid JSON.",
+  "dataContractError": "The file does not match the NextCycle data contract.",
+  "dataCrossFileError": "The dataset files do not agree with one another.",
+  "dataSampleError": "The sample file disagrees with its summary record.",
+  "disclaimerTitle": "Screening, not a determination",
+  "disclaimerBody": "NextCycle shows provisional screening indicators based on public monitoring data. It is not a regulatory determination and does not replace decisions by the State or Regional Water Boards or U.S. EPA. Monitoring data is provisional and subject to revision.",
+  "samplesA11y": "{samples} sample(s) since the cutoff; {exceedances} criterion exceedance(s). The test needs at least {minimum} samples.",
+  "samplesA11yMissing": "{samples} sample(s) since the cutoff; {exceedances} criterion exceedance(s). The test needs at least {minimum} samples. {needed} more needed.",
+  "meetsCriterion": "Meets criterion",
+  "exceedsCriterion": "Outside criterion",
+  "samplesStillNeeded": "Still needed",
+  "minimumN": "Minimum ({count})",
+  "sampleFigure": "Sample data · illustrative, not a real assessment",
+  "copiedCitation": "Citation copied",
+  "exportedFigure": "Key figure exported as PNG",
+  "exportFailed": "Export failed. Please try again.",
+  "figureExceedanceCount": "{exceedances} of {samples} outside the criterion since {date}",
+  "figureSource": "Source: Surface Water Ambient Monitoring Program and California Environmental Data Exchange Network surface water chemistry",
+  "exceedanceOutside": "{count} of {total} outside the applicable limit",
+  "lastSampled": "Last sampled",
+  "tableCaptionPairs": "Waterbodies, recent sample results, and last sampled dates",
+  "dataRowAria": "{samples} samples, {exceedances} outside limit",
+  "cat": "Category {category}",
+  "lowerLimit": "Lower limit",
+  "upperLimit": "Upper limit",
+  "criterion": "Criterion",
+  "maximum": "maximum",
+  "minimum": "minimum",
+  "cutoffYear": "{year} cycle data cutoff",
+  "notDetectedLimit": "Not detected, reporting limit",
+  "detectedNotQuantified": "Detected, not quantified ~",
+  "belowValue": "Below",
+  "station": "Station",
+  "outsideCriterionStatus": "Outside criterion",
+  "meetsCriterionStatus": "Meets criterion",
+  "beforeCutoff": "Before cutoff",
+  "sinceCutoff": "Since cutoff",
+  "nonDetect": "Non-detect",
+  "nonDetectPlotted": "Non-detect (plotted at reporting limit)",
+  "outsideDirection": "outside",
+  "aboveDirection": "above",
+  "belowDirection": "below",
+  "exceedsCriterionLegend": "Outside criterion ({direction})",
+  "dataCutoff": "Data cutoff",
+  "closeDetails": "Close details",
+  "openDetails": "Open details",
+  "sideCandidate": "Recent results may meet the test to come off the list for {pollutant}.",
+  "sideStill": "Recent results remain outside the applicable criterion for {pollutant}.",
+  "sideUnder": "There are too few recent results to test {pollutant}.",
+  "sideCount": "{count} of {total} recent samples are {direction} the criterion since {date}.",
+  "keyFigureSource": "Source: {source}. Data in CEDEN as of {date}; recent data may not have been submitted yet. Dataset {version}.",
+  "figureSummary": "{count} of {total} samples are outside the applicable criterion since {date}",
+  "illustrativeNotAssessment": "Illustrative sample data, not a real assessment"
+  ,"watchTitle": "Every listed pair, screened"
+  ,"watchIntro": "Newer samples are counted from {date} onward. Official status stays separate from this early screen."
+  ,"allResults": "All"
+  ,"search": "Search"
+  ,"waterbodyOrPollutant": "Waterbody or pollutant"
+  ,"pollutantGroup": "Pollutant group"
+  ,"dacFilter": "Disadvantaged communities"
+  ,"cesThreshold": "CalEnviroScreen 4.0 percentile of 75 or higher"
+  ,"moreFilters": "More filters"
+  ,"county": "County"
+  ,"waterbodyType": "Waterbody type"
+  ,"filterByResult": "Filter by result"
+  ,"watchFilters": "Watch list filters"
+  ,"results": "Results"
+  ,"showingResults": "Showing {shown} of {total} waters"
+  ,"clearFilters": "Clear filters"
+  ,"noFilterMatches": "No waters match these filters"
+  ,"tryOtherFilters": "Try another waterbody, pollutant or result."
+  ,"colWaterbody": "Waterbody"
+  ,"colResult": "Result"
+  ,"colRecentSamples": "Recent samples"
+  ,"colLastSampled": "Last sampled"
+  ,"groupMetals": "Metals"
+  ,"groupNutrients": "Nutrients"
+  ,"groupConventional": "Conventional"
+  ,"groupToxicity": "Toxicity"
+  ,"groupOther": "Other"
+  ,"aboutMeta": "Why NextCycle compares newer California water-monitoring evidence with official impaired-waters decisions."
+  ,"aboutParagraph1": "California updates its Clean Water Act section 303(d) list of impaired waters in multi-year cycles. Each cycle reads data up to a cutoff date. Anything sampled after that waits for a later cycle, sometimes four years or more."
+  ,"aboutParagraph2": "That gap matters. Utilities set budgets and monitoring plans around listings. Communities near impaired waters wait for answers that the data may already hold."
+  ,"aboutParagraph3": "NextCycle presents newer public observations as provisional screening. Source quality, station links and policy-table choices need human review; the screen never replaces an official decision."
+  ,"aboutParagraph4": "Utilyst builds NextCycle as water and power infrastructure intelligence. Methods are open, and the screening code is released under the MIT license."
+  ,"showcaseOverview": "Showcase and submission overview"
+  ,"openMethodsTitle": "Open methods"
+  ,"openMethodsBody": "Every rule and threshold is documented on the method page."
+  ,"openCodeTitle": "Open code"
+  ,"openCodeBody": "MIT-licensed screening code and a published data contract."
+  ,"plainLanguageTitle": "Plain language"
+  ,"plainLanguageBody": "Short sentences, explained acronyms, and status never shown by color alone."
+  ,"recognitionTitle": "Recognition and programs"
+  ,"learnMore": "Learn more"
+  ,"waterMonitoringCalifornia": "California water monitoring"
+  ,"openFullMap": "Open full map"
+  ,"monitoringTimeline": "Monitoring timeline"
+  ,"skipToContent": "Skip to content"
+  ,"homeLinkAria": "NextCycle home"
+  ,"primaryNavigation": "Primary"
+  ,"mobileNavigation": "Mobile navigation"
+  ,"closeMenu": "Close menu"
+  ,"openMenu": "Open menu"
+  ,"catShort": "Cat. {category}"
+  ,"dacTooltip": "CalEnviroScreen 4.0 percentile {percentile}"
+  ,"disadvantagedCommunity": "Disadvantaged community"
+  ,"mapInteractiveAria": "Interactive map of listed waterbodies by screening flag. Use the list beside the map for keyboard access."
+  ,"mapInitFailed": "The map could not initialize. Use the waterbody list to explore the data."
+  ,"mapStyleTimeout": "The OpenFreeMap style did not finish loading. Check network access to tiles.openfreemap.org."
+  ,"basemapLoadFailed": "The basemap could not load."
+  ,"layersLoadFailed": "Waterbody and station layers could not be displayed."
+  ,"mapLoadingMessage": "Loading OpenFreeMap… Waterbody details remain available in the list."
+  ,"mapListFallback": "Use the waterbody list to explore the data."
+  ,"screeningResultTitle": "{waterbody} screening result"
+  ,"resultUnavailable": "Result unavailable"
+  ,"embedUnavailable": "This waterbody result is unavailable in the current dataset."
+  ,"waterbodyDetails": "{waterbody} details"
+  ,"details": "Details"
+  ,"sampleClause": " (illustrative sample data)"
+  ,"notFoundMeta": "The requested page could not be found."
+  ,"notFoundHeading": "This page is not on the list."
+  ,"notFoundBody": "The address may be mistyped, or the page may have moved."
+  ,"goWatchList": "Go to the watch list"
+  ,"openMap": "Open the map"
+  ,"dataAsOf": "Data as of"
+  ,"cedenFreshness": "Counts reflect data in CEDEN as of {date}. Recent data may not have been submitted yet."
+  ,"inCedenAsOfColumn": "CEDEN data as of"
+  ,"recentDataSubmissionNote": "Recent data may not have been submitted yet."
+  ,"openReviewerQuestion": "Open reviewer question"
+  ,"unknownNrReviewerQuestion": "Should results marked DataQuality=Unknown data quality with BatchVerification=NR remain eligible? This combination reproduces the official counts in five calibration pairs, but a reviewer should confirm that it is appropriate beyond those source windows."
+  ,"footerNavigation": "Footer"
+  ,"atomFeed": "Atom updates feed"
+  ,"stationPopup": "Station {code} · {count} · {method}"
+  ,"dataUnknownError": "The published dataset could not be validated."
+  ,"genericError": "Something went wrong while loading this view."
+  ,"validationIssueCount": "{count} technical validation issue(s) were found."
+  ,"act303Definition": "Clean Water Act section 303(d), the impaired waters list"
+  ,"unitsLabel": "Units"
+  ,"shareableRecord": "NextCycle screening record"
+  ,"recommendedDataEyebrow": "What would make the next assessment reproducible"
+  ,"recommendedDataTitle": "Recommended data elements"
+  ,"recommendedDataIntro": "Publish these linked, machine-readable fields with provenance so communities, utilities and reviewers can check each screening step."
+  ,"recommendedElement1Title": "Station-to-waterbody crosswalk"
+  ,"recommendedElement1Body": "Station ID, assessed waterbody ID, link method, source document, effective date and a stable record identifier."
+  ,"recommendedElement2Title": "Sample-level monitoring record"
+  ,"recommendedElement2Body": "Collection date, station ID, analyte, result value, unit, qualifier, detection limit and reporting limit."
+  ,"recommendedElement3Title": "Quality and assessment eligibility"
+  ,"recommendedElement3Body": "QA status, Clean Water Act assessment eligibility, exclusion reason and explicit handling of non-detects and censored values."
+  ,"recommendedElement4Title": "Criterion attached to each decision"
+  ,"recommendedElement4Body": "Criterion value or range, direction, unit, averaging period, beneficial use and decision ID."
+  ,"recommendedElement5Title": "Machine-readable adopted policy tables"
+  ,"recommendedElement5Body": "Versioned Tables 3.1, 3.2, 4.1 and 4.2, with each sample-count range and allowed exceedance count."
+  ,"recommendedElement6Title": "Geography with provenance"
+  ,"recommendedElement6Body": "Document full-geometry place intersections, Census ZCTA vintage and review status; ZCTAs are not USPS delivery boundaries."
+  ,"fiveMinuteLabel": "A five-minute walkthrough"
+  ,"fiveMinuteTitle": "Show the path from evidence to next steps"
+  ,"demoMinute1": "Set the context: official status, data cutoff and why newer samples matter."
+  ,"demoMinute2": "Find a waterbody by name, city or ZIP/ZCTA; explain the geographic match."
+  ,"demoMinute3": "Read the sample chart, criterion line, cutoff and current official status."
+  ,"demoMinute4": "Try additional samples and inspect the published policy table behind the estimate."
+  ,"demoMinute5": "Review sampling gaps, open data and the specific fields needed for a reproducible assessment."
+  ,"typeRiver": "River/Stream"
+  ,"typeLake": "Lake/Reservoir"
+  ,"typeBay": "Bay/Harbor"
+  ,"typeCoastal": "Coastal"
+  ,"typeLagoon": "Lagoon/Estuary"
+  ,"sampleDataCsv": "Illustrative sample data, not a real assessment"
+  ,"provisionalCsv": "Provisional screening"
+  ,"methodTitle": "How NextCycle screens a water"
+  ,"methodIntro": "The data and checks are open. This source release is provisional; its station links, QA filters and policy-table choices still need human review."
+  ,"onThisPage": "On this page"
+  ,"plainMethod": "Plain-language method"
+  ,"disclaimerNav": "Disclaimer"
+  ,"technicalDetails": "Technical details"
+  ,"sourcesCitation": "Sources and citation"
+  ,"stepLabel": "Step {number}"
+  ,"methodStart": "Start from the official list"
+  ,"methodStartBody": "This release combines Region 9 Category 5 pairs from the final 2026 Integrated Report with selected Region 3 Category 5 pairs from the final 2024 report."
+  ,"methodGather": "Gather newer results"
+  ,"methodGatherBody": "We retain matched CEDEN results before and after the cutoff. The same calibrated QA rule applies on both sides; results that do not meet it remain visible as pending QA."
+  ,"methodCount": "Count the way the policy counts"
+  ,"methodCountBody": "We calibrated the screen against five pairs whose station-, source- and date-matched CEDEN counts reproduce the official totals. The remaining source comparisons are shown below and remain provisional."
+  ,"methodLabel": "Label, do not decide"
+  ,"methodLabelBody": "Each pair gets a screening flag. It is shown next to, and never in place of, the official status."
+  ,"candidateMethod": "Listed, with enough samples and few enough exceedances to meet the count-based delisting screen."
+  ,"stillMethod": "Listed, with newer samples outside the criterion more often than the delisting table allows."
+  ,"underMethod": "Listed, but too few samples since the cutoff to run the delisting screen."
+  ,"technicalCaveat": "The thresholds below transcribe the 2015 Listing Policy tables. Their use for these criteria is provisional and awaits reviewer confirmation; they do not replace the State’s full weight-of-evidence review."
+  ,"sourcesVersions": "Data sources and versions"
+  ,"cutoffDates": "Cutoff dates by cycle"
+  ,"stationLinks": "How stations link to waterbodies"
+  ,"replicateQa": "Replicates and QA filtering"
+  ,"criterionTitle": "Criterion"
+  ,"policyTablesTitle": "Listing Policy tables and sample sizes"
+  ,"limitations": "Limitations"
+  ,"listingRule31": "For toxicants, adopted 2015 Listing Policy Table 3.1 uses a sample-count-specific threshold. At n = 2–24, at least two exceedances are required for listing evidence; there is no universal 16-sample, zero-exceedance rule."
+  ,"listingRule32": "Table 3.2 applies to conventional and other pollutants. Use the adopted table and pollutant-specific criteria; do not substitute one general threshold."
+  ,"delistingRule": "Table 4.1 (toxicants) requires at least 28 samples for a delisting screen. Table 4.2 (conventional and other) requires at least 26."
+  ,"allowedTableIntro": "Published allowed-exceedance counts used by this screen:"
+  ,"samplesColumn": "Samples"
+  ,"allowedColumn": "Allowed exceedances"
+  ,"visitSource": "Visit source"
+  ,"recommendedCitation": "Recommended citation for source data"
+  ,"citationGuideCaveat": "Follow the source publisher’s citation guidance when available."
+  ,"dataCutoffSentence": "Data cutoff"
+  ,"countedNewAfter": "Only results that meet the provisional eligibility filter are counted; others remain pending."
+  ,"cutoffConfirm": "Other cycle cutoffs are not used by this build."
+  ,"factSheetLink": "Fact sheet"
+  ,"spatialJoin": "Spatial join"
+  ,"qaNonDetect": "No non-detects occur in the five calibration pairs. Because reporting-limit values are not included to interpret censored results against each criterion, ND, <, DNQ and other non-= qualifiers remain pending."
+  ,"upperCriterion": "maximum"
+  ,"lowerCriterion": "minimum"
+  ,"rangeCriterion": "range"
+  ,"criterionDescription": "The pair records a simplified fixed criterion transcribed from its fact sheet. Averaging periods, seasonal windows and use-specific nuances are not fully represented and require review."
+  ,"techLimitWeight": "Weight-of-evidence considerations, which the Water Boards may use, are not modeled."
+  ,"techLimitSediment": "Sediment, fish tissue and bacteria-specific rules are not modeled."
+  ,"techLimitSeason": "Averaging periods, seasonality and spatial representativeness are simplified."
+  ,"techLimitProvisional": "Monitoring data is provisional and may be revised after publication."
+  ,"tableLabel": "Table {table}"
+  ,"replicateRule": "Exact duplicate source rows are collapsed. Both CollectionReplicate and ResultsReplicate must equal 1; other replicate values remain pending and are never averaged."
+  ,"qaReject": "The five exact-match pairs support Passed with BatchVerification=VAC and Unknown data quality with BatchVerification=NR, only when QACode is blank/None. Some review needed, MetaData, other QA combinations and QACodes remain pending; explicit Reject record rows are excluded."
+  ,"qaCalibrationNote": "The calibration windows contain numeric, unqualified results in a water matrix, blank/None QACode and primary replicates. The same rule applies before and after the cutoff. The Unknown/NR combination is included because it reproduces official counts in all five calibration pairs; this does not mean the whole dataset has been reviewed."
+  ,"methodSectionAria": "Plain-language method"
+  ,"datasetVersionLabel": "Dataset version"
+  ,"generatedLabel": "generated"
+  ,"sampleBuildNote": "This build uses illustrative sample data."
+  ,"swampDefinition": "SWAMP is the Surface Water Ambient Monitoring Program."
+  ,"cedenDefinition": "CEDEN is the California Environmental Data Exchange Network."
+  ,"accessedVia": "Accessed via data.ca.gov on {date}."
+  ,"utilitiesHero": "See what the next impaired-waters list may mean for your permits, years early."
+  ,"utilitiesAudience": "For water and wastewater utilities, stormwater programs, and the consultants who support them."
+  ,"whatYouGet": "What you get"
+  ,"utilityBulletEarly": "An early view of possible listing changes"
+  ,"utilityBulletEarlyBody": "that may affect discharge permits, Total Maximum Daily Load requirements, and monitoring plans."
+  ,"utilityBulletSampling": "Where more sampling could change an outcome"
+  ,"utilityBulletSamplingBody": "ranked by the number of additional samples needed."
+  ,"utilityBulletOutputs": "Plain, citable outputs"
+  ,"utilityBulletOutputsBody": "including a CSV of any view, a citation, and a key figure for each waterbody and pollutant."
+  ,"whatNot": "What it is not"
+  ,"utilityDisclaimer": "It is not a compliance tool or a legal opinion. Results are provisional screening indicators. Official decisions come from the State and Regional Water Boards and the U.S. Environmental Protection Agency."
+  ,"exampleUseCases": "Example use cases"
+  ,"caseStormwater": "Stormwater program"
+  ,"caseWastewater": "Wastewater utility"
+  ,"caseConsultant": "Consultant"
+  ,"caseStillTitle": "Plan for results that remain outside the criterion"
+  ,"caseStillBody": "{water} {pollutant}: {count} of {total} recent samples are outside the applicable criterion. Plan for control measures and requirements that may affect your program."
+  ,"caseCandidateTitle": "Prepare evidence for a possible listing change"
+  ,"caseCandidateBody": "{water} {pollutant}: {count} of {total} recent samples are outside the applicable criterion. That count meets the preliminary test for possible delisting; the official status has not changed."
+  ,"caseUnderTitle": "Target sampling where it can settle the question"
+  ,"caseUnderBody": "{water} {pollutant} needs {needed} more sample(s) to reach the minimum for the count-based screen. Additional sampling can build evidence for future review."
+  ,"seeExample": "See the example"
+  ,"utilitySteps": "Find your waters|Check the result|Plan sampling or budget"
+  ,"utilityHowLabel": "How utilities can use NextCycle"
+  ,"utilityRequestTitle": "Need a different region or pollutant?"
+  ,"utilityRequestBody": "Choose an email action to tell us what you need screened."
+  ,"requestRegion": "Request a region or pollutant"
+  ,"tellUse": "Tell us how you use NextCycle"
+  ,"utilityRequestSubject": "NextCycle request"
+  ,"utilityFeedbackSubject": "NextCycle feedback"
+  ,"utilityFeedbackBody": "How I use NextCycle: "
+  ,"meaningCandidateOne": "At least {minimum} newer samples are available, with no more than {allowed} allowed exceedances."
+  ,"meaningCandidateTwo": "On sample counts alone, this pair meets the State’s count-based screening test to come off the list."
+  ,"meaningStillOne": "{count} of {total} newer samples are {direction} the applicable criterion."
+  ,"meaningStillTwo": "That count is outside the allowance in the adopted delisting table."
+  ,"meaningUnderOne": "There are {count} newer samples; the test needs at least {minimum}."
+  ,"meaningUnderTwo": "{needed} additional sample(s) are needed before the count can be tested."
+  ,"notDelisted": "The waterbody has not been removed from the official list."
+  ,"onlyAgenciesDecide": "Only the Water Boards and U.S. Environmental Protection Agency make that decision."
+  ,"notViolation": "This is not a new violation or enforcement finding."
+  ,"notPermit": "It does not determine what a permit requires."
+  ,"notCleanOrImpaired": "It does not determine that the water is clean or impaired."
+  ,"tooFewToTell": "It means there are too few recent samples to tell."
+  ,"breadcrumbWatch": "Watch list"
+  ,"beneficialUses": "Beneficial uses"
+  ,"printBrief": "Printable waterbody brief"
+  ,"recentSampleCount": "Recent sample count"
+  ,"notFlaggedCount": "{count} not flagged as exceedances"
+  ,"monitoringSourceCaption": "Units: {unit}. Source: Surface Water Ambient Monitoring Program and California Environmental Data Exchange Network surface water chemistry{sampleClause}. Data in CEDEN as of {date}; recent data may not have been submitted yet."
+  ,"chartA11y": "Scatter chart of {count} {pollutant} results in {unit}, with criterion and data cutoff. {outside} of {total} newer results are outside the applicable criterion."
+  ,"loadingResults": "Loading results"
+  ,"noResultsFile": "No results in this file"
+  ,"officialStatusExplanation": "The current decision by the Water Boards and U.S. Environmental Protection Agency. NextCycle does not change it."
+  ,"cycleListing": "{year} Integrated Report. Official listing category {category}."
+  ,"earlyScreenSince": "An early screen based on public monitoring data collected since {date}."
+  ,"earlySignal": "Early signal: {count} of {total} recent eligible samples are {direction} the applicable criterion. Descriptive only; not a test result."
+  ,"sampleOutsideText": "{count} of {total} recent samples are {direction} the applicable criterion."
+  ,"screeningWithPending": "{count} of {total} eligible results are {direction} the criterion ({pending} more pending QA)."
+  ,"dataGapNote": "Data gap note"
+  ,"verifiedPlaceCoverage": "Verified place coverage: {places}."
+  ,"tribalAreaCaveat": "CalEnviroScreen percentile {percentile}; an area-level indicator, not a statement about an individual or Tribal status."
+  ,"technicalSummary": "This is a provisional screen, not a regulatory determination. Official terms and supporting fields are shown here for reviewers."
+  ,"waterbodyId": "Waterbody ID"
+  ,"pairId": "Pair ID"
+  ,"decisionId": "Decision ID"
+  ,"officialStatusTechnical": "Official status"
+  ,"officialCategoryTechnical": "{status}; Category {category}. TMDL means Total Maximum Daily Load; status: {tmdl}."
+  ,"listingTable": "Listing table"
+  ,"delistingTable": "delisting table"
+  ,"tablePair": "Table {listing}; delisting table {delisting}."
+  ,"criterionBasis": "Criterion basis"
+  ,"testThresholds": "Test thresholds"
+  ,"notEnoughMinimum": "Not enough samples yet; the test needs at least {minimum}."
+  ,"allowedMinimum": "{allowed} allowed exceedance(s); minimum {minimum} samples."
+  ,"screeningLabel": "Screening label"
+  ,"samplingWindow": "Sampling window"
+  ,"throughDate": "to"
+  ,"monitoringStations": "Monitoring stations"
+  ,"stationResultSummary": "{count} results · last sampled {date} · {method}"
+  ,"noStationsLinked": "No stations are linked to this waterbody."
+  ,"policyThresholds": "Listing Policy sample thresholds"
+  ,"countTestTables": "Published tables used for the count-based test in this screen."
+  ,"sampleRange": "Sample range"
+  ,"viewIndividualResults": "View individual results ({count})"
+  ,"dateColumn": "Date"
+  ,"stationColumn": "Station"
+  ,"valueColumn": "Value"
+  ,"qualifierColumn": "Qualifier"
+  ,"outsideColumn": "Outside criterion"
+  ,"periodColumn": "Period"
+  ,"yes": "Yes"
+  ,"no": "No"
+  ,"dataSourceTerms": "Data source: Surface Water Ambient Monitoring Program (SWAMP) and California Environmental Data Exchange Network (CEDEN). Data as of {date}."
+  ,"citationTemplate": "NextCycle. {name}, {pollutant}: provisional screening result “{flag}” ({exceedances} of {samples} samples outside the applicable criterion since {cutoff}). Dataset {version}{sampleClause}; data in CEDEN as of {through}. Recent data may not have been submitted yet. Source records: {sources}. Not a regulatory determination. {url} Accessed {accessed}."
+  ,"citationSources": "SWAMP/CEDEN"
+  ,"sampleCitationClause": ", illustrative sample data, not a real assessment"
+  ,"iframeTitle": "NextCycle screening result for {waterbody}"
+  ,"issueTitle": "Data issue: {pair} — {waterbody} — {version}"
+  ,"issueBody": "Pair ID: {pair}\nDataset version: {version}\n\nPlease describe the issue and supporting evidence:\n"
+  ,"mailFeedbackSubject": "NextCycle feedback — {pair}"
+  ,"mailFeedbackBody": "Was this waterbody page useful? {answer}\nPair: {pair}\nDataset: {version}\n\nYour feedback:"
+  ,"answerYes": "Yes"
+  ,"answerNo": "No"
+  ,"mailGenericBody": "Pair ID: {pair}\nDataset: {version}\n"
+  ,"printOutside": "{outside} outside criterion · {within} not flagged as exceedances"
+  ,"historyUnavailable": "Refresh history could not be loaded. Current dataset version: {version}."
+  ,"monthComparison": "Month comparison"
+  ,"baselineUnavailable": "No comparable snapshot with the same data status. No changes are claimed."
+  ,"historyRuleChanged": "The QA rule changed for this release. Earlier counts are not comparable, so no sample changes are claimed."
+  ,"changedPairsCount": "{count} existing pairs with changed flags, sample counts or exceedance counts"
+  ,"flagChangesCount": "{count} flag changes"
+  ,"newSamplesCount": "{count} additional samples across existing pairs"
+  ,"newPairsCount": "{count} newly added pairs"
+  ,"newPairLabel": "New pair"
+  ,"sampleCountLabel": "{count} samples"
+  ,"sampleDataBadge": "Illustrative sample data"
+  ,"refreshSnapshots": "Available snapshots"
+  ,"historyChangeDetail": "{flagChange}; {samples} samples and {exceedances} exceedances"
+  ,"detailMeta": "{water} {pollutant} water-monitoring evidence, official status and NextCycle screening estimate."
+  ,"notFoundTitle": "Waterbody not found"
+  ,"breadcrumb": "Breadcrumb"
+  ,"countyName": "{county} County"
+  ,"printChartA11y": "{outside} of {total} recent samples outside the criterion"
+  ,"shadingCutoff": "Shading marks the period after the official data cutoff."
+  ,"officialCycle": "{year} Integrated Report. Official listing category {category}."
+  ,"tmdlMeaning": "TMDL means Total Maximum Daily Load."
+  ,"sampleCountRecent": "{count} recent sample(s)"
+  ,"dataGapContext": "This pair needs {count} additional sample(s) before the count-based screen can be run."
+  ,"tribalCoverageVerified": "Verified intersection information:"
+  ,"zipPrefix": "ZIP {code}"
+  ,"technicalToggle": "Technical details"
+  ,"technicalReviewNote": "The next-cycle result is a provisional screen, not a regulatory determination. Official terms and supporting fields are shown here for reviewers."
+  ,"tmdlRequired": "TMDL required"
+  ,"tmdlAdopted": "TMDL adopted"
+  ,"otherControl": "Other control"
+  ,"noTmdl": "None"
+  ,"detailPairMissing": "No waterbody pair with ID “{id}” is in this dataset."
+  ,"geographyCaveat": "Place associations use full waterbody geometry; ZCTAs approximate ZIP areas and are not USPS delivery boundaries. Spatial associations still need review."
+  ,"endpointColumn": "Endpoint"
+  ,"shapeColumn": "Contents"
+  ,"endpointAllWaters": "Array of full waterbody–pollutant pairs."
+  ,"endpointOneWater": "One full pair, identified by pair_id."
+  ,"endpointGaps": "Undersampled pairs and samples_needed."
+  ,"endpointMetadata": "Dataset version, refresh time, source and licensing metadata."
+  ,"endpointCsv": "Full CSV export of active pairs."
+  ,"apiUsageNote": "Pair IDs are stable within the published dataset. Cite NextCycle, dataset {version}, and the underlying source records. Check metadata before reuse; no API service or uptime guarantee is implied."
+  ,"licenseLabel": "License"
+  ,"licenseFallback": "See source dataset metadata and project repository for applicable terms."
+  ,"showcaseMeta": "A plain-language view of NextCycle’s current dataset, workflow, sources and published integrity checks."
+  ,"findingCandidate": "{count} pairs meet the adopted count threshold to consider possible delisting."
+  ,"findingStill": "{count} pairs remain outside the applicable criterion by recent sample count."
+  ,"findingUnder": "{count} pairs need {samples} additional samples in total to reach the adopted minimum."
+  ,"showcaseProblemLabel": "The problem"
+  ,"showcaseToolLabel": "The tool"
+  ,"showcaseFindingsTitle": "Three findings from this dataset"
+  ,"datasetThrough": "Dataset {version}; monitoring through {date}."
+  ,"showcaseGapsTitle": "Data gaps and recommended fields"
+  ,"showcaseGapsBody": "{count} pairs are undersampled; {samples} additional samples are needed."
+  ,"sourcesData": "Sources and data"
+  ,"openRepository": "Open-source repository"
+  ,"validationTitle": "Published data-integrity report"
+  ,"qaValidation": "QA calibration and validation"
+  ,"qaValidationIntro": "The QA screen was calibrated to five exact official-count matches. CEDEN LOE reproduction is separate from the post-cutoff screen; both remain provisional."
+  ,"qaMatchTableTitle": "Official versus reproduced counts"
+  ,"qaPostTableTitle": "Post-cutoff screening by pair"
+  ,"qaPostTableIntro": "Only eligible post-cutoff results determine the flag. Other retained records are counted as pending QA."
+  ,"showcaseExactMatches": "CEDEN reproduces official counts exactly for {exact} of {total} pairs; {close} are close and {gap} have larger gaps."
+  ,"showcaseMethodSummary": "The same calibrated QA rule applies before and after the cutoff. Eligible post-cutoff results determine the screen; unverified records remain pending."
+  ,"qaValidationWaterbody": "Waterbody / pollutant"
+  ,"qaOfficialCounts": "Official n / exceedances"
+  ,"qaReproducedCounts": "CEDEN reproduced n / exceedances"
+  ,"qaMatchStatus": "Match"
+  ,"qaMatchCause": "Cause"
+  ,"qaEligibleCounts": "Eligible n / exceedances"
+  ,"qaPendingCount": "Pending QA"
+  ,"qaFlag": "Screening flag"
+  ,"qaValidationFooter": "{exact} exact, {close} close, {gap} with gaps out of {total} pairs. Larger source-count gaps are documented but not changed by this QA update."
+  ,"validationExact": "Exact"
+  ,"validationClose": "Close"
+  ,"validationGap": "Gap"
+  ,"qaValidationMissing": "The QA validation report is not available."
+  ,"qaValidationMismatch": "The QA report does not match the loaded data version."
+  ,"validationCauseExact": "The included station, source, and date-window totals match."
+  ,"validationCauseSanMateo": "The included historic 18/12 LOE has no machine-readable station code, so CEDEN cannot reproduce it."
+  ,"validationCauseTecolote": "The City of San Diego 15/1 field-pH LOE at SD5 is absent from CEDEN; other cited TMDL/NPDES windows return extra rows."
+  ,"validationCauseSanDiegoRiver": "Historic monthly-average LOEs at RSW-003 and RSW-006 are not in CEDEN; several Coastkeeper windows also return extra rows."
+  ,"validationCauseSycamore": "The historic 60/20 monthly-average LOE at RSW-001 and RSW-001A is not in CEDEN."
+  ,"validationCauseForester": "The historic 60/5 monthly-average LOE at RSW-004 is not in CEDEN; another included line has no station code."
+  ,"validationCauseChollas": "Several included LOEs have no machine-readable station code; CC-SD8 and SD8 have no CEDEN match."
+  ,"validationCauseTijuanaPh": "Pair totals match, although one NPDES LOE has one extra CEDEN result; other windows offset it."
+  ,"validationCauseSanDieguito": "Several Coastkeeper/NPDES windows contain one to two extra rows, resulting in one extra sample and exceedance overall."
+  ,"validationCauseSweetwater": "Pair totals match, although a Coastkeeper window has one extra result and exceedance offset by other windows."
+  ,"validationCauseCarmel": "The LPC-TWAS-3 alias now matches; the NPDES and Coastkeeper windows still contain two extra rows and one extra exceedance."
+  ,"validationCauseSanLuisRey": "The San Luis Rey Mitigation Bank window has six extra non-exceeding CEDEN results."
+  ,"validationCauseRainbow": "Two NPDES windows each have one extra CEDEN row, including one additional exceedance."
+  ,"validationMissing": "No validation.json report was supplied; no passing checks are claimed."
+  ,"validationMismatch": "This integrity report does not match the dataset version or data status currently loaded."
+  ,"integritySummary": "The published report lists {passed} integrity checks passed and {other} with another status across {pairs} waterbody pairs and {stations} monitoring stations. This covers dataset integrity only—not scientific conclusions, water quality, or regulatory decisions."
+  ,"integrityScope": "Integrity-check scope: {scope}."
+  ,"checkedAt": "Checked {date}."
+  ,"validationJsonDetails": "Optional validation JSON"
+  ,"realDataBadge": "Public monitoring data"
+  ,"teamHeading": "Team"
+  ,"factSheetLinkBody": "A CEDEN station is a candidate link when its name or fact-sheet evidence supports the waterbody. Every link remains VERIFY."
+  ,"spatialJoinBody": "Candidate stations close to the waterbody geometry. Proximity does not confirm a reach link; each association needs review."
+  ,"methodCitation": "California State Water Resources Control Board. Surface Water Ambient Monitoring Program (SWAMP) and California Environmental Data Exchange Network (CEDEN) data. Accessed {date}."
+  ,"officialFlagCandidate": "Delisting candidate"
+  ,"officialFlagExceeding": "Still exceeding"
+  ,"officialFlagUnder": "Under-sampled"
+  ,"samplesByGroup": "Additional samples needed, by pollutant group"
+  ,"gapChartFoot": "Units: additional samples. {pairs} pairs need more data; CEDEN data as of {date}. Recent data may not have been submitted yet."
+  ,"reportingLagTitle": "CEDEN reporting lag"
+  ,"reportingLagUnavailable": "The available CEDEN chemistry rows have SampleDate but no record-level load or publish date. The all-years resource is only available here as a ZIP member listing, not dated historical row snapshots, so a record’s earliest appearance cannot be established. Reporting lag is not calculated; no chart is shown."
+  ,"reportingLagCaveat": "Recent samples may not be submitted yet."
+  ,"dataGapsLabel": "Data gaps"
+  ,"summaryFindings": "Summary findings"
+  ,"gapPairsToTest": "Across {count} waterbody–pollutant pairs to reach the count-based test minimum."
+  ,"dacOverlap": "Overlap with disadvantaged communities"
+  ,"dacOverlapCount": "{affected} of {total} pairs needing more samples are in areas at or above CalEnviroScreen’s 75th percentile."
+  ,"dacOverlapAll": "Across all listed pairs, {affected} of {total} are in areas at or above the 75th percentile. These are area-level indicators, not statements about individuals."
+  ,"exceedanceCountSoFar": "{count} exceedance(s) so far"
+  ,"moreSamplesNeeded": "additional sample(s) needed"
+  ,"samplesCollected": "{current} of {minimum} eligible samples collected"
+  ,"recCrosswalkTitle": "A published station-to-waterbody crosswalk"
+  ,"recCrosswalkBody": "One table identifying which monitoring stations count toward each assessed waterbody, so anyone can reproduce the association."
+  ,"recTablesTitle": "Machine-readable Listing Policy tables"
+  ,"recTablesBody": "Tables 3.1, 3.2, 4.1 and 4.2 as data, not PDF, so sample-size and exceedance thresholds are applied consistently."
+  ,"recCoordinatesTitle": "Consistent coordinate and datum fields"
+  ,"recCoordinatesBody": "Decimal latitude and longitude with a stated datum for every station, so spatial joins do not drift by hundreds of meters."
+  ,"recAssessmentTitle": "Assessment-ready flags in CEDEN"
+  ,"recAssessmentBody": "A field showing whether a result passed quality assurance and is eligible for Clean Water Act section 303(d) assessment, with the reason when it is not."
+  ,"recCriterionTitle": "Criterion used per decision"
+  ,"recCriterionBody": "The exact criterion value, unit and averaging period applied in each decision, published with its decision ID."
+  ,"qualifierYes": "Yes"
+  ,"qualifierNo": "No"
+  ,"beforeCutoffLabel": "Before cutoff"
+  ,"afterCutoffLabel": "Since cutoff"
+  ,"scenarioTotals": "{total} total samples · {exceedances} exceedances · {allowed} allowed"
+  ,"scenarioAllowedUnknown": "not established yet"
+  ,"tableMinimum": "Minimum {count} samples"
+  ,"verifiedOn": "verified {date}"
+  ,"tableSourceCoverage": "Table {table} · {minimum}; source version {version}, {verified}"
+  ,"pollutantDissolvedZinc": "Dissolved zinc"
+  ,"pollutantTotalNitrogen": "Total nitrogen"
+  ,"pollutantPhosphorus": "Phosphorus"
+  ,"pollutantDissolvedCopper": "Dissolved copper"
+  ,"pollutantDissolvedOxygen": "Dissolved oxygen"
+  ,"pollutantSelenium": "Selenium"
+  ,"pollutantToxicity": "Toxicity"
+  ,"policyVersion2015": "California Listing Policy, amended February 3, 2015, printed pages 14–15"
+  ,"pendingObservationCount": "{count} recent public CEDEN result(s) are pending QA review and are not counted."
+  ,"qaPendingTooltip": "Not counted in screening: source QA or replicate review is pending."
+  ,"censoredNotPlotted": "Censored or non-numeric results are retained but not plotted or counted."
+  ,"pendingQa": "Pending QA"
+  ,"pendingQaCount": "{count} pending QA"
+  ,"pendingChangesCount": "{count} newly pending QA observations"
+  ,"dacUnavailable": "Community context is unavailable because no reviewed CalEnviroScreen association is included in this release."
+  ,"statusLabel": "Data status"
+  ,"policySelectionPending": "For this release, Table 4.2 is a provisional screening choice, not a confirmed regulatory interpretation. The assigned table and each criterion must be checked by the reviewer."
+  ,"placeCandidateCoverage": "Possible place intersections: {places}. These geometry-derived candidates still need human review."
+  ,"provisionalCitationClause": " (provisional public-data screening; not yet reviewed)"
+  ,"regionSwitcher": "Assessment region"
+  ,"regionSanDiego": "San Diego Region"
+  ,"regionCentralCoast": "Central Coast Region"
+  ,"qaRegion3Scope": "Region 3 counts compare the selected fixed-criterion Appendix B1 LOEs; full decision totals are shown separately for context."
+  ,"qaFullPairCounts": "Full pair official n/ex"
+  ,"qaCriterion": "Selected fixed criterion"
+  ,"validationCauseRegion3": "Source matching is incomplete; see the per-pair note for matched CEDEN sources, station-date-only counts, and unmatched identifiers."
+  ,"regionValidationNotice": "Validation pending: official assessments for this region include data not yet matched in CEDEN. Treat results as early screening."
+  ,"validationNotReproduced": "Validation: not reproduced"
+}

@@ -1,0 +1,95 @@
+[
+  {
+    "url": "https://data.ca.gov/",
+    "occurrences": 22,
+    "status": 200,
+    "final_url": "https://data.ca.gov/",
+    "content_type": "text/html; charset=utf-8",
+    "error": null,
+    "expected_status": "200/redirect expected"
+  },
+  {
+    "url": "https://github.com/utilyst/nextcycle",
+    "occurrences": 22,
+    "status": 404,
+    "final_url": "https://github.com/utilyst/nextcycle",
+    "content_type": "text/html; charset=utf-8",
+    "error": null,
+    "expected_status": "repository URL is expected 404"
+  },
+  {
+    "url": "https://oehha.ca.gov/calenviroscreen",
+    "occurrences": 22,
+    "status": 200,
+    "final_url": "https://oehha.ca.gov/calenviroscreen",
+    "content_type": "text/html",
+    "error": null,
+    "expected_status": "200/redirect expected"
+  },
+  {
+    "url": "https://openfreemap.org/",
+    "occurrences": 3,
+    "status": 200,
+    "final_url": "https://openfreemap.org/",
+    "content_type": "text/html",
+    "error": null,
+    "expected_status": "200/redirect expected"
+  },
+  {
+    "url": "https://utilyst.com/",
+    "occurrences": 21,
+    "status": 206,
+    "final_url": "https://utilyst.com/",
+    "content_type": "text/html; charset=UTF-8",
+    "error": null,
+    "expected_status": "200/redirect expected"
+  },
+  {
+    "url": "https://www.openmaptiles.org/",
+    "occurrences": 1,
+    "status": 200,
+    "final_url": "https://openmaptiles.org/",
+    "content_type": "text/html; charset=utf-8",
+    "error": null,
+    "expected_status": "200/redirect expected"
+  },
+  {
+    "url": "https://www.openstreetmap.org/copyright",
+    "occurrences": 1,
+    "status": 200,
+    "final_url": "https://www.openstreetmap.org/copyright",
+    "content_type": "text/html; charset=utf-8",
+    "error": null,
+    "expected_status": "200/redirect expected"
+  },
+  {
+    "url": "https://www.waterboards.ca.gov/water_issues/programs/water_quality_assessment/",
+    "occurrences": 35,
+    "status": 206,
+    "final_url": "https://www.waterboards.ca.gov/water_issues/programs/water_quality_assessment/",
+    "content_type": "text/html; charset=UTF-8",
+    "error": null,
+    "expected_status": "200/redirect expected"
+  },
+  {
+    "url": "mailto:hello@utilyst.com",
+    "occurrences": 1,
+    "status": "mailto syntax valid",
+    "final_url": null,
+    "expected_status": "valid mailto syntax expected"
+  },
+  {
+    "url": "mailto:hello@utilyst.com?subject=NextCycle%20feedback&body=How%20I%20use%20NextCycle%3A%20",
+    "occurrences": 1,
+    "status": "mailto syntax valid",
+    "final_url": null,
+    "expected_status": "valid mailto syntax expected"
+  },
+  {
+    "url": "mailto:hello@utilyst.com?subject=NextCycle%20request",
+    "occurrences": 1,
+    "status": "mailto syntax valid",
+    "final_url": null,
+    "expected_status": "valid mailto syntax expected"
+  }
+]

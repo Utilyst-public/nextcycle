@@ -1,0 +1,43 @@
+{
+  "source_url": "https://www.waterboards.ca.gov/board_decisions/adopted_orders/resolutions/2015/020315_8_amendment_clean_version.pdf",
+  "version": "California Listing Policy, amended February 3, 2015, printed pages 14–15",
+  "verified_at": "2026-11-18",
+  "scope": "Exact transcription of the printed tables. No extrapolation beyond 129 samples (4.1) or 121 samples (4.2). Table selection, evidence quality and regulatory decisions remain the responsibility of the assessment publisher and Water Boards.",
+  "tables": {
+    "4.1": {
+      "min_samples": 28,
+      "rows": [
+        { "min": 28, "max": 36, "allowed": 2 },
+        { "min": 37, "max": 47, "allowed": 3 },
+        { "min": 48, "max": 59, "allowed": 4 },
+        { "min": 60, "max": 71, "allowed": 5 },
+        { "min": 72, "max": 82, "allowed": 6 },
+        { "min": 83, "max": 94, "allowed": 7 },
+        { "min": 95, "max": 106, "allowed": 8 },
+        { "min": 107, "max": 117, "allowed": 9 },
+        { "min": 118, "max": 129, "allowed": 10 }
+      ]
+    },
+    "4.2": {
+      "min_samples": 26,
+      "rows": [
+        { "min": 26, "max": 30, "allowed": 4 },
+        { "min": 31, "max": 36, "allowed": 5 },
+        { "min": 37, "max": 42, "allowed": 6 },
+        { "min": 43, "max": 48, "allowed": 7 },
+        { "min": 49, "max": 54, "allowed": 8 },
+        { "min": 55, "max": 60, "allowed": 9 },
+        { "min": 61, "max": 66, "allowed": 10 },
+        { "min": 67, "max": 72, "allowed": 11 },
+        { "min": 73, "max": 78, "allowed": 12 },
+        { "min": 79, "max": 84, "allowed": 13 },
+        { "min": 85, "max": 91, "allowed": 14 },
+        { "min": 92, "max": 97, "allowed": 15 },
+        { "min": 98, "max": 103, "allowed": 16 },
+        { "min": 104, "max": 109, "allowed": 17 },
+        { "min": 110, "max": 115, "allowed": 18 },
+        { "min": 116, "max": 121, "allowed": 19 }
+      ]
+    }
+  }
+}
